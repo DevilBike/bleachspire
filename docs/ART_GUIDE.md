@@ -1,6 +1,17 @@
 # Art guide
 
-How to fill the mod with Bleach art. You collect the images yourself; this guide says what to look for and where each file goes.
+How to fill the mod with Bleach art. Most cards can be filled automatically; this guide says what each file should show, and where it goes.
+
+## Fast path: let the tool find them
+
+`python tools/fetch_art.py` searches [Bleach Wiki](https://bleach.fandom.com)
+for a file whose name matches the "Look for" text below, crops it to the card
+size and saves it over the placeholder. Run it per wave (`--wave 2-most-runs`),
+per pool (`--pool silent`) or for one card (`--card bash --force`). Then look at
+`out/contact_<wave>.png` (`python tools/contact_sheet.py --wave …`) and replace
+any that read wrong; the guide's "Look for" text is what the tool is matching,
+so a sharpened sentence there helps it too. `data/art_sources.csv` records where
+each downloaded picture came from.
 
 ## Who is who
 

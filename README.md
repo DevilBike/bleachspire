@@ -28,12 +28,19 @@ needs no Godot editor.
 ## Layout
 
 ```
-art/cards/<pool>/<card_id>.png   replacement art (any size; cropped to 500x380 / 1000x760)
+art/cards/<pool>/<card_id>.png   hand-made art (any size; cropped to fit)
+drop/<wave>/<pool>/<card_id>.png the same, plus placeholders; wins over art/
 tools/build_mod.py               builds dist/bleachspire/{bleachspire.json, bleachspire.pck}
+tools/make_drop.py               recreates the placeholders (never overwrites art)
+tools/fetch_art.py               finds and downloads real art for every card
+tools/wiki_art.py                Bleach Wiki search, scoring and cropping
+tools/contact_sheet.py           grid of everything that has art, for eyeballing
 tools/make_placeholder.py        draws an obvious TEST image for a card
 tools/list_pck.py                lists files in a .pck (ours or the game's)
 tools/godot_pack.py              PCK / ctex / remap writers and readers
+tools/run_tests.py               runs the tests when pytest is not installed
 tests/test_build.py              round-trip test of the build
+tests/test_wiki_art.py           matching and cropping tests for the art finder
 ```
 
 ## Build
@@ -79,3 +86,42 @@ See [docs/ART_GUIDE.md](docs/ART_GUIDE.md). In short: save each image over its
 placeholder in `drop/<wave>/<pool>/` (same file name), then run the build.
 `python tools/make_drop.py` recreates any missing placeholders and never
 overwrites real art.
+
+### Finding the art automatically
+
+`tools/fetch_art.py` does the searching. For each card it asks Bleach Wiki for
+files whose name matches the card's Bleach brief, scores them (the character
+must be in the name, and the more of the brief the name covers the better),
+then downloads candidates in order until one passes the picture checks in
+`tools/clean_art.py`:
+
+- **colour only** — black-and-white manga scans are rejected, and so is washed
+  out line art (`saturation < 35` with `brightness >= 140`). Dark night frames
+  keep their place; low saturation alone is not a reason to drop a picture.
+- **no speech bubbles** — a white blob with a dark outline and text inside drops
+  the picture and the next candidate is tried. The cleaner can paint a bubble
+  out (`clean_art.inpaint`), but a white coat is flat enough to look like bubble
+  paper and painting over it smears the character, so rejection is the rule.
+
+If no candidate survives, the card keeps a marked placeholder and falls back to
+the game's own art; `python tools/fetch_art.py --flagged` re-tries those cards
+after the rules change.
+
+The winner is cropped to the card size and saved over the placeholder. Every
+pick is recorded in `data/art_sources.csv` with the wiki file name, its URL,
+the match score and what the cleaner did.
+
+```
+python tools/fetch_art.py --wave 1-every-run     # one wave
+python tools/fetch_art.py --pool ironclad        # one pool
+python tools/fetch_art.py --card bash --force    # redo a single card
+python tools/fetch_art.py --dry-run              # show picks, download nothing
+python tools/contact_sheet.py --wave 1-every-run # look at the result
+```
+
+It never overwrites art you placed by hand unless `--force` is given, and it
+keeps a picture for one card only, so a pool of the same character still gets
+variety. Matches that are only a character portrait (no scene words in the
+name) are the weakest ones worth a manual look; the contact sheet makes them
+obvious at a glance, and `--weak` shows just those.
+
