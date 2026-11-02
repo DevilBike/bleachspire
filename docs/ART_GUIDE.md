@@ -8,7 +8,7 @@ How to fill the mod with Bleach art. You collect the images yourself; this guide
 |---|---|---|
 | Ironclad | Kenpachi Zaraki | Berserker who loves taking hits: Strength, self-damage, Exhaust |
 | Silent | Soi Fon | Stealth-force assassin with a poison blade: Poison, Shivs, discard |
-| Defect | Not decided (Kisuke Urahara suggested) | Inventor with gadgets: orbs |
+| Defect | Kisuke Urahara | Inventor with gadgets and kido: orbs |
 | Regent | Byakuya Kuchiki | Noble whose Senbonzakura becomes countless blades: blade and stars |
 | Necrobinder | Mayuri Kurotsuchi, with Nemu as Osty | Mad scientist with a loyal companion: the Osty cards are Nemu |
 
@@ -45,10 +45,10 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Neutralize | silent | Soi Fon | Soi Fon's Suzumebachi butterfly mark (Homonka) appearing on a target | `drop/1-every-run/silent/neutralize.png` |
 | Strike | silent | Soi Fon | Soi Fon lunging with Suzumebachi's stinger | `drop/1-every-run/silent/strike_silent.png` |
 | Survivor | silent | Soi Fon | Soi Fon crouched and recovering after a hit | `drop/1-every-run/silent/survivor.png` |
-| Defend | defect |  | _suggestion coming_ | `drop/1-every-run/defect/defend_defect.png` |
-| Dualcast | defect |  | _suggestion coming_ | `drop/1-every-run/defect/dualcast.png` |
-| Strike | defect |  | _suggestion coming_ | `drop/1-every-run/defect/strike_defect.png` |
-| Zap | defect |  | _suggestion coming_ | `drop/1-every-run/defect/zap.png` |
+| Defend | defect | Kisuke Urahara | Urahara blocking with his cane sword (Benihime) still sheathed | `drop/1-every-run/defect/defend_defect.png` |
+| Dualcast | defect | Kisuke Urahara | Urahara firing two kido at once | `drop/1-every-run/defect/dualcast.png` |
+| Strike | defect | Kisuke Urahara | Urahara drawing Benihime from his cane in one slash | `drop/1-every-run/defect/strike_defect.png` |
+| Zap | defect | Kisuke Urahara | Urahara's fingertip Byakurai lightning | `drop/1-every-run/defect/zap.png` |
 | Defend | regent | Byakuya Kuchiki | Byakuya's Senbonzakura petals swirling into a shield | `drop/1-every-run/regent/defend_regent.png` |
 | Falling Star | regent | Byakuya Kuchiki | Senbonzakura petals raining down from above | `drop/1-every-run/regent/falling_star.png` |
 | Strike | regent | Byakuya Kuchiki | Byakuya drawing Senbonzakura in a single clean slash | `drop/1-every-run/regent/strike_regent.png` |
@@ -117,26 +117,26 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Snakebite | silent | Soi Fon | Close-up of the stinger tip | `drop/2-most-runs/silent/snakebite.png` |
 | Sucker Punch | silent | Soi Fon | Soi Fon's surprise hand-to-hand blow (Hakuda) | `drop/2-most-runs/silent/sucker_punch.png` |
 | Untouchable | silent | Soi Fon | Soi Fon with Shunko lightning around her shoulders | `drop/2-most-runs/silent/untouchable.png` |
-| Ball Lightning | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/ball_lightning.png` |
-| Barrage | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/barrage.png` |
-| Beam Cell | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/beam_cell.png` |
-| Boost Away | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/boost_away.png` |
-| Charge Battery | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/charge_battery.png` |
-| Claw | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/claw.png` |
-| Cold Snap | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/cold_snap.png` |
-| Compile Driver | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/compile_driver.png` |
-| Coolheaded | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/coolheaded.png` |
-| Focused Strike | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/focused_strike.png` |
-| Go for the Eyes | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/go_for_the_eyes.png` |
-| Gunk Up | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/gunk_up.png` |
-| Hologram | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/hologram.png` |
-| Hotfix | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/hotfix.png` |
-| Leap | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/leap.png` |
-| Lightning Rod | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/lightning_rod.png` |
-| Momentum Strike | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/momentum_strike.png` |
-| Sweeping Beam | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/sweeping_beam.png` |
-| TURBO | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/turbo.png` |
-| Uproar | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/uproar.png` |
+| Ball Lightning | defect | Kisuke Urahara | A crackling ball of kido lightning in Urahara's palm | `drop/2-most-runs/defect/ball_lightning.png` |
+| Barrage | defect | Kisuke Urahara | Benihime's Nake (crimson blasts) firing in a volley | `drop/2-most-runs/defect/barrage.png` |
+| Beam Cell | defect | Kisuke Urahara | Urahara's thin red energy beam from Benihime | `drop/2-most-runs/defect/beam_cell.png` |
+| Boost Away | defect | Kisuke Urahara | Urahara leaping away with Shunpo | `drop/2-most-runs/defect/boost_away.png` |
+| Charge Battery | defect | Kisuke Urahara | Urahara charging one of his inventions | `drop/2-most-runs/defect/charge_battery.png` |
+| Claw | defect | Yoruichi Shihoin | Yoruichi's cat-form claw swipe | `drop/2-most-runs/defect/claw.png` |
+| Cold Snap | defect | Kisuke Urahara | Urahara's ice-binding kido freezing an enemy | `drop/2-most-runs/defect/cold_snap.png` |
+| Compile Driver | defect | Kisuke Urahara | Urahara typing at his lab console | `drop/2-most-runs/defect/compile_driver.png` |
+| Coolheaded | defect | Kisuke Urahara | Urahara relaxed with his fan over his face | `drop/2-most-runs/defect/coolheaded.png` |
+| Focused Strike | defect | Kisuke Urahara | Urahara's precise single thrust | `drop/2-most-runs/defect/focused_strike.png` |
+| Go for the Eyes | defect | Kisuke Urahara | Urahara's sharp eyes peeking from under his hat brim | `drop/2-most-runs/defect/go_for_the_eyes.png` |
+| Gunk Up | defect | Kisuke Urahara | Urahara's sticky trap gadget catching an enemy | `drop/2-most-runs/defect/gunk_up.png` |
+| Hologram | defect | Kisuke Urahara | Urahara's decoy body (Keitai) left behind | `drop/2-most-runs/defect/hologram.png` |
+| Hotfix | defect | Kisuke Urahara | Urahara patching up Ichigo after training | `drop/2-most-runs/defect/hotfix.png` |
+| Leap | defect | Kisuke Urahara | Urahara jumping high above the Urahara Shop | `drop/2-most-runs/defect/leap.png` |
+| Lightning Rod | defect | Kisuke Urahara | Urahara's cane pointing skyward in a storm | `drop/2-most-runs/defect/lightning_rod.png` |
+| Momentum Strike | defect | Kisuke Urahara | Urahara rushing forward mid-slash | `drop/2-most-runs/defect/momentum_strike.png` |
+| Sweeping Beam | defect | Kisuke Urahara | Benihime's wide crimson energy wave | `drop/2-most-runs/defect/sweeping_beam.png` |
+| TURBO | defect | Kisuke Urahara | Urahara's Shunpo burst | `drop/2-most-runs/defect/turbo.png` |
+| Uproar | defect | Urahara Shop | Jinta and Ururu causing chaos at the Urahara Shop | `drop/2-most-runs/defect/uproar.png` |
 | Astral Pulse | regent | Byakuya Kuchiki | Senbonzakura petals pulsing outward | `drop/2-most-runs/regent/astral_pulse.png` |
 | BEGONE! | regent | Byakuya Kuchiki | Byakuya dismissing an enemy with his back turned | `drop/2-most-runs/regent/begone.png` |
 | Celestial Might | regent | Byakuya Kuchiki | Senbonzakura Kageyoshi's thousand blades rising | `drop/2-most-runs/regent/celestial_might.png` |
@@ -255,45 +255,45 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Strangle | silent | Soi Fon | Soi Fon pinning Ggio Vega | `drop/3-often/silent/strangle.png` |
 | Tactician | silent | Soi Fon | Soi Fon giving Stealth Force orders | `drop/3-often/silent/tactician.png` |
 | Up My Sleeve | silent | Soi Fon | Soi Fon hiding a blade in her sleeve | `drop/3-often/silent/up_my_sleeve.png` |
-| Boot Sequence | defect |  | _suggestion coming_ | `drop/3-often/defect/boot_sequence.png` |
-| Bulk Up | defect |  | _suggestion coming_ | `drop/3-often/defect/bulk_up.png` |
-| Capacitor | defect |  | _suggestion coming_ | `drop/3-often/defect/capacitor.png` |
-| Chaos | defect |  | _suggestion coming_ | `drop/3-often/defect/chaos.png` |
-| Chill | defect |  | _suggestion coming_ | `drop/3-often/defect/chill.png` |
-| Compact | defect |  | _suggestion coming_ | `drop/3-often/defect/compact.png` |
-| Darkness | defect |  | _suggestion coming_ | `drop/3-often/defect/darkness.png` |
-| Double Energy | defect |  | _suggestion coming_ | `drop/3-often/defect/double_energy.png` |
-| Energy Surge | defect |  | _suggestion coming_ | `drop/3-often/defect/energy_surge.png` |
-| FTL | defect |  | _suggestion coming_ | `drop/3-often/defect/ftl.png` |
-| Feral | defect |  | _suggestion coming_ | `drop/3-often/defect/feral.png` |
-| Fight Through | defect |  | _suggestion coming_ | `drop/3-often/defect/fight_through.png` |
-| Fusion | defect |  | _suggestion coming_ | `drop/3-often/defect/fusion.png` |
-| Genetic Algorithm | defect |  | _suggestion coming_ | `drop/3-often/defect/genetic_algorithm.png` |
-| Glacier | defect |  | _suggestion coming_ | `drop/3-often/defect/glacier.png` |
-| Glasswork | defect |  | _suggestion coming_ | `drop/3-often/defect/glasswork.png` |
-| Hailstorm | defect |  | _suggestion coming_ | `drop/3-often/defect/hailstorm.png` |
-| Hibernate | defect |  | _suggestion coming_ | `drop/3-often/defect/hibernate.png` |
-| Ignition | defect |  | _suggestion coming_ | `drop/3-often/defect/ignition.png` |
-| Iteration | defect |  | _suggestion coming_ | `drop/3-often/defect/iteration.png` |
-| Loop | defect |  | _suggestion coming_ | `drop/3-often/defect/loop.png` |
-| Null | defect |  | _suggestion coming_ | `drop/3-often/defect/null.png` |
-| Overclock | defect |  | _suggestion coming_ | `drop/3-often/defect/overclock.png` |
-| Refract | defect |  | _suggestion coming_ | `drop/3-often/defect/refract.png` |
-| Rocket Punch | defect |  | _suggestion coming_ | `drop/3-often/defect/rocket_punch.png` |
-| Scavenge | defect |  | _suggestion coming_ | `drop/3-often/defect/scavenge.png` |
-| Scrape | defect |  | _suggestion coming_ | `drop/3-often/defect/scrape.png` |
-| Shadow Shield | defect |  | _suggestion coming_ | `drop/3-often/defect/shadow_shield.png` |
-| Skim | defect |  | _suggestion coming_ | `drop/3-often/defect/skim.png` |
-| Smokestack | defect |  | _suggestion coming_ | `drop/3-often/defect/smokestack.png` |
-| Storm | defect |  | _suggestion coming_ | `drop/3-often/defect/storm.png` |
-| Subroutine | defect |  | _suggestion coming_ | `drop/3-often/defect/subroutine.png` |
-| Sunder | defect |  | _suggestion coming_ | `drop/3-often/defect/sunder.png` |
-| Synchronize | defect |  | _suggestion coming_ | `drop/3-often/defect/synchronize.png` |
-| Synthesis | defect |  | _suggestion coming_ | `drop/3-often/defect/synthesis.png` |
-| Tempest | defect |  | _suggestion coming_ | `drop/3-often/defect/tempest.png` |
-| Tesla Coil | defect |  | _suggestion coming_ | `drop/3-often/defect/tesla_coil.png` |
-| Thunder | defect |  | _suggestion coming_ | `drop/3-often/defect/thunder.png` |
-| White Noise | defect |  | _suggestion coming_ | `drop/3-often/defect/white_noise.png` |
+| Boot Sequence | defect | Kisuke Urahara | Urahara powering up a device in his underground training room | `drop/3-often/defect/boot_sequence.png` |
+| Bulk Up | defect | Tessai Tsukabishi | Tessai flexing his huge arms | `drop/3-often/defect/bulk_up.png` |
+| Capacitor | defect | Kisuke Urahara | Rows of glowing vials in Urahara's lab | `drop/3-often/defect/capacitor.png` |
+| Chaos | defect | Kisuke Urahara | Urahara's lab exploding in a mess of gadgets | `drop/3-often/defect/chaos.png` |
+| Chill | defect | Kisuke Urahara | Urahara sipping tea at the shop | `drop/3-often/defect/chill.png` |
+| Compact | defect | Kisuke Urahara | Urahara's portable Gigai kit | `drop/3-often/defect/compact.png` |
+| Darkness | defect | Kisuke Urahara | Urahara's shadowed face under his striped hat | `drop/3-often/defect/darkness.png` |
+| Double Energy | defect | Kisuke Urahara | Urahara and Tessai combining kido | `drop/3-often/defect/double_energy.png` |
+| Energy Surge | defect | Kisuke Urahara | Urahara's reiatsu flaring red | `drop/3-often/defect/energy_surge.png` |
+| FTL | defect | Kisuke Urahara | Urahara vanishing with flash step | `drop/3-often/defect/ftl.png` |
+| Feral | defect | Yoruichi Shihoin | Yoruichi's Shunko lightning form | `drop/3-often/defect/feral.png` |
+| Fight Through | defect | Kisuke Urahara | Urahara pushing through Aizen's attack | `drop/3-often/defect/fight_through.png` |
+| Fusion | defect | Kisuke Urahara | The Hogyoku (Urahara's invention) | `drop/3-often/defect/fusion.png` |
+| Genetic Algorithm | defect | Kisuke Urahara | Urahara studying Hollowification research | `drop/3-often/defect/genetic_algorithm.png` |
+| Glacier | defect | Kisuke Urahara | A wall of ice from a kido barrier | `drop/3-often/defect/glacier.png` |
+| Glasswork | defect | Kisuke Urahara | Urahara's glass flasks and beakers | `drop/3-often/defect/glasswork.png` |
+| Hailstorm | defect | Kisuke Urahara | Ice shards raining down around Urahara | `drop/3-often/defect/hailstorm.png` |
+| Hibernate | defect | Kisuke Urahara | Urahara napping in the Urahara Shop | `drop/3-often/defect/hibernate.png` |
+| Ignition | defect | Kisuke Urahara | Urahara igniting Benihime's crimson blast | `drop/3-often/defect/ignition.png` |
+| Iteration | defect | Kisuke Urahara | Urahara testing a prototype again and again | `drop/3-often/defect/iteration.png` |
+| Loop | defect | Kisuke Urahara | Benihime's net shield (Chikasumi no Tate) | `drop/3-often/defect/loop.png` |
+| Null | defect | Kisuke Urahara | Urahara's sealing kido cancelling an attack | `drop/3-often/defect/null.png` |
+| Overclock | defect | Kisuke Urahara | Urahara pushing a device past its limit | `drop/3-often/defect/overclock.png` |
+| Refract | defect | Kisuke Urahara | Benihime's shield deflecting a blast | `drop/3-often/defect/refract.png` |
+| Rocket Punch | defect | Tessai Tsukabishi | Tessai's massive punch | `drop/3-often/defect/rocket_punch.png` |
+| Scavenge | defect | Kisuke Urahara | Urahara digging through junk in the shop storeroom | `drop/3-often/defect/scavenge.png` |
+| Scrape | defect | Kisuke Urahara | Benihime scraping across an enemy blade | `drop/3-often/defect/scrape.png` |
+| Shadow Shield | defect | Kisuke Urahara | Urahara's hooded cloak (Reishi-hiding cloak) | `drop/3-often/defect/shadow_shield.png` |
+| Skim | defect | Kisuke Urahara | Urahara flipping through research notes | `drop/3-often/defect/skim.png` |
+| Smokestack | defect | Kisuke Urahara | Smoke rising from the Urahara Shop | `drop/3-often/defect/smokestack.png` |
+| Storm | defect | Kisuke Urahara | Urahara standing in a lightning storm | `drop/3-often/defect/storm.png` |
+| Subroutine | defect | Kisuke Urahara | Urahara's pre-set kido trap activating | `drop/3-often/defect/subroutine.png` |
+| Sunder | defect | Kisuke Urahara | Benihime Aratame (Bankai) cutting and re-stitching | `drop/3-often/defect/sunder.png` |
+| Synchronize | defect | Kisuke Urahara | Urahara and Yoruichi fighting in sync | `drop/3-often/defect/synchronize.png` |
+| Synthesis | defect | Kisuke Urahara | Urahara mixing compounds in his lab | `drop/3-often/defect/synthesis.png` |
+| Tempest | defect | Kisuke Urahara | A whirlwind of crimson energy around Urahara | `drop/3-often/defect/tempest.png` |
+| Tesla Coil | defect | Kisuke Urahara | Urahara's lightning device crackling | `drop/3-often/defect/tesla_coil.png` |
+| Thunder | defect | Kisuke Urahara | A thunderbolt kido striking down | `drop/3-often/defect/thunder.png` |
+| White Noise | defect | Kisuke Urahara | Urahara's communication device crackling with static | `drop/3-often/defect/white_noise.png` |
 | Alignment | regent | Byakuya Kuchiki | Senbonzakura's blades lining up in neat rows | `drop/3-often/regent/alignment.png` |
 | Black Hole | regent | Byakuya Kuchiki | A dark sphere of petals collapsing inward (Gokei) | `drop/3-often/regent/black_hole.png` |
 | Bulwark | regent | Byakuya Kuchiki | A solid wall of Senbonzakura blades | `drop/3-often/regent/bulwark.png` |
@@ -472,32 +472,32 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Tools of the Trade | silent | Onmitsukido | Stealth Force gear laid out | `drop/4-sometimes/silent/tools_of_the_trade.png` |
 | Tracking | silent | Soi Fon | Soi Fon following a trail of spiritual pressure | `drop/4-sometimes/silent/tracking.png` |
 | Well-Laid Plans | silent | Soi Fon | Soi Fon and Yoruichi planning together | `drop/4-sometimes/silent/well_laid_plans.png` |
-| Adaptive Strike | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/adaptive_strike.png` |
-| All for One | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/all_for_one.png` |
-| Buffer | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/buffer.png` |
-| Consuming Shadow | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/consuming_shadow.png` |
-| Coolant | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/coolant.png` |
-| Creative AI | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/creative_ai.png` |
-| Defragment | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/defragment.png` |
-| Echo Form | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/echo_form.png` |
-| Flak Cannon | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/flak_cannon.png` |
-| Helix Drill | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/helix_drill.png` |
-| Hyperbeam | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/hyperbeam.png` |
-| Ice Lance | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/ice_lance.png` |
-| Imitation Learning | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/imitation_learning.png` |
-| Machine Learning | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/machine_learning.png` |
-| Meteor Strike | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/meteor_strike.png` |
-| Modded | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/modded.png` |
-| Multi-Cast | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/multi_cast.png` |
-| One for All | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/one_for_all.png` |
-| Rainbow | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/rainbow.png` |
-| Reboot | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/reboot.png` |
-| Shatter | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/shatter.png` |
-| Signal Boost | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/signal_boost.png` |
-| Spinner | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/spinner.png` |
-| Supercritical | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/supercritical.png` |
-| Trash to Treasure | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/trash_to_treasure.png` |
-| Voltaic | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/voltaic.png` |
+| Adaptive Strike | defect | Kisuke Urahara | Urahara switching tactics mid-fight | `drop/4-sometimes/defect/adaptive_strike.png` |
+| All for One | defect | Urahara Shop | Urahara with Tessai Jinta and Ururu together | `drop/4-sometimes/defect/all_for_one.png` |
+| Buffer | defect | Kisuke Urahara | Urahara's layered kido barriers | `drop/4-sometimes/defect/buffer.png` |
+| Consuming Shadow | defect | Kisuke Urahara | Urahara vanishing into darkness | `drop/4-sometimes/defect/consuming_shadow.png` |
+| Coolant | defect | Kisuke Urahara | Urahara's ice-cold calm under pressure | `drop/4-sometimes/defect/coolant.png` |
+| Creative AI | defect | Kisuke Urahara | Urahara as the founding head of the Shinigami Research Institute | `drop/4-sometimes/defect/creative_ai.png` |
+| Defragment | defect | Kisuke Urahara | Urahara reorganising his chaotic lab | `drop/4-sometimes/defect/defragment.png` |
+| Echo Form | defect | Kisuke Urahara | Urahara's multiple decoy bodies | `drop/4-sometimes/defect/echo_form.png` |
+| Flak Cannon | defect | Kisuke Urahara | Urahara firing explosive kido shells | `drop/4-sometimes/defect/flak_cannon.png` |
+| Helix Drill | defect | Kisuke Urahara | Benihime's spiralling crimson blast | `drop/4-sometimes/defect/helix_drill.png` |
+| Hyperbeam | defect | Kisuke Urahara | Benihime's full-power Nake blast | `drop/4-sometimes/defect/hyperbeam.png` |
+| Ice Lance | defect | Kisuke Urahara | An ice spear from a binding kido | `drop/4-sometimes/defect/ice_lance.png` |
+| Imitation Learning | defect | Kisuke Urahara | Urahara copying an enemy's technique | `drop/4-sometimes/defect/imitation_learning.png` |
+| Machine Learning | defect | Kisuke Urahara | Urahara's lab full of experiments | `drop/4-sometimes/defect/machine_learning.png` |
+| Meteor Strike | defect | Kisuke Urahara | Urahara's falling kido strike from above | `drop/4-sometimes/defect/meteor_strike.png` |
+| Modded | defect | Kisuke Urahara | Urahara's modified soul candy | `drop/4-sometimes/defect/modded.png` |
+| Multi-Cast | defect | Kisuke Urahara | Urahara casting chained kido spells | `drop/4-sometimes/defect/multi_cast.png` |
+| One for All | defect | Kisuke Urahara | Urahara leading Ichigo's friends into Hueco Mundo | `drop/4-sometimes/defect/one_for_all.png` |
+| Rainbow | defect | Kisuke Urahara | Benihime's colourful kido sparks | `drop/4-sometimes/defect/rainbow.png` |
+| Reboot | defect | Kisuke Urahara | Urahara reviving himself in a spare body | `drop/4-sometimes/defect/reboot.png` |
+| Shatter | defect | Kisuke Urahara | Benihime shattering Aizen's sword | `drop/4-sometimes/defect/shatter.png` |
+| Signal Boost | defect | Kisuke Urahara | Urahara amplifying a signal from his device | `drop/4-sometimes/defect/signal_boost.png` |
+| Spinner | defect | Kisuke Urahara | Urahara spinning his cane | `drop/4-sometimes/defect/spinner.png` |
+| Supercritical | defect | Kisuke Urahara | Urahara's Bankai Kannonbiraki Benihime Aratame at full power | `drop/4-sometimes/defect/supercritical.png` |
+| Trash to Treasure | defect | Urahara Shop | Junk items on the Urahara Shop shelves | `drop/4-sometimes/defect/trash_to_treasure.png` |
+| Voltaic | defect | Kisuke Urahara | Urahara's body charged with lightning kido | `drop/4-sometimes/defect/voltaic.png` |
 | Arsenal | regent | Byakuya Kuchiki | Senkei: rows of a thousand swords around Byakuya | `drop/4-sometimes/regent/arsenal.png` |
 | Beat into Shape | regent | Byakuya Kuchiki | Byakuya training Rukia | `drop/4-sometimes/regent/beat_into_shape.png` |
 | Big Bang | regent | Byakuya Kuchiki | Senbonzakura exploding outward in every direction | `drop/4-sometimes/regent/big_bang.png` |
@@ -614,8 +614,8 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Corruption | ironclad | Kenpachi Zaraki | Kenpachi's monstrous Bankai transformation (ancient full-art) | `drop/5-rare/ironclad/corruption.png` |
 | Suppress | silent | Soi Fon | Soi Fon pinning Barragan (ancient full-art) | `drop/5-rare/silent/suppress.png` |
 | Wraith Form | silent | Soi Fon | Soi Fon in full Shunko with lightning wings (ancient full-art) | `drop/5-rare/silent/wraith_form.png` |
-| Biased Cognition | defect |  | _suggestion coming_ | `drop/5-rare/defect/biased_cognition.png` |
-| Quadcast | defect |  | _suggestion coming_ | `drop/5-rare/defect/quadcast.png` |
+| Biased Cognition | defect | Kisuke Urahara | Urahara's sly grin behind his fan (ancient full-art) | `drop/5-rare/defect/biased_cognition.png` |
+| Quadcast | defect | Kisuke Urahara | Urahara casting four kido at once (ancient full-art) | `drop/5-rare/defect/quadcast.png` |
 | Meteor Shower | regent | Byakuya Kuchiki | Senbonzakura raining down as a storm (ancient full-art) | `drop/5-rare/regent/meteor_shower.png` |
 | The Sealed Throne | regent | Byakuya Kuchiki | Byakuya seated as Kuchiki clan head (ancient full-art) | `drop/5-rare/regent/the_sealed_throne.png` |
 | Forbidden Grimoire | necrobinder | Mayuri Kurotsuchi | Mayuri's secret research notes (ancient full-art) | `drop/5-rare/necrobinder/forbidden_grimoire.png` |

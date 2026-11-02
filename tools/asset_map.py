@@ -42,7 +42,7 @@ RARITY_FALLBACK = {"spoils_map": "Quest?", "sovereign_blade": "Token?", "the_scy
 BLEACH_CHARACTER = {
     "ironclad": "Kenpachi Zaraki",
     "silent": "Soi Fon",
-    "defect": "",  # open: Kisuke Urahara suggested
+    "defect": "Kisuke Urahara",
     "regent": "Byakuya Kuchiki",  # Senbonzakura
     "necrobinder": "Mayuri Kurotsuchi",
 }

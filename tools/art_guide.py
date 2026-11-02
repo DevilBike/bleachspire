@@ -14,7 +14,7 @@ DATA = ROOT / "data"
 WHO = [
     ("Ironclad", "Kenpachi Zaraki", "Berserker who loves taking hits: Strength, self-damage, Exhaust"),
     ("Silent", "Soi Fon", "Stealth-force assassin with a poison blade: Poison, Shivs, discard"),
-    ("Defect", "Not decided (Kisuke Urahara suggested)", "Inventor with gadgets: orbs"),
+    ("Defect", "Kisuke Urahara", "Inventor with gadgets and kido: orbs"),
     ("Regent", "Byakuya Kuchiki", "Noble whose Senbonzakura becomes countless blades: blade and stars"),
     ("Necrobinder", "Mayuri Kurotsuchi, with Nemu as Osty", "Mad scientist with a loyal companion: the Osty cards are Nemu"),
 ]

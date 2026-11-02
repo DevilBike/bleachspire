@@ -30,19 +30,19 @@ silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_o
 silent,Soi Fon,achievement,images/packed/achievements/unlocked/character_skill_silent1.png,todo
 silent,Soi Fon,achievement,images/packed/achievements/unlocked/character_skill_silent2.png,todo
 silent,Soi Fon,character select background,animations/character_select/silent/character_select_silent_bg.png,todo
-defect,TBD,character select,images/packed/character_select/char_select_defect.png,todo
-defect,TBD,character select,images/packed/character_select/char_select_defect_locked.png,todo
-defect,TBD,top bar icon,images/ui/top_panel/character_icon_defect.png,todo
-defect,TBD,top bar icon,images/ui/top_panel/character_icon_defect_outline.png,todo
-defect,TBD,map marker,images/packed/map/icons/map_marker_defect.png,todo
-defect,TBD,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_defect.tres,todo
-defect,TBD,energy icon (text),images/packed/sprite_fonts/defect_energy_icon.png,todo
-defect,TBD,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_defect.tres,todo
-defect,TBD,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_1.png,todo
-defect,TBD,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_2.png,todo
-defect,TBD,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_3.png,todo
-defect,TBD,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_4.png,todo
-defect,TBD,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_5.png,todo
+defect,Kisuke Urahara,character select,images/packed/character_select/char_select_defect.png,todo
+defect,Kisuke Urahara,character select,images/packed/character_select/char_select_defect_locked.png,todo
+defect,Kisuke Urahara,top bar icon,images/ui/top_panel/character_icon_defect.png,todo
+defect,Kisuke Urahara,top bar icon,images/ui/top_panel/character_icon_defect_outline.png,todo
+defect,Kisuke Urahara,map marker,images/packed/map/icons/map_marker_defect.png,todo
+defect,Kisuke Urahara,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_defect.tres,todo
+defect,Kisuke Urahara,energy icon (text),images/packed/sprite_fonts/defect_energy_icon.png,todo
+defect,Kisuke Urahara,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_defect.tres,todo
+defect,Kisuke Urahara,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_1.png,todo
+defect,Kisuke Urahara,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_2.png,todo
+defect,Kisuke Urahara,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_3.png,todo
+defect,Kisuke Urahara,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_4.png,todo
+defect,Kisuke Urahara,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_5.png,todo
 regent,Byakuya Kuchiki,character select,images/packed/character_select/char_select_regent.png,todo
 regent,Byakuya Kuchiki,character select,images/packed/character_select/char_select_regent_locked.png,todo
 regent,Byakuya Kuchiki,top bar icon,images/ui/top_panel/character_icon_regent.png,todo
