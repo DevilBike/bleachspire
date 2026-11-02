@@ -8,8 +8,8 @@ both places the game draws it:
   small (hand, deck, rewards)  res://images/atlases/card_atlas.sprites/<pool>/<card_id>.tres
   big   (card inspect view)    res://images/packed/card_portraits/<pool>/<card_id>.png
 
-Each base-game path gets a `.remap` file pointing at our own texture under
-res://bleachspire/. Nothing else in the game is touched, so gameplay is
+Each base-game path gets a `.remap` file pointing at a small .tres under
+res://bleachspire/, which loads our .ctex texture. Nothing else in the game is touched, so gameplay is
 exactly the base game's. The manifest declares affects_gameplay: false.
 """
 
@@ -22,7 +22,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from godot_pack import make_ctex, make_remap, write_pck  # noqa: E402
+from godot_pack import make_ctex, make_remap, make_texture_tres, write_pck  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ART_CARDS = ROOT / "art" / "cards"
@@ -55,8 +55,10 @@ def card_files(art: Image.Image, pool: str, card_id: str) -> dict[str, bytes]:
     return {
         f"{ours}_small.ctex": make_ctex(small),
         f"{ours}_big.ctex": make_ctex(big),
-        f"res://images/atlases/card_atlas.sprites/{pool}/{card_id}.tres.remap": make_remap(f"{ours}_small.ctex"),
-        f"res://images/packed/card_portraits/{pool}/{card_id}.png.remap": make_remap(f"{ours}_big.ctex"),
+        f"{ours}_small.tres": make_texture_tres(f"{ours}_small.ctex"),
+        f"{ours}_big.tres": make_texture_tres(f"{ours}_big.ctex"),
+        f"res://images/atlases/card_atlas.sprites/{pool}/{card_id}.tres.remap": make_remap(f"{ours}_small.tres"),
+        f"res://images/packed/card_portraits/{pool}/{card_id}.png.remap": make_remap(f"{ours}_big.tres"),
     }
 
 

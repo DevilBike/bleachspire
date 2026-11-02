@@ -144,7 +144,9 @@ def make_ctex(img: Image.Image) -> bytes:
         raise ValueError("image too large for ctex")
     png = io.BytesIO()
     img.save(png, format="PNG", optimize=True)
-    png_bytes = png.getvalue()
+    # Godot's PNG unpacker expects its own 4-byte "PNG " tag before the file
+    # (drivers/png/image_loader_png.cpp, unpack_mem_png).
+    png_bytes = b"PNG " + png.getvalue()
 
     out = io.BytesIO()
     out.write(b"GST2")
@@ -166,7 +168,10 @@ def read_ctex(data: bytes) -> Image.Image:
     if data_format != DATA_FORMAT_PNG:
         raise ValueError(f"unsupported ctex data format {data_format}")
     (size,) = struct.unpack_from("<I", data, 52)
-    img = Image.open(io.BytesIO(data[56 : 56 + size]))
+    payload = data[56 : 56 + size]
+    if payload[:4] != b"PNG ":
+        raise ValueError("ctex PNG payload is missing Godot's 'PNG ' tag")
+    img = Image.open(io.BytesIO(payload[4:]))
     img.load()
     return img
 
@@ -178,3 +183,17 @@ def make_remap(target_res_path: str) -> bytes:
     """A .remap file. ResourceLoader checks `<path>.remap` before loading any
     path, so this redirects a base-game resource to our texture."""
     return f'[remap]\n\npath="{target_res_path}"\n'.encode("utf-8")
+
+
+def make_texture_tres(ctex_res_path: str) -> bytes:
+    """A text CompressedTexture2D resource that loads our .ctex.
+
+    The game asks for these paths with type hint "Texture2D". The .ctex loader
+    only answers for "CompressedTexture2D", so remapping straight to a .ctex
+    fails ("No loader found"). The text .tres loader handles every type, and
+    the resource then pulls in the .ctex through its load_path.
+    """
+    return (
+        '[gd_resource type="CompressedTexture2D" format=3]\n\n'
+        f'[resource]\nload_path = "{ctex_res_path}"\n'
+    ).encode("utf-8")

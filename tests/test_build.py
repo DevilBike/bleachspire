@@ -33,14 +33,19 @@ def test_build_round_trip(tmp_path):
     assert set(by_path) == {
         "res://bleachspire/cards/ironclad/strike_ironclad_small.ctex",
         "res://bleachspire/cards/ironclad/strike_ironclad_big.ctex",
+        "res://bleachspire/cards/ironclad/strike_ironclad_small.tres",
+        "res://bleachspire/cards/ironclad/strike_ironclad_big.tres",
         "res://images/atlases/card_atlas.sprites/ironclad/strike_ironclad.tres.remap",
         "res://images/packed/card_portraits/ironclad/strike_ironclad.png.remap",
     }
     # Only images and remaps: no scripts, scenes or data that could change gameplay.
-    assert all(p.endswith((".ctex", ".remap")) for p in by_path)
+    assert all(p.endswith((".ctex", ".tres", ".remap")) for p in by_path)
 
     remap = read_pck_file(pck, by_path["res://images/atlases/card_atlas.sprites/ironclad/strike_ironclad.tres.remap"])
-    assert remap.decode() == '[remap]\n\npath="res://bleachspire/cards/ironclad/strike_ironclad_small.ctex"\n'
+    assert remap.decode() == '[remap]\n\npath="res://bleachspire/cards/ironclad/strike_ironclad_small.tres"\n'
+    tres = read_pck_file(pck, by_path["res://bleachspire/cards/ironclad/strike_ironclad_small.tres"]).decode()
+    assert tres.startswith('[gd_resource type="CompressedTexture2D" format=3]')
+    assert 'load_path = "res://bleachspire/cards/ironclad/strike_ironclad_small.ctex"' in tres
 
     small = read_ctex(read_pck_file(pck, by_path["res://bleachspire/cards/ironclad/strike_ironclad_small.ctex"]))
     assert small.size == (500, 380)

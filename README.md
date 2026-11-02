@@ -20,7 +20,7 @@ The game draws each card's art from two places:
 
 For each card we ship a `.remap` file at both paths. Godot checks for
 `<path>.remap` before loading anything, so the game loads our texture
-(`res://bleachspire/cards/...ctex`) instead of the original.
+(`res://bleachspire/cards/...tres`, a CompressedTexture2D that loads our `.ctex`) instead of the original. Remapping straight to a `.ctex` does not work: the game asks for `Texture2D` and the `.ctex` loader only answers for `CompressedTexture2D`.
 
 The build writes the `.pck` and `.ctex` formats directly in Python, so it
 needs no Godot editor.
