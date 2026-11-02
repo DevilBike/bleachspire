@@ -17,11 +17,9 @@ unleash,Mayuri Kurotsuchi,Mayuri sending Nemu into battle
 burn,Hollow,A Cero blast scorching the ground
 dazed,Shinigami,A Soul Reaper staggered by overwhelming spiritual pressure
 wound,Shinigami,A bloodied Soul Reaper clutching a sword cut
-slimed,Mayuri Kurotsuchi,Mayuri melted into liquid form
 void,Hollow,A Garganta tear opening into black space
 infection,Hollow,Hollowfication mask spreading across a face
 soot,Hollow,Smoke and ash after an explosion in Karakura Town
-toxic,Mayuri Kurotsuchi,Mayuri's poison gas or a dripping syringe
 debris,Karakura Town,Rubble of a collapsed building after a fight
 beckon,Hollow,A Menos Grande reaching out of a Garganta
 frantic_escape,Shinigami,A Soul Reaper fleeing with Shunpo (flash step blur)
@@ -468,3 +466,122 @@ trash_to_treasure,Urahara Shop,Junk items on the Urahara Shop shelves
 voltaic,Kisuke Urahara,Urahara's body charged with lightning kido
 biased_cognition,Kisuke Urahara,Urahara's sly grin behind his fan (ancient full-art)
 quadcast,Kisuke Urahara,Urahara casting four kido at once (ancient full-art)
+status/slimed,Szayelaporro Granz,Szayelaporro's sticky Fornicarás fluid splashed on a target
+status/toxic,Hollow,A Hollow spewing acidic venom
+colorless/automation,Kon,Kon running Ichigo's body on autopilot
+colorless/believe_in_you,Orihime Inoue,Orihime smiling and cheering Ichigo on
+colorless/catastrophe,Yhwach,Yhwach's shadows swallowing the Seireitei
+colorless/coordinate,Toshiro Hitsugaya,Toshiro giving orders to Squad 10
+colorless/dark_shackles,Kaname Tosen,Tosen's Bankai Suzumushi Tsuishiki Enmakorogi (dome of darkness)
+colorless/discovery,Ichigo Kurosaki,Ichigo discovering his Zanpakuto spirit Zangetsu
+colorless/dramatic_entrance,Ichigo Kurosaki,Ichigo arriving to save Rukia at the execution grounds
+colorless/equilibrium,Shunsui Kyoraku,Shunsui balancing his two swords in Katen Kyokotsu
+colorless/fasten,Renji Abarai,Hihio Zabimaru's bone snake wrapping around an enemy
+colorless/finesse,Rangiku Matsumoto,Haineko's ash swirling gracefully
+colorless/fisticuffs,Yasutora Sado (Chad),Chad's Brazo Derecha de Gigante punch
+colorless/flash_of_steel,Ichigo Kurosaki,Ichigo's Tensa Zangetsu blur
+colorless/gang_up,Gotei 13,Multiple captains surrounding an enemy
+colorless/huddle_up,Karakura Town friends,"Ichigo, Orihime, Chad and Uryu together"
+colorless/impatience,Grimmjow Jaegerjaquez,Grimmjow sneering and itching for a fight
+colorless/intercept,Renji Abarai,Renji jumping in front of Rukia to block
+colorless/jack_of_all_trades,Ganju Shiba,Ganju with his fireworks and boar Bonnie
+colorless/lift,Kukaku Shiba,Kukaku's cannon launching the group into Soul Society
+colorless/mind_blast,Sosuke Aizen,Kyoka Suigetsu's complete hypnosis
+colorless/omnislice,Ichigo Kurosaki,Ichigo's Mugetsu final Getsuga Tensho
+colorless/panache,Shinji Hirako,Shinji's toothy grin and Sakanade
+colorless/panic_button,Hanataro Yamada,Hanataro panicking in the sewers
+colorless/prep_time,Jushiro Ukitake,Ukitake calmly preparing tea
+colorless/production,Akon,Akon in the Squad 12 Research and Development Institute
+colorless/prolong,Hanataro Yamada,Hanataro's healing kido on a wounded friend
+colorless/prowess,Ikkaku Madarame,Ikkaku's Bankai Ryumon Hozukimaru
+colorless/purity,Rukia Kuchiki,Rukia's Bankai Hakka no Togame (pure white ice)
+colorless/restlessness,Yachiru Kusajishi,Yachiru bouncing around restlessly
+colorless/salvo,Uryu Ishida,Uryu's Licht Regen arrow volley
+colorless/seeker_strike,Uryu Ishida,Uryu's single Heilig Pfeil arrow homing in
+colorless/shockwave,Genryusai Yamamoto,Yamamoto's reiatsu shaking the ground
+colorless/stratagem,Shunsui Kyoraku,Shunsui's child's game rules (Katen Kyokotsu)
+colorless/tag_team,Ichigo and Rukia,Ichigo and Rukia attacking together
+colorless/the_ball,Kon,Kon kicked like a ball across the room
+colorless/the_bomb,Ganju Shiba,Ganju lighting a firework bomb
+colorless/thinking_ahead,Nanao Ise,Nanao adjusting her glasses with a plan
+colorless/thrumming_hatchet,Ikkaku Madarame,Ikkaku's spear Hozukimaru spinning
+colorless/ultimate_defend,Hachigen Ushoda,Hachigen's giant kido barrier
+colorless/ultimate_strike,Ichigo Kurosaki,Ichigo's Getsuga Tensho at full power
+colorless/volley,Uryu Ishida,Uryu firing a rain of Quincy arrows
+colorless/alchemize,Szayelaporro Granz,Szayelaporro in his lab with flasks
+colorless/anointed,Ichibe Hyosube,Ichibe of the Royal Guard naming things
+colorless/beacon_of_hope,Orihime Inoue,Orihime's Soten Kisshun golden shield
+colorless/beat_down,Grimmjow Jaegerjaquez,Grimmjow punching Ichigo into the sand
+colorless/bolas,Renji Abarai,Zabimaru's segmented whip-blade
+colorless/calamity,Yhwach,Yhwach's The Almighty eyes
+colorless/entropy,Barragan Louisenbairn,Barragan's Respira aging everything
+colorless/eternal_armor,Yasutora Sado (Chad),Chad's armoured right arm (Brazo Derecha de Gigante)
+colorless/gold_axe,Ikkaku Madarame,Ikkaku's giant axe-blade Bankai
+colorless/hand_of_greed,Gin Ichimaru,Gin's grin as Shinso shoots out
+colorless/hidden_gem,Orihime Inoue,Orihime's hairpins (Shun Shun Rikka)
+colorless/jackpot,Don Kanonji,Don Kanonji striking his pose
+colorless/knockdown,Kensei Muguruma,Kensei's Tachikaze punch
+colorless/master_of_strategy,Sosuke Aizen,Aizen revealing his plan
+colorless/mayhem,Hiyori Sarugaki,Hiyori kicking Shinji in the face
+colorless/mimic,Kon,Kon pretending to be Ichigo
+colorless/nostalgia,Ichigo Kurosaki,Young Ichigo with his mother Masaki
+colorless/rally,Shunsui Kyoraku,Shunsui rallying the Gotei 13 as Head Captain
+colorless/rend,Grimmjow Jaegerjaquez,Grimmjow's Desgarron claws
+colorless/rolling_boulder,Gotei 13,A building collapsing in Fake Karakura Town
+colorless/scrawl,Ichibe Hyosube,Ichibe's Ichimonji ink brush
+colorless/secret_technique,Kensei Muguruma,Kensei's Bankai Tekken Tachikaze
+colorless/secret_weapon,Isshin Kurosaki,Isshin revealing himself as a Soul Reaper
+colorless/splash,Toshiro Hitsugaya,Hyorinmaru's water-ice dragon
+colorless/the_gambit,Gin Ichimaru,Gin's betrayal of Aizen with Kamishini no Yari
+curse/ascenders_bane,Hollow,A Hollow hole piercing a chest
+curse/bad_luck,Hanataro Yamada,Hanataro getting caught again
+curse/clumsy,Kon,Kon tripping over himself
+curse/curse_of_the_bell,Ikkaku Madarame,Ikkaku's bell-shaped bald head shining
+curse/debt,Kon,Kon broke and begging Ichigo for money
+curse/decay,Barragan Louisenbairn,Barragan's Respira rotting flesh
+curse/doubt,Ichigo Kurosaki,Ichigo losing his powers
+curse/enthralled,Sosuke Aizen,Kyoka Suigetsu controlling a victim
+curse/folly,Kon,Kon flirting and being kicked away
+curse/greed,Hollow,A Grand Fisher luring prey
+curse/guilty,Rukia Kuchiki,Rukia's guilt over Kaien Shiba's death
+curse/injury,Shinigami,A Soul Reaper's arm bandaged in the Squad 4 barracks
+curse/normality,Karakura Town,An ordinary day in Karakura Town
+curse/poor_sleep,Coyote Starrk,"Starrk yawning, barely awake"
+curse/regret,Kaname Tosen,Tosen's sorrow over his friend
+curse/shame,Renji Abarai,Renji lying defeated after losing to Ichigo
+curse/spore_mind,Hollow,Metastacia (the Hollow that merges with souls)
+curse/writhe,Hollow,A soul transforming into a Hollow in agony
+token/fuel,Kukaku Shiba,Kukaku's fireworks fuel and cannon
+token/giant_rock,Yasutora Sado (Chad),Chad throwing a giant boulder
+token/luminesce,Orihime Inoue,Orihime's glowing healing light
+token/minion_dive_bomb,Hollow,Small Hollows diving from the sky
+token/minion_sacrifice,Hollow,Hollows sacrificed to make a Menos
+token/minion_strike,Arrancar,Numeros Arrancar foot soldiers attacking
+token/shiv,Shinigami,A Soul Reaper's small Asauchi blade
+token/soul,Shinigami,A Plus soul being sent to Soul Society (Konso)
+token/sovereign_blade,Ichigo Kurosaki,Zangetsu's huge cleaver blade
+token/sweeping_gaze,Ulquiorra Cifer,Ulquiorra's cold green eyes
+event/abundance,Rangiku Matsumoto,Rangiku lounging with sake
+event/apotheosis,Ichigo Kurosaki,Ichigo's final Bankai with new Zangetsu
+event/apparition,Hollow,A Hollow mask appearing out of nowhere
+event/brightest_flame,Genryusai Yamamoto,Ryujin Jakka's flames filling the sky
+event/byrd_swoop,Hollow,A bird-type Hollow swooping down
+event/caltrops,Uryu Ishida,Uryu's Seele Schneider scattered on the ground
+event/enlightenment,Ichigo Kurosaki,Ichigo meeting old man Zangetsu in his inner world
+event/exterminate,Uryu Ishida,Uryu's Quincy Letzt Stil
+event/feeding_frenzy,Hollow,A swarm of Hollows devouring souls
+event/hello_world,Ichigo Kurosaki,Ichigo first gaining Soul Reaper powers from Rukia
+event/maul,Grimmjow Jaegerjaquez,Grimmjow's Pantera release tearing in
+event/metamorphosis,Ulquiorra Cifer,Ulquiorra's Segunda Etapa form
+event/neows_fury,Ulquiorra Cifer,Ulquiorra's Lanza del Relampago
+event/peck,Hollow,A small bird Hollow pecking
+event/relax,Shunsui Kyoraku,Shunsui napping with his straw hat over his face
+event/rip_and_tear,Ichigo Kurosaki,Ichigo's Hollow form (Vasto Lorde) rampage
+event/squash,Yasutora Sado (Chad),Chad's El Directo smashing down
+event/toric_toughness,Nelliel Tu Odelschwanck,Nel's Ram horn lance
+event/whistle,Coyote Starrk,Starrk's wolf pack Los Lobos
+event/wish,Orihime Inoue,Orihime holding the power to reject fate
+quest/byrdonis_egg,Hollow,A Hollow hatching from Hueco Mundo sand
+quest/dowsing,Ichigo Kurosaki,Ichigo sensing reiatsu from afar
+quest/lantern_key,Rukia Kuchiki,The Senkaimon gate opening
+quest/spoils_map,Hueco Mundo,A map of Las Noches

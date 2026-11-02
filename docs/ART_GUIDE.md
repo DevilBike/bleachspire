@@ -63,9 +63,9 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Debris | status | Karakura Town | Rubble of a collapsed building after a fight | `drop/1-every-run/status/debris.png` |
 | Frantic Escape | status | Shinigami | A Soul Reaper fleeing with Shunpo (flash step blur) | `drop/1-every-run/status/frantic_escape.png` |
 | Infection | status | Hollow | Hollowfication mask spreading across a face | `drop/1-every-run/status/infection.png` |
-| Slimed | status | Mayuri Kurotsuchi | Mayuri melted into liquid form | `drop/1-every-run/status/slimed.png` |
+| Slimed | status | Szayelaporro Granz | Szayelaporro's sticky Fornicarás fluid splashed on a target | `drop/1-every-run/status/slimed.png` |
 | Soot | status | Hollow | Smoke and ash after an explosion in Karakura Town | `drop/1-every-run/status/soot.png` |
-| Toxic | status | Mayuri Kurotsuchi | Mayuri's poison gas or a dripping syringe | `drop/1-every-run/status/toxic.png` |
+| Toxic | status | Hollow | A Hollow spewing acidic venom | `drop/1-every-run/status/toxic.png` |
 | Void | status | Hollow | A Garganta tear opening into black space | `drop/1-every-run/status/void.png` |
 | Wound | status | Shinigami | A bloodied Soul Reaper clutching a sword cut | `drop/1-every-run/status/wound.png` |
 | Disintegration | token | Quincy | Quincy Blut or Sklaverei breaking down a body into reishi | `drop/1-every-run/token/disintegration.png` |
@@ -372,46 +372,46 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Spur | necrobinder | Mayuri Kurotsuchi | Mayuri injecting Nemu with a drug | `drop/3-often/necrobinder/spur.png` |
 | Underworld | necrobinder | Mayuri Kurotsuchi | Squad 12's underground lab | `drop/3-often/necrobinder/underworld.png` |
 | Veilpiercer | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo piercing through a barrier | `drop/3-often/necrobinder/veilpiercer.png` |
-| Automation | colorless |  | _suggestion coming_ | `drop/3-often/colorless/automation.png` |
-| Believe in You | colorless |  | _suggestion coming_ | `drop/3-often/colorless/believe_in_you.png` |
-| Catastrophe | colorless |  | _suggestion coming_ | `drop/3-often/colorless/catastrophe.png` |
-| Coordinate | colorless |  | _suggestion coming_ | `drop/3-often/colorless/coordinate.png` |
-| Dark Shackles | colorless |  | _suggestion coming_ | `drop/3-often/colorless/dark_shackles.png` |
-| Discovery | colorless |  | _suggestion coming_ | `drop/3-often/colorless/discovery.png` |
-| Dramatic Entrance | colorless |  | _suggestion coming_ | `drop/3-often/colorless/dramatic_entrance.png` |
-| Equilibrium | colorless |  | _suggestion coming_ | `drop/3-often/colorless/equilibrium.png` |
-| Fasten | colorless |  | _suggestion coming_ | `drop/3-often/colorless/fasten.png` |
-| Finesse | colorless |  | _suggestion coming_ | `drop/3-often/colorless/finesse.png` |
-| Fisticuffs | colorless |  | _suggestion coming_ | `drop/3-often/colorless/fisticuffs.png` |
-| Flash of Steel | colorless |  | _suggestion coming_ | `drop/3-often/colorless/flash_of_steel.png` |
-| Gang Up | colorless |  | _suggestion coming_ | `drop/3-often/colorless/gang_up.png` |
-| Huddle Up | colorless |  | _suggestion coming_ | `drop/3-often/colorless/huddle_up.png` |
-| Impatience | colorless |  | _suggestion coming_ | `drop/3-often/colorless/impatience.png` |
-| Intercept | colorless |  | _suggestion coming_ | `drop/3-often/colorless/intercept.png` |
-| Jack of All Trades | colorless |  | _suggestion coming_ | `drop/3-often/colorless/jack_of_all_trades.png` |
-| Lift | colorless |  | _suggestion coming_ | `drop/3-often/colorless/lift.png` |
-| Mind Blast | colorless |  | _suggestion coming_ | `drop/3-often/colorless/mind_blast.png` |
-| Omnislice | colorless |  | _suggestion coming_ | `drop/3-often/colorless/omnislice.png` |
-| Panache | colorless |  | _suggestion coming_ | `drop/3-often/colorless/panache.png` |
-| Panic Button | colorless |  | _suggestion coming_ | `drop/3-often/colorless/panic_button.png` |
-| Prep Time | colorless |  | _suggestion coming_ | `drop/3-often/colorless/prep_time.png` |
-| Production | colorless |  | _suggestion coming_ | `drop/3-often/colorless/production.png` |
-| Prolong | colorless |  | _suggestion coming_ | `drop/3-often/colorless/prolong.png` |
-| Prowess | colorless |  | _suggestion coming_ | `drop/3-often/colorless/prowess.png` |
-| Purity | colorless |  | _suggestion coming_ | `drop/3-often/colorless/purity.png` |
-| Restlessness | colorless |  | _suggestion coming_ | `drop/3-often/colorless/restlessness.png` |
-| Salvo | colorless |  | _suggestion coming_ | `drop/3-often/colorless/salvo.png` |
-| Seeker Strike | colorless |  | _suggestion coming_ | `drop/3-often/colorless/seeker_strike.png` |
-| Shockwave | colorless |  | _suggestion coming_ | `drop/3-often/colorless/shockwave.png` |
-| Stratagem | colorless |  | _suggestion coming_ | `drop/3-often/colorless/stratagem.png` |
-| Tag Team | colorless |  | _suggestion coming_ | `drop/3-often/colorless/tag_team.png` |
-| The Ball | colorless |  | _suggestion coming_ | `drop/3-often/colorless/the_ball.png` |
-| The Bomb | colorless |  | _suggestion coming_ | `drop/3-often/colorless/the_bomb.png` |
-| Thinking Ahead | colorless |  | _suggestion coming_ | `drop/3-often/colorless/thinking_ahead.png` |
-| Thrumming Hatchet | colorless |  | _suggestion coming_ | `drop/3-often/colorless/thrumming_hatchet.png` |
-| Ultimate Defend | colorless |  | _suggestion coming_ | `drop/3-often/colorless/ultimate_defend.png` |
-| Ultimate Strike | colorless |  | _suggestion coming_ | `drop/3-often/colorless/ultimate_strike.png` |
-| Volley | colorless |  | _suggestion coming_ | `drop/3-often/colorless/volley.png` |
+| Automation | colorless | Kon | Kon running Ichigo's body on autopilot | `drop/3-often/colorless/automation.png` |
+| Believe in You | colorless | Orihime Inoue | Orihime smiling and cheering Ichigo on | `drop/3-often/colorless/believe_in_you.png` |
+| Catastrophe | colorless | Yhwach | Yhwach's shadows swallowing the Seireitei | `drop/3-often/colorless/catastrophe.png` |
+| Coordinate | colorless | Toshiro Hitsugaya | Toshiro giving orders to Squad 10 | `drop/3-often/colorless/coordinate.png` |
+| Dark Shackles | colorless | Kaname Tosen | Tosen's Bankai Suzumushi Tsuishiki Enmakorogi (dome of darkness) | `drop/3-often/colorless/dark_shackles.png` |
+| Discovery | colorless | Ichigo Kurosaki | Ichigo discovering his Zanpakuto spirit Zangetsu | `drop/3-often/colorless/discovery.png` |
+| Dramatic Entrance | colorless | Ichigo Kurosaki | Ichigo arriving to save Rukia at the execution grounds | `drop/3-often/colorless/dramatic_entrance.png` |
+| Equilibrium | colorless | Shunsui Kyoraku | Shunsui balancing his two swords in Katen Kyokotsu | `drop/3-often/colorless/equilibrium.png` |
+| Fasten | colorless | Renji Abarai | Hihio Zabimaru's bone snake wrapping around an enemy | `drop/3-often/colorless/fasten.png` |
+| Finesse | colorless | Rangiku Matsumoto | Haineko's ash swirling gracefully | `drop/3-often/colorless/finesse.png` |
+| Fisticuffs | colorless | Yasutora Sado (Chad) | Chad's Brazo Derecha de Gigante punch | `drop/3-often/colorless/fisticuffs.png` |
+| Flash of Steel | colorless | Ichigo Kurosaki | Ichigo's Tensa Zangetsu blur | `drop/3-often/colorless/flash_of_steel.png` |
+| Gang Up | colorless | Gotei 13 | Multiple captains surrounding an enemy | `drop/3-often/colorless/gang_up.png` |
+| Huddle Up | colorless | Karakura Town friends | Ichigo, Orihime, Chad and Uryu together | `drop/3-often/colorless/huddle_up.png` |
+| Impatience | colorless | Grimmjow Jaegerjaquez | Grimmjow sneering and itching for a fight | `drop/3-often/colorless/impatience.png` |
+| Intercept | colorless | Renji Abarai | Renji jumping in front of Rukia to block | `drop/3-often/colorless/intercept.png` |
+| Jack of All Trades | colorless | Ganju Shiba | Ganju with his fireworks and boar Bonnie | `drop/3-often/colorless/jack_of_all_trades.png` |
+| Lift | colorless | Kukaku Shiba | Kukaku's cannon launching the group into Soul Society | `drop/3-often/colorless/lift.png` |
+| Mind Blast | colorless | Sosuke Aizen | Kyoka Suigetsu's complete hypnosis | `drop/3-often/colorless/mind_blast.png` |
+| Omnislice | colorless | Ichigo Kurosaki | Ichigo's Mugetsu final Getsuga Tensho | `drop/3-often/colorless/omnislice.png` |
+| Panache | colorless | Shinji Hirako | Shinji's toothy grin and Sakanade | `drop/3-often/colorless/panache.png` |
+| Panic Button | colorless | Hanataro Yamada | Hanataro panicking in the sewers | `drop/3-often/colorless/panic_button.png` |
+| Prep Time | colorless | Jushiro Ukitake | Ukitake calmly preparing tea | `drop/3-often/colorless/prep_time.png` |
+| Production | colorless | Akon | Akon in the Squad 12 Research and Development Institute | `drop/3-often/colorless/production.png` |
+| Prolong | colorless | Hanataro Yamada | Hanataro's healing kido on a wounded friend | `drop/3-often/colorless/prolong.png` |
+| Prowess | colorless | Ikkaku Madarame | Ikkaku's Bankai Ryumon Hozukimaru | `drop/3-often/colorless/prowess.png` |
+| Purity | colorless | Rukia Kuchiki | Rukia's Bankai Hakka no Togame (pure white ice) | `drop/3-often/colorless/purity.png` |
+| Restlessness | colorless | Yachiru Kusajishi | Yachiru bouncing around restlessly | `drop/3-often/colorless/restlessness.png` |
+| Salvo | colorless | Uryu Ishida | Uryu's Licht Regen arrow volley | `drop/3-often/colorless/salvo.png` |
+| Seeker Strike | colorless | Uryu Ishida | Uryu's single Heilig Pfeil arrow homing in | `drop/3-often/colorless/seeker_strike.png` |
+| Shockwave | colorless | Genryusai Yamamoto | Yamamoto's reiatsu shaking the ground | `drop/3-often/colorless/shockwave.png` |
+| Stratagem | colorless | Shunsui Kyoraku | Shunsui's child's game rules (Katen Kyokotsu) | `drop/3-often/colorless/stratagem.png` |
+| Tag Team | colorless | Ichigo and Rukia | Ichigo and Rukia attacking together | `drop/3-often/colorless/tag_team.png` |
+| The Ball | colorless | Kon | Kon kicked like a ball across the room | `drop/3-often/colorless/the_ball.png` |
+| The Bomb | colorless | Ganju Shiba | Ganju lighting a firework bomb | `drop/3-often/colorless/the_bomb.png` |
+| Thinking Ahead | colorless | Nanao Ise | Nanao adjusting her glasses with a plan | `drop/3-often/colorless/thinking_ahead.png` |
+| Thrumming Hatchet | colorless | Ikkaku Madarame | Ikkaku's spear Hozukimaru spinning | `drop/3-often/colorless/thrumming_hatchet.png` |
+| Ultimate Defend | colorless | Hachigen Ushoda | Hachigen's giant kido barrier | `drop/3-often/colorless/ultimate_defend.png` |
+| Ultimate Strike | colorless | Ichigo Kurosaki | Ichigo's Getsuga Tensho at full power | `drop/3-often/colorless/ultimate_strike.png` |
+| Volley | colorless | Uryu Ishida | Uryu firing a rain of Quincy arrows | `drop/3-often/colorless/volley.png` |
 
 ## Wave 4: sometimes (rares, curses, tokens) (188 cards)
 
@@ -552,59 +552,59 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Time's Up | necrobinder | Mayuri Kurotsuchi | Mayuri's bomb exploding | `drop/4-sometimes/necrobinder/times_up.png` |
 | Transfigure | necrobinder | Mayuri Kurotsuchi | Mayuri transforming his body | `drop/4-sometimes/necrobinder/transfigure.png` |
 | Undeath | necrobinder | Mayuri Kurotsuchi | Mayuri rebuilt after being killed | `drop/4-sometimes/necrobinder/undeath.png` |
-| Alchemize | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/alchemize.png` |
-| Anointed | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/anointed.png` |
-| Beacon of Hope | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/beacon_of_hope.png` |
-| Beat Down | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/beat_down.png` |
-| Bolas | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/bolas.png` |
-| Calamity | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/calamity.png` |
-| Entropy | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/entropy.png` |
-| Eternal Armor | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/eternal_armor.png` |
-| Gold Axe | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/gold_axe.png` |
-| Hand of Greed | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/hand_of_greed.png` |
-| Hidden Gem | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/hidden_gem.png` |
-| Jackpot | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/jackpot.png` |
-| Knockdown | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/knockdown.png` |
-| Master of Strategy | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/master_of_strategy.png` |
-| Mayhem | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/mayhem.png` |
-| Mimic | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/mimic.png` |
-| Nostalgia | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/nostalgia.png` |
-| Rally | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/rally.png` |
-| Rend | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/rend.png` |
-| Rolling Boulder | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/rolling_boulder.png` |
-| Scrawl | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/scrawl.png` |
-| Secret Technique | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/secret_technique.png` |
-| Secret Weapon | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/secret_weapon.png` |
-| Splash | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/splash.png` |
-| The Gambit | colorless | Soi Fon | Soi Fon using her Bankai at point-blank range | `drop/4-sometimes/colorless/the_gambit.png` |
-| Ascender's Bane | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/ascenders_bane.png` |
-| Bad Luck | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/bad_luck.png` |
-| Clumsy | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/clumsy.png` |
-| Curse of the Bell | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/curse_of_the_bell.png` |
-| Debt | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/debt.png` |
-| Decay | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/decay.png` |
-| Doubt | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/doubt.png` |
-| Enthralled | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/enthralled.png` |
-| Folly | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/folly.png` |
-| Greed | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/greed.png` |
-| Guilty | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/guilty.png` |
-| Injury | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/injury.png` |
-| Normality | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/normality.png` |
-| Poor Sleep | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/poor_sleep.png` |
-| Regret | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/regret.png` |
-| Shame | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/shame.png` |
-| Spore Mind | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/spore_mind.png` |
-| Writhe | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/writhe.png` |
-| Fuel | token |  | _suggestion coming_ | `drop/4-sometimes/token/fuel.png` |
-| Giant Rock | token |  | _suggestion coming_ | `drop/4-sometimes/token/giant_rock.png` |
-| Luminesce | token |  | _suggestion coming_ | `drop/4-sometimes/token/luminesce.png` |
-| Minion Dive Bomb | token |  | _suggestion coming_ | `drop/4-sometimes/token/minion_dive_bomb.png` |
-| Minion Sacrifice | token |  | _suggestion coming_ | `drop/4-sometimes/token/minion_sacrifice.png` |
-| Minion Strike | token |  | _suggestion coming_ | `drop/4-sometimes/token/minion_strike.png` |
-| Shiv | token |  | _suggestion coming_ | `drop/4-sometimes/token/shiv.png` |
-| Soul | token |  | _suggestion coming_ | `drop/4-sometimes/token/soul.png` |
-| Sovereign Blade | token |  | _suggestion coming_ | `drop/4-sometimes/token/sovereign_blade.png` |
-| Sweeping Gaze | token |  | _suggestion coming_ | `drop/4-sometimes/token/sweeping_gaze.png` |
+| Alchemize | colorless | Szayelaporro Granz | Szayelaporro in his lab with flasks | `drop/4-sometimes/colorless/alchemize.png` |
+| Anointed | colorless | Ichibe Hyosube | Ichibe of the Royal Guard naming things | `drop/4-sometimes/colorless/anointed.png` |
+| Beacon of Hope | colorless | Orihime Inoue | Orihime's Soten Kisshun golden shield | `drop/4-sometimes/colorless/beacon_of_hope.png` |
+| Beat Down | colorless | Grimmjow Jaegerjaquez | Grimmjow punching Ichigo into the sand | `drop/4-sometimes/colorless/beat_down.png` |
+| Bolas | colorless | Renji Abarai | Zabimaru's segmented whip-blade | `drop/4-sometimes/colorless/bolas.png` |
+| Calamity | colorless | Yhwach | Yhwach's The Almighty eyes | `drop/4-sometimes/colorless/calamity.png` |
+| Entropy | colorless | Barragan Louisenbairn | Barragan's Respira aging everything | `drop/4-sometimes/colorless/entropy.png` |
+| Eternal Armor | colorless | Yasutora Sado (Chad) | Chad's armoured right arm (Brazo Derecha de Gigante) | `drop/4-sometimes/colorless/eternal_armor.png` |
+| Gold Axe | colorless | Ikkaku Madarame | Ikkaku's giant axe-blade Bankai | `drop/4-sometimes/colorless/gold_axe.png` |
+| Hand of Greed | colorless | Gin Ichimaru | Gin's grin as Shinso shoots out | `drop/4-sometimes/colorless/hand_of_greed.png` |
+| Hidden Gem | colorless | Orihime Inoue | Orihime's hairpins (Shun Shun Rikka) | `drop/4-sometimes/colorless/hidden_gem.png` |
+| Jackpot | colorless | Don Kanonji | Don Kanonji striking his pose | `drop/4-sometimes/colorless/jackpot.png` |
+| Knockdown | colorless | Kensei Muguruma | Kensei's Tachikaze punch | `drop/4-sometimes/colorless/knockdown.png` |
+| Master of Strategy | colorless | Sosuke Aizen | Aizen revealing his plan | `drop/4-sometimes/colorless/master_of_strategy.png` |
+| Mayhem | colorless | Hiyori Sarugaki | Hiyori kicking Shinji in the face | `drop/4-sometimes/colorless/mayhem.png` |
+| Mimic | colorless | Kon | Kon pretending to be Ichigo | `drop/4-sometimes/colorless/mimic.png` |
+| Nostalgia | colorless | Ichigo Kurosaki | Young Ichigo with his mother Masaki | `drop/4-sometimes/colorless/nostalgia.png` |
+| Rally | colorless | Shunsui Kyoraku | Shunsui rallying the Gotei 13 as Head Captain | `drop/4-sometimes/colorless/rally.png` |
+| Rend | colorless | Grimmjow Jaegerjaquez | Grimmjow's Desgarron claws | `drop/4-sometimes/colorless/rend.png` |
+| Rolling Boulder | colorless | Gotei 13 | A building collapsing in Fake Karakura Town | `drop/4-sometimes/colorless/rolling_boulder.png` |
+| Scrawl | colorless | Ichibe Hyosube | Ichibe's Ichimonji ink brush | `drop/4-sometimes/colorless/scrawl.png` |
+| Secret Technique | colorless | Kensei Muguruma | Kensei's Bankai Tekken Tachikaze | `drop/4-sometimes/colorless/secret_technique.png` |
+| Secret Weapon | colorless | Isshin Kurosaki | Isshin revealing himself as a Soul Reaper | `drop/4-sometimes/colorless/secret_weapon.png` |
+| Splash | colorless | Toshiro Hitsugaya | Hyorinmaru's water-ice dragon | `drop/4-sometimes/colorless/splash.png` |
+| The Gambit | colorless | Gin Ichimaru | Gin's betrayal of Aizen with Kamishini no Yari | `drop/4-sometimes/colorless/the_gambit.png` |
+| Ascender's Bane | curse | Hollow | A Hollow hole piercing a chest | `drop/4-sometimes/curse/ascenders_bane.png` |
+| Bad Luck | curse | Hanataro Yamada | Hanataro getting caught again | `drop/4-sometimes/curse/bad_luck.png` |
+| Clumsy | curse | Kon | Kon tripping over himself | `drop/4-sometimes/curse/clumsy.png` |
+| Curse of the Bell | curse | Ikkaku Madarame | Ikkaku's bell-shaped bald head shining | `drop/4-sometimes/curse/curse_of_the_bell.png` |
+| Debt | curse | Kon | Kon broke and begging Ichigo for money | `drop/4-sometimes/curse/debt.png` |
+| Decay | curse | Barragan Louisenbairn | Barragan's Respira rotting flesh | `drop/4-sometimes/curse/decay.png` |
+| Doubt | curse | Ichigo Kurosaki | Ichigo losing his powers | `drop/4-sometimes/curse/doubt.png` |
+| Enthralled | curse | Sosuke Aizen | Kyoka Suigetsu controlling a victim | `drop/4-sometimes/curse/enthralled.png` |
+| Folly | curse | Kon | Kon flirting and being kicked away | `drop/4-sometimes/curse/folly.png` |
+| Greed | curse | Hollow | A Grand Fisher luring prey | `drop/4-sometimes/curse/greed.png` |
+| Guilty | curse | Rukia Kuchiki | Rukia's guilt over Kaien Shiba's death | `drop/4-sometimes/curse/guilty.png` |
+| Injury | curse | Shinigami | A Soul Reaper's arm bandaged in the Squad 4 barracks | `drop/4-sometimes/curse/injury.png` |
+| Normality | curse | Karakura Town | An ordinary day in Karakura Town | `drop/4-sometimes/curse/normality.png` |
+| Poor Sleep | curse | Coyote Starrk | Starrk yawning, barely awake | `drop/4-sometimes/curse/poor_sleep.png` |
+| Regret | curse | Kaname Tosen | Tosen's sorrow over his friend | `drop/4-sometimes/curse/regret.png` |
+| Shame | curse | Renji Abarai | Renji lying defeated after losing to Ichigo | `drop/4-sometimes/curse/shame.png` |
+| Spore Mind | curse | Hollow | Metastacia (the Hollow that merges with souls) | `drop/4-sometimes/curse/spore_mind.png` |
+| Writhe | curse | Hollow | A soul transforming into a Hollow in agony | `drop/4-sometimes/curse/writhe.png` |
+| Fuel | token | Kukaku Shiba | Kukaku's fireworks fuel and cannon | `drop/4-sometimes/token/fuel.png` |
+| Giant Rock | token | Yasutora Sado (Chad) | Chad throwing a giant boulder | `drop/4-sometimes/token/giant_rock.png` |
+| Luminesce | token | Orihime Inoue | Orihime's glowing healing light | `drop/4-sometimes/token/luminesce.png` |
+| Minion Dive Bomb | token | Hollow | Small Hollows diving from the sky | `drop/4-sometimes/token/minion_dive_bomb.png` |
+| Minion Sacrifice | token | Hollow | Hollows sacrificed to make a Menos | `drop/4-sometimes/token/minion_sacrifice.png` |
+| Minion Strike | token | Arrancar | Numeros Arrancar foot soldiers attacking | `drop/4-sometimes/token/minion_strike.png` |
+| Shiv | token | Shinigami | A Soul Reaper's small Asauchi blade | `drop/4-sometimes/token/shiv.png` |
+| Soul | token | Shinigami | A Plus soul being sent to Soul Society (Konso) | `drop/4-sometimes/token/soul.png` |
+| Sovereign Blade | token | Ichigo Kurosaki | Zangetsu's huge cleaver blade | `drop/4-sometimes/token/sovereign_blade.png` |
+| Sweeping Gaze | token | Ulquiorra Cifer | Ulquiorra's cold green eyes | `drop/4-sometimes/token/sweeping_gaze.png` |
 
 ## Wave 5: rarely (ancient, event, quest) (34 cards)
 
@@ -620,27 +620,27 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | The Sealed Throne | regent | Byakuya Kuchiki | Byakuya seated as Kuchiki clan head (ancient full-art) | `drop/5-rare/regent/the_sealed_throne.png` |
 | Forbidden Grimoire | necrobinder | Mayuri Kurotsuchi | Mayuri's secret research notes (ancient full-art) | `drop/5-rare/necrobinder/forbidden_grimoire.png` |
 | Protector | necrobinder | Nemu Kurotsuchi | Nemu protecting Mayuri from Pernida (ancient full-art) | `drop/5-rare/necrobinder/protector.png` |
-| Abundance | event |  | _suggestion coming_ | `drop/5-rare/event/abundance.png` |
-| Apotheosis | event |  | _suggestion coming_ | `drop/5-rare/event/apotheosis.png` |
-| Apparition | event |  | _suggestion coming_ | `drop/5-rare/event/apparition.png` |
-| Brightest Flame | event |  | _suggestion coming_ | `drop/5-rare/event/brightest_flame.png` |
-| Byrd Swoop | event |  | _suggestion coming_ | `drop/5-rare/event/byrd_swoop.png` |
-| Caltrops | event |  | _suggestion coming_ | `drop/5-rare/event/caltrops.png` |
-| Enlightenment | event |  | _suggestion coming_ | `drop/5-rare/event/enlightenment.png` |
-| Exterminate | event |  | _suggestion coming_ | `drop/5-rare/event/exterminate.png` |
-| Feeding Frenzy | event |  | _suggestion coming_ | `drop/5-rare/event/feeding_frenzy.png` |
-| Hello World | event |  | _suggestion coming_ | `drop/5-rare/event/hello_world.png` |
-| Maul | event |  | _suggestion coming_ | `drop/5-rare/event/maul.png` |
-| Metamorphosis | event |  | _suggestion coming_ | `drop/5-rare/event/metamorphosis.png` |
-| Neow's Fury | event |  | _suggestion coming_ | `drop/5-rare/event/neows_fury.png` |
-| Peck | event |  | _suggestion coming_ | `drop/5-rare/event/peck.png` |
-| Relax | event |  | _suggestion coming_ | `drop/5-rare/event/relax.png` |
-| Rip and Tear | event |  | _suggestion coming_ | `drop/5-rare/event/rip_and_tear.png` |
-| Squash | event |  | _suggestion coming_ | `drop/5-rare/event/squash.png` |
-| Toric Toughness | event |  | _suggestion coming_ | `drop/5-rare/event/toric_toughness.png` |
-| Whistle | event |  | _suggestion coming_ | `drop/5-rare/event/whistle.png` |
-| Wish | event |  | _suggestion coming_ | `drop/5-rare/event/wish.png` |
-| Byrdonis Egg | quest |  | _suggestion coming_ | `drop/5-rare/quest/byrdonis_egg.png` |
-| Dowsing | quest |  | _suggestion coming_ | `drop/5-rare/quest/dowsing.png` |
-| Lantern Key | quest |  | _suggestion coming_ | `drop/5-rare/quest/lantern_key.png` |
-| Spoils Map | quest |  | _suggestion coming_ | `drop/5-rare/quest/spoils_map.png` |
+| Abundance | event | Rangiku Matsumoto | Rangiku lounging with sake | `drop/5-rare/event/abundance.png` |
+| Apotheosis | event | Ichigo Kurosaki | Ichigo's final Bankai with new Zangetsu | `drop/5-rare/event/apotheosis.png` |
+| Apparition | event | Hollow | A Hollow mask appearing out of nowhere | `drop/5-rare/event/apparition.png` |
+| Brightest Flame | event | Genryusai Yamamoto | Ryujin Jakka's flames filling the sky | `drop/5-rare/event/brightest_flame.png` |
+| Byrd Swoop | event | Hollow | A bird-type Hollow swooping down | `drop/5-rare/event/byrd_swoop.png` |
+| Caltrops | event | Uryu Ishida | Uryu's Seele Schneider scattered on the ground | `drop/5-rare/event/caltrops.png` |
+| Enlightenment | event | Ichigo Kurosaki | Ichigo meeting old man Zangetsu in his inner world | `drop/5-rare/event/enlightenment.png` |
+| Exterminate | event | Uryu Ishida | Uryu's Quincy Letzt Stil | `drop/5-rare/event/exterminate.png` |
+| Feeding Frenzy | event | Hollow | A swarm of Hollows devouring souls | `drop/5-rare/event/feeding_frenzy.png` |
+| Hello World | event | Ichigo Kurosaki | Ichigo first gaining Soul Reaper powers from Rukia | `drop/5-rare/event/hello_world.png` |
+| Maul | event | Grimmjow Jaegerjaquez | Grimmjow's Pantera release tearing in | `drop/5-rare/event/maul.png` |
+| Metamorphosis | event | Ulquiorra Cifer | Ulquiorra's Segunda Etapa form | `drop/5-rare/event/metamorphosis.png` |
+| Neow's Fury | event | Ulquiorra Cifer | Ulquiorra's Lanza del Relampago | `drop/5-rare/event/neows_fury.png` |
+| Peck | event | Hollow | A small bird Hollow pecking | `drop/5-rare/event/peck.png` |
+| Relax | event | Shunsui Kyoraku | Shunsui napping with his straw hat over his face | `drop/5-rare/event/relax.png` |
+| Rip and Tear | event | Ichigo Kurosaki | Ichigo's Hollow form (Vasto Lorde) rampage | `drop/5-rare/event/rip_and_tear.png` |
+| Squash | event | Yasutora Sado (Chad) | Chad's El Directo smashing down | `drop/5-rare/event/squash.png` |
+| Toric Toughness | event | Nelliel Tu Odelschwanck | Nel's Ram horn lance | `drop/5-rare/event/toric_toughness.png` |
+| Whistle | event | Coyote Starrk | Starrk's wolf pack Los Lobos | `drop/5-rare/event/whistle.png` |
+| Wish | event | Orihime Inoue | Orihime holding the power to reject fate | `drop/5-rare/event/wish.png` |
+| Byrdonis Egg | quest | Hollow | A Hollow hatching from Hueco Mundo sand | `drop/5-rare/quest/byrdonis_egg.png` |
+| Dowsing | quest | Ichigo Kurosaki | Ichigo sensing reiatsu from afar | `drop/5-rare/quest/dowsing.png` |
+| Lantern Key | quest | Rukia Kuchiki | The Senkaimon gate opening | `drop/5-rare/quest/lantern_key.png` |
+| Spoils Map | quest | Hueco Mundo | A map of Las Noches | `drop/5-rare/quest/spoils_map.png` |
