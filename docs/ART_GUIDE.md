@@ -8,11 +8,11 @@ How to fill the mod with Bleach art. You collect the images yourself; this guide
 |---|---|---|
 | Ironclad | Kenpachi Zaraki | Berserker who loves taking hits: Strength, self-damage, Exhaust |
 | Silent | Soi Fon | Stealth-force assassin with a poison blade: Poison, Shivs, discard |
-| Defect | Mayuri Kurotsuchi | Mad scientist with gadgets: orbs |
-| Regent | Byakuya Kuchiki | Noble whose sword becomes countless blades: blade and stars |
-| Necrobinder | Sajin Komamura | His Bankai giant fights beside him: the Osty companion |
+| Defect | Not decided (Kisuke Urahara suggested) | Inventor with gadgets: orbs |
+| Regent | Byakuya Kuchiki | Noble whose Senbonzakura becomes countless blades: blade and stars |
+| Necrobinder | Mayuri Kurotsuchi, with Nemu as Osty | Mad scientist with a loyal companion: the Osty cards are Nemu |
 
-Not final until Bike confirms. Change `BLEACH_CHARACTER` in `tools/asset_map.py` and `data/bleach_matches.csv` to swap.
+Chosen by Bike. To swap, change `BLEACH_CHARACTER` in `tools/asset_map.py` and `data/bleach_matches.csv`, then rerun `tools/asset_map.py`, `tools/make_drop.py` and `tools/art_guide.py`.
 
 ## Where to look (official sources)
 
@@ -45,18 +45,18 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Neutralize | silent | Soi Fon | Soi Fon's Suzumebachi butterfly mark (Homonka) appearing on a target | `drop/1-every-run/silent/neutralize.png` |
 | Strike | silent | Soi Fon | Soi Fon lunging with Suzumebachi's stinger | `drop/1-every-run/silent/strike_silent.png` |
 | Survivor | silent | Soi Fon | Soi Fon crouched and recovering after a hit | `drop/1-every-run/silent/survivor.png` |
-| Defend | defect | Mayuri Kurotsuchi | Nemu stepping in front of Mayuri as a shield | `drop/1-every-run/defect/defend_defect.png` |
-| Dualcast | defect | Mayuri Kurotsuchi | Mayuri holding two syringes or test tubes | `drop/1-every-run/defect/dualcast.png` |
-| Strike | defect | Mayuri Kurotsuchi | Mayuri stabbing with Ashisogi Jizo | `drop/1-every-run/defect/strike_defect.png` |
-| Zap | defect | Mayuri Kurotsuchi | Mayuri firing a hidden gadget from his arm or hat | `drop/1-every-run/defect/zap.png` |
+| Defend | defect |  | _suggestion coming_ | `drop/1-every-run/defect/defend_defect.png` |
+| Dualcast | defect |  | _suggestion coming_ | `drop/1-every-run/defect/dualcast.png` |
+| Strike | defect |  | _suggestion coming_ | `drop/1-every-run/defect/strike_defect.png` |
+| Zap | defect |  | _suggestion coming_ | `drop/1-every-run/defect/zap.png` |
 | Defend | regent | Byakuya Kuchiki | Byakuya's Senbonzakura petals swirling into a shield | `drop/1-every-run/regent/defend_regent.png` |
 | Falling Star | regent | Byakuya Kuchiki | Senbonzakura petals raining down from above | `drop/1-every-run/regent/falling_star.png` |
 | Strike | regent | Byakuya Kuchiki | Byakuya drawing Senbonzakura in a single clean slash | `drop/1-every-run/regent/strike_regent.png` |
 | Venerate | regent | Byakuya Kuchiki | Byakuya standing calmly with his captain's haori and Kenseikan | `drop/1-every-run/regent/venerate.png` |
-| Bodyguard | necrobinder | Sajin Komamura | Kokujo Tengen Myo'o (the giant) standing guard behind Komamura | `drop/1-every-run/necrobinder/bodyguard.png` |
-| Defend | necrobinder | Sajin Komamura | Komamura blocking with Tenken's giant armored arm | `drop/1-every-run/necrobinder/defend_necrobinder.png` |
-| Strike | necrobinder | Sajin Komamura | Komamura swinging Tenken | `drop/1-every-run/necrobinder/strike_necrobinder.png` |
-| Unleash | necrobinder | Sajin Komamura | Komamura calling Bankai as the giant rises | `drop/1-every-run/necrobinder/unleash.png` |
+| Bodyguard | necrobinder | Nemu Kurotsuchi | Nemu standing guard beside Mayuri | `drop/1-every-run/necrobinder/bodyguard.png` |
+| Defend | necrobinder | Nemu Kurotsuchi | Nemu stepping in front of Mayuri as a shield | `drop/1-every-run/necrobinder/defend_necrobinder.png` |
+| Strike | necrobinder | Mayuri Kurotsuchi | Mayuri slashing with Ashisogi Jizo | `drop/1-every-run/necrobinder/strike_necrobinder.png` |
+| Unleash | necrobinder | Mayuri Kurotsuchi | Mayuri sending Nemu into battle | `drop/1-every-run/necrobinder/unleash.png` |
 | Beckon | status | Hollow | A Menos Grande reaching out of a Garganta | `drop/1-every-run/status/beckon.png` |
 | Burn | status | Hollow | A Cero blast scorching the ground | `drop/1-every-run/status/burn.png` |
 | Dazed | status | Shinigami | A Soul Reaper staggered by overwhelming spiritual pressure | `drop/1-every-run/status/dazed.png` |
@@ -117,26 +117,26 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Snakebite | silent | Soi Fon | Close-up of the stinger tip | `drop/2-most-runs/silent/snakebite.png` |
 | Sucker Punch | silent | Soi Fon | Soi Fon's surprise hand-to-hand blow (Hakuda) | `drop/2-most-runs/silent/sucker_punch.png` |
 | Untouchable | silent | Soi Fon | Soi Fon with Shunko lightning around her shoulders | `drop/2-most-runs/silent/untouchable.png` |
-| Ball Lightning | defect | Mayuri Kurotsuchi | Mayuri releasing a glowing experimental device | `drop/2-most-runs/defect/ball_lightning.png` |
-| Barrage | defect | Mayuri Kurotsuchi | Mayuri's gadgets firing multiple shots | `drop/2-most-runs/defect/barrage.png` |
-| Beam Cell | defect | Mayuri Kurotsuchi | A beam from Mayuri's lab equipment | `drop/2-most-runs/defect/beam_cell.png` |
-| Boost Away | defect | Mayuri Kurotsuchi | Mayuri escaping on a contraption | `drop/2-most-runs/defect/boost_away.png` |
-| Charge Battery | defect | Mayuri Kurotsuchi | Mayuri's lab with sparking machines | `drop/2-most-runs/defect/charge_battery.png` |
-| Claw | defect | Mayuri Kurotsuchi | Mayuri's extending arm or blade fingers | `drop/2-most-runs/defect/claw.png` |
-| Cold Snap | defect | Mayuri Kurotsuchi | Mayuri freezing a specimen | `drop/2-most-runs/defect/cold_snap.png` |
-| Compile Driver | defect | Mayuri Kurotsuchi | Mayuri typing at his giant computer console | `drop/2-most-runs/defect/compile_driver.png` |
-| Coolheaded | defect | Mayuri Kurotsuchi | Mayuri calm and smug with arms folded | `drop/2-most-runs/defect/coolheaded.png` |
-| Focused Strike | defect | Mayuri Kurotsuchi | Mayuri's precise Ashisogi Jizo thrust | `drop/2-most-runs/defect/focused_strike.png` |
-| Go for the Eyes | defect | Mayuri Kurotsuchi | Close-up of Mayuri's yellow eyes | `drop/2-most-runs/defect/go_for_the_eyes.png` |
-| Gunk Up | defect | Mayuri Kurotsuchi | Mayuri's sticky paralysis fluid | `drop/2-most-runs/defect/gunk_up.png` |
-| Hologram | defect | Mayuri Kurotsuchi | A decoy or clone made by Mayuri | `drop/2-most-runs/defect/hologram.png` |
-| Hotfix | defect | Mayuri Kurotsuchi | Mayuri repairing himself with a pill or injection | `drop/2-most-runs/defect/hotfix.png` |
-| Leap | defect | Mayuri Kurotsuchi | Mayuri springing out of hiding | `drop/2-most-runs/defect/leap.png` |
-| Lightning Rod | defect | Mayuri Kurotsuchi | Mayuri's hat antenna or headpiece crackling | `drop/2-most-runs/defect/lightning_rod.png` |
-| Momentum Strike | defect | Mayuri Kurotsuchi | Mayuri charging in with blade raised | `drop/2-most-runs/defect/momentum_strike.png` |
-| Sweeping Beam | defect | Mayuri Kurotsuchi | Konjiki Ashisogi Jizo spraying poison breath | `drop/2-most-runs/defect/sweeping_beam.png` |
-| TURBO | defect | Mayuri Kurotsuchi | Mayuri injecting a super-drug | `drop/2-most-runs/defect/turbo.png` |
-| Uproar | defect | Mayuri Kurotsuchi | Mayuri laughing maniacally | `drop/2-most-runs/defect/uproar.png` |
+| Ball Lightning | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/ball_lightning.png` |
+| Barrage | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/barrage.png` |
+| Beam Cell | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/beam_cell.png` |
+| Boost Away | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/boost_away.png` |
+| Charge Battery | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/charge_battery.png` |
+| Claw | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/claw.png` |
+| Cold Snap | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/cold_snap.png` |
+| Compile Driver | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/compile_driver.png` |
+| Coolheaded | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/coolheaded.png` |
+| Focused Strike | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/focused_strike.png` |
+| Go for the Eyes | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/go_for_the_eyes.png` |
+| Gunk Up | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/gunk_up.png` |
+| Hologram | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/hologram.png` |
+| Hotfix | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/hotfix.png` |
+| Leap | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/leap.png` |
+| Lightning Rod | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/lightning_rod.png` |
+| Momentum Strike | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/momentum_strike.png` |
+| Sweeping Beam | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/sweeping_beam.png` |
+| TURBO | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/turbo.png` |
+| Uproar | defect |  | _suggestion coming_ | `drop/2-most-runs/defect/uproar.png` |
 | Astral Pulse | regent | Byakuya Kuchiki | Senbonzakura petals pulsing outward | `drop/2-most-runs/regent/astral_pulse.png` |
 | BEGONE! | regent | Byakuya Kuchiki | Byakuya dismissing an enemy with his back turned | `drop/2-most-runs/regent/begone.png` |
 | Celestial Might | regent | Byakuya Kuchiki | Senbonzakura Kageyoshi's thousand blades rising | `drop/2-most-runs/regent/celestial_might.png` |
@@ -157,221 +157,221 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Solar Strike | regent | Byakuya Kuchiki | Byakuya's bright overhead slash | `drop/2-most-runs/regent/solar_strike.png` |
 | Spoils of Battle | regent | Byakuya Kuchiki | Byakuya after victory sheathing his sword | `drop/2-most-runs/regent/spoils_of_battle.png` |
 | Wrought in War | regent | Byakuya Kuchiki | Byakuya's Bankai blades forged into a single sword | `drop/2-most-runs/regent/wrought_in_war.png` |
-| Afterlife | necrobinder | Sajin Komamura | Komamura's wolf face revealed without the helmet | `drop/2-most-runs/necrobinder/afterlife.png` |
-| Blight Strike | necrobinder | Sajin Komamura | Komamura striking with Tenken | `drop/2-most-runs/necrobinder/blight_strike.png` |
-| Defile | necrobinder | Sajin Komamura | Komamura in Humanity Technique (beast) form | `drop/2-most-runs/necrobinder/defile.png` |
-| Defy | necrobinder | Sajin Komamura | Komamura standing against Tosen | `drop/2-most-runs/necrobinder/defy.png` |
-| Drain Power | necrobinder | Sajin Komamura | The giant's armor cracking as Komamura weakens | `drop/2-most-runs/necrobinder/drain_power.png` |
-| Fear | necrobinder | Sajin Komamura | The giant looming over a small enemy | `drop/2-most-runs/necrobinder/fear.png` |
-| Flatten | necrobinder | Sajin Komamura | Kokujo Tengen Myo'o crushing the ground with its sword | `drop/2-most-runs/necrobinder/flatten.png` |
-| Grave Warden | necrobinder | Sajin Komamura | The giant standing like a temple guardian | `drop/2-most-runs/necrobinder/grave_warden.png` |
-| Graveblast | necrobinder | Sajin Komamura | Tenken's giant sword slamming down | `drop/2-most-runs/necrobinder/graveblast.png` |
-| Invoke | necrobinder | Sajin Komamura | Komamura chanting his Shikai command | `drop/2-most-runs/necrobinder/invoke.png` |
-| Negative Pulse | necrobinder | Sajin Komamura | A dark reiatsu shockwave around Komamura | `drop/2-most-runs/necrobinder/negative_pulse.png` |
-| Poke | necrobinder | Sajin Komamura | Gonryomaru (Komamura's dog) nudging him | `drop/2-most-runs/necrobinder/poke.png` |
-| Pull Aggro | necrobinder | Sajin Komamura | Komamura roaring to draw an enemy's attention | `drop/2-most-runs/necrobinder/pull_aggro.png` |
-| Reap | necrobinder | Sajin Komamura | The giant's huge horizontal sword sweep | `drop/2-most-runs/necrobinder/reap.png` |
-| Reave | necrobinder | Sajin Komamura | Tenken's giant claw tearing through | `drop/2-most-runs/necrobinder/reave.png` |
-| Scourge | necrobinder | Sajin Komamura | Komamura's angry wolf snarl | `drop/2-most-runs/necrobinder/scourge.png` |
-| Sculpting Strike | necrobinder | Sajin Komamura | The giant's armor being formed | `drop/2-most-runs/necrobinder/sculpting_strike.png` |
-| Snap | necrobinder | Sajin Komamura | The giant's fist snapping shut | `drop/2-most-runs/necrobinder/snap.png` |
-| Sow | necrobinder | Sajin Komamura | Komamura kneeling at a grave (Tosen's memory) | `drop/2-most-runs/necrobinder/sow.png` |
-| Wisp | necrobinder | Sajin Komamura | A spirit wisp (soul) drifting in Soul Society | `drop/2-most-runs/necrobinder/wisp.png` |
+| Afterlife | necrobinder | Mayuri Kurotsuchi | Mayuri reassembling himself after being destroyed | `drop/2-most-runs/necrobinder/afterlife.png` |
+| Blight Strike | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo's paralysing poison cut | `drop/2-most-runs/necrobinder/blight_strike.png` |
+| Defile | necrobinder | Mayuri Kurotsuchi | Mayuri experimenting on a captured specimen | `drop/2-most-runs/necrobinder/defile.png` |
+| Defy | necrobinder | Mayuri Kurotsuchi | Mayuri sneering at an opponent (vs Szayelaporro) | `drop/2-most-runs/necrobinder/defy.png` |
+| Drain Power | necrobinder | Mayuri Kurotsuchi | Mayuri's drug slowing an enemy's senses | `drop/2-most-runs/necrobinder/drain_power.png` |
+| Fear | necrobinder | Mayuri Kurotsuchi | Mayuri's grinning mask face in shadow | `drop/2-most-runs/necrobinder/fear.png` |
+| Flatten | necrobinder | Nemu Kurotsuchi | Nemu's crushing punch (vs Pernida) | `drop/2-most-runs/necrobinder/flatten.png` |
+| Grave Warden | necrobinder | Nemu Kurotsuchi | Nemu waiting silently in the lab | `drop/2-most-runs/necrobinder/grave_warden.png` |
+| Graveblast | necrobinder | Mayuri Kurotsuchi | Konjiki Ashisogi Jizo spraying poison | `drop/2-most-runs/necrobinder/graveblast.png` |
+| Invoke | necrobinder | Mayuri Kurotsuchi | Mayuri calling out Bankai | `drop/2-most-runs/necrobinder/invoke.png` |
+| Negative Pulse | necrobinder | Mayuri Kurotsuchi | Mayuri's lab equipment releasing a shockwave | `drop/2-most-runs/necrobinder/negative_pulse.png` |
+| Poke | necrobinder | Nemu Kurotsuchi | Nemu poking at something with blank curiosity | `drop/2-most-runs/necrobinder/poke.png` |
+| Pull Aggro | necrobinder | Nemu Kurotsuchi | Nemu drawing an enemy away from Mayuri | `drop/2-most-runs/necrobinder/pull_aggro.png` |
+| Reap | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo's wide sweeping slash | `drop/2-most-runs/necrobinder/reap.png` |
+| Reave | necrobinder | Mayuri Kurotsuchi | Mayuri's blade tearing through a target | `drop/2-most-runs/necrobinder/reave.png` |
+| Scourge | necrobinder | Mayuri Kurotsuchi | Mayuri injecting an enemy | `drop/2-most-runs/necrobinder/scourge.png` |
+| Sculpting Strike | necrobinder | Mayuri Kurotsuchi | Mayuri modifying his own body | `drop/2-most-runs/necrobinder/sculpting_strike.png` |
+| Snap | necrobinder | Nemu Kurotsuchi | Nemu snapping an enemy's arm | `drop/2-most-runs/necrobinder/snap.png` |
+| Sow | necrobinder | Mayuri Kurotsuchi | Mayuri planting a bomb or seed in a body | `drop/2-most-runs/necrobinder/sow.png` |
+| Wisp | necrobinder | Nemu Kurotsuchi | Nemu's soul-like Gigai body glowing | `drop/2-most-runs/necrobinder/wisp.png` |
 
 ## Wave 3: often (uncommons) (230 cards)
 
 | Card | Pool | Bleach | Look for | File |
 |---|---|---|---|---|
-| Ashen Strike | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/ashen_strike.png` |
-| Battle Trance | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/battle_trance.png` |
-| Bloodletting | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/bloodletting.png` |
-| Bludgeon | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/bludgeon.png` |
-| Bully | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/bully.png` |
-| Burning Pact | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/burning_pact.png` |
-| Colossus | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/colossus.png` |
-| Cruelty | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/cruelty.png` |
-| Demonic Shield | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/demonic_shield.png` |
-| Dismantle | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/dismantle.png` |
-| Drum of Battle | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/drum_of_battle.png` |
-| Evil Eye | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/evil_eye.png` |
-| Expect a Fight | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/expect_a_fight.png` |
-| Feel No Pain | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/feel_no_pain.png` |
-| Fight Me! | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/fight_me.png` |
-| Flame Barrier | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/flame_barrier.png` |
-| Forgotten Ritual | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/forgotten_ritual.png` |
-| Hemokinesis | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/hemokinesis.png` |
-| Howl from Beyond | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/howl_from_beyond.png` |
-| Infernal Blade | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/infernal_blade.png` |
-| Inferno | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/inferno.png` |
-| Inflame | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/inflame.png` |
-| Juggling | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/juggling.png` |
-| Pillage | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/pillage.png` |
-| Rage | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/rage.png` |
-| Rampage | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/rampage.png` |
-| Rupture | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/rupture.png` |
-| Second Wind | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/second_wind.png` |
-| Spite | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/spite.png` |
-| Stampede | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/stampede.png` |
-| Stomp | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/stomp.png` |
-| Stone Armor | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/stone_armor.png` |
-| Unrelenting | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/unrelenting.png` |
-| Uppercut | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/uppercut.png` |
-| Vicious | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/vicious.png` |
-| Whirlwind | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/3-often/ironclad/whirlwind.png` |
-| Accelerant | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/accelerant.png` |
-| Accuracy | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/accuracy.png` |
-| Acrobatics | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/acrobatics.png` |
-| Backstab | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/backstab.png` |
-| Blade Symphony | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/blade_symphony.png` |
-| Blur | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/blur.png` |
-| Bouncing Flask | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/bouncing_flask.png` |
-| Bubble Bubble | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/bubble_bubble.png` |
-| Calculated Gamble | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/calculated_gamble.png` |
-| Concoct | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/concoct.png` |
-| Dash | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/dash.png` |
-| Echoing Slash | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/echoing_slash.png` |
-| Escape Plan | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/escape_plan.png` |
-| Expertise | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/expertise.png` |
-| Expose | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/expose.png` |
-| Fade | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/fade.png` |
-| Finisher | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/finisher.png` |
-| Flechettes | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/flechettes.png` |
-| Footwork | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/footwork.png` |
-| Hand Trick | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/hand_trick.png` |
-| Haze | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/haze.png` |
-| Hidden Daggers | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/hidden_daggers.png` |
-| Infinite Blades | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/infinite_blades.png` |
-| Leg Sweep | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/leg_sweep.png` |
-| Memento Mori | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/memento_mori.png` |
-| Mirage | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/mirage.png` |
-| Noxious Fumes | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/noxious_fumes.png` |
-| Phantom Blades | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/phantom_blades.png` |
-| Pinpoint | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/pinpoint.png` |
-| Pounce | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/pounce.png` |
-| Precise Cut | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/precise_cut.png` |
-| Reflex | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/reflex.png` |
-| Skewer | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/skewer.png` |
-| Speedster | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/speedster.png` |
-| Strangle | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/strangle.png` |
-| Tactician | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/tactician.png` |
-| Up My Sleeve | silent | Soi Fon | _suggestion coming_ | `drop/3-often/silent/up_my_sleeve.png` |
-| Boot Sequence | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/boot_sequence.png` |
-| Bulk Up | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/bulk_up.png` |
-| Capacitor | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/capacitor.png` |
-| Chaos | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/chaos.png` |
-| Chill | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/chill.png` |
-| Compact | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/compact.png` |
-| Darkness | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/darkness.png` |
-| Double Energy | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/double_energy.png` |
-| Energy Surge | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/energy_surge.png` |
-| FTL | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/ftl.png` |
-| Feral | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/feral.png` |
-| Fight Through | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/fight_through.png` |
-| Fusion | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/fusion.png` |
-| Genetic Algorithm | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/genetic_algorithm.png` |
-| Glacier | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/glacier.png` |
-| Glasswork | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/glasswork.png` |
-| Hailstorm | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/hailstorm.png` |
-| Hibernate | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/hibernate.png` |
-| Ignition | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/ignition.png` |
-| Iteration | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/iteration.png` |
-| Loop | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/loop.png` |
-| Null | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/null.png` |
-| Overclock | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/overclock.png` |
-| Refract | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/refract.png` |
-| Rocket Punch | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/rocket_punch.png` |
-| Scavenge | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/scavenge.png` |
-| Scrape | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/scrape.png` |
-| Shadow Shield | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/shadow_shield.png` |
-| Skim | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/skim.png` |
-| Smokestack | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/smokestack.png` |
-| Storm | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/storm.png` |
-| Subroutine | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/subroutine.png` |
-| Sunder | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/sunder.png` |
-| Synchronize | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/synchronize.png` |
-| Synthesis | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/synthesis.png` |
-| Tempest | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/tempest.png` |
-| Tesla Coil | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/tesla_coil.png` |
-| Thunder | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/thunder.png` |
-| White Noise | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/3-often/defect/white_noise.png` |
-| Alignment | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/alignment.png` |
-| Black Hole | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/black_hole.png` |
-| Bulwark | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/bulwark.png` |
-| CHARGE!! | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/charge.png` |
-| Child of the Stars | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/child_of_the_stars.png` |
-| Conqueror | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/conqueror.png` |
-| Constellation | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/constellation.png` |
-| Convergence | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/convergence.png` |
-| Devastate | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/devastate.png` |
-| Furnace | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/furnace.png` |
-| Gamma Blast | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/gamma_blast.png` |
-| Glimmer | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/glimmer.png` |
-| Hegemony | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/hegemony.png` |
-| Kingly Kick | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/kingly_kick.png` |
-| Kingly Punch | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/kingly_punch.png` |
-| Knockout Blow | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/knockout_blow.png` |
-| Largesse | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/largesse.png` |
-| Lunar Blast | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/lunar_blast.png` |
-| Manifest Authority | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/manifest_authority.png` |
-| Monologue | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/monologue.png` |
-| Orbit | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/orbit.png` |
-| Pale Blue Dot | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/pale_blue_dot.png` |
-| Parry | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/parry.png` |
-| Particle Wall | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/particle_wall.png` |
-| Pillar of Creation | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/pillar_of_creation.png` |
-| Plot | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/plot.png` |
-| Prophesize | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/prophesize.png` |
-| Quasar | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/quasar.png` |
-| Radiate | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/radiate.png` |
-| Reflect | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/reflect.png` |
-| Reserves | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/reserves.png` |
-| Resonance | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/resonance.png` |
-| Royal Gamble | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/royal_gamble.png` |
-| Shining Strike | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/shining_strike.png` |
-| Spectrum Shift | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/spectrum_shift.png` |
-| Stardust | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/stardust.png` |
-| Summon Forth | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/summon_forth.png` |
-| Supermassive | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/supermassive.png` |
-| Terraforming | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/3-often/regent/terraforming.png` |
-| Bone Shards | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/bone_shards.png` |
-| Borrowed Time | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/borrowed_time.png` |
-| Bury | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/bury.png` |
-| Calcify | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/calcify.png` |
-| Capture Spirit | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/capture_spirit.png` |
-| Cleanse | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/cleanse.png` |
-| Countdown | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/countdown.png` |
-| Danse Macabre | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/danse_macabre.png` |
-| Death March | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/death_march.png` |
-| Death's Door | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/deaths_door.png` |
-| Deathbringer | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/deathbringer.png` |
-| Debilitate | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/debilitate.png` |
-| Delay | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/delay.png` |
-| Dirge | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/dirge.png` |
-| Dredge | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/dredge.png` |
-| Enfeebling Touch | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/enfeebling_touch.png` |
-| Fetch | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/fetch.png` |
-| Friendship | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/friendship.png` |
-| Haunt | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/haunt.png` |
-| High Five | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/high_five.png` |
-| Legion of Bone | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/legion_of_bone.png` |
-| Lethality | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/lethality.png` |
-| Melancholy | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/melancholy.png` |
-| No Escape | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/no_escape.png` |
-| Pagestorm | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/pagestorm.png` |
-| Parse | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/parse.png` |
-| Pull from Below | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/pull_from_below.png` |
-| Putrefy | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/putrefy.png` |
-| Rattle | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/rattle.png` |
-| Right Hand Hand | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/right_hand_hand.png` |
-| Scavenge | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/scavenge.png` |
-| Severance | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/severance.png` |
-| Shroud | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/shroud.png` |
-| Sic 'Em | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/sic_em.png` |
-| Sleight of Flesh | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/sleight_of_flesh.png` |
-| Soulbound | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/soulbound.png` |
-| Spur | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/spur.png` |
-| Underworld | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/underworld.png` |
-| Veilpiercer | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/3-often/necrobinder/veilpiercer.png` |
+| Ashen Strike | ironclad | Kenpachi Zaraki | Kenpachi's slash leaving a trail of dust and rubble | `drop/3-often/ironclad/ashen_strike.png` |
+| Battle Trance | ironclad | Kenpachi Zaraki | Kenpachi grinning wide-eyed mid-fight | `drop/3-often/ironclad/battle_trance.png` |
+| Bloodletting | ironclad | Kenpachi Zaraki | Kenpachi cutting his own arm in the Unohana fight | `drop/3-often/ironclad/bloodletting.png` |
+| Bludgeon | ironclad | Kenpachi Zaraki | Kenpachi smashing down with Nozarashi's giant cleaver | `drop/3-often/ironclad/bludgeon.png` |
+| Bully | ironclad | Kenpachi Zaraki | Kenpachi towering over a cowering Hollow | `drop/3-often/ironclad/bully.png` |
+| Burning Pact | ironclad | Kenpachi Zaraki | Kenpachi's reiatsu blazing red during his Bankai | `drop/3-often/ironclad/burning_pact.png` |
+| Colossus | ironclad | Kenpachi Zaraki | Kenpachi standing unmoved as giant enemies close in | `drop/3-often/ironclad/colossus.png` |
+| Cruelty | ironclad | Kenpachi Zaraki | Kenpachi's evil grin covered in an enemy's blood | `drop/3-often/ironclad/cruelty.png` |
+| Demonic Shield | ironclad | Kenpachi Zaraki | Kenpachi's skull-shaped spiritual pressure surrounding him | `drop/3-often/ironclad/demonic_shield.png` |
+| Dismantle | ironclad | Kenpachi Zaraki | Kenpachi cutting Nnoitra's weapon apart | `drop/3-often/ironclad/dismantle.png` |
+| Drum of Battle | ironclad | Kenpachi Zaraki | The bells in Kenpachi's hair ringing as he charges | `drop/3-often/ironclad/drum_of_battle.png` |
+| Evil Eye | ironclad | Kenpachi Zaraki | Close-up of Kenpachi's single exposed eye | `drop/3-often/ironclad/evil_eye.png` |
+| Expect a Fight | ironclad | Kenpachi Zaraki | Kenpachi walking into a battlefield with sword on shoulder | `drop/3-often/ironclad/expect_a_fight.png` |
+| Feel No Pain | ironclad | Kenpachi Zaraki | Kenpachi impaled but still smiling | `drop/3-often/ironclad/feel_no_pain.png` |
+| Fight Me! | ironclad | Kenpachi Zaraki | Kenpachi calling out Ichigo to fight | `drop/3-often/ironclad/fight_me.png` |
+| Flame Barrier | ironclad | Kenpachi Zaraki | Kenpachi's reiatsu flaring like fire around him | `drop/3-often/ironclad/flame_barrier.png` |
+| Forgotten Ritual | ironclad | Kenpachi Zaraki | Unohana teaching Kenpachi in the Muken prison | `drop/3-often/ironclad/forgotten_ritual.png` |
+| Hemokinesis | ironclad | Kenpachi Zaraki | Kenpachi attacking while bleeding heavily | `drop/3-often/ironclad/hemokinesis.png` |
+| Howl from Beyond | ironclad | Kenpachi Zaraki | Kenpachi's Bankai roar (monstrous red form) | `drop/3-often/ironclad/howl_from_beyond.png` |
+| Infernal Blade | ironclad | Kenpachi Zaraki | Nozarashi released as a giant cleaver | `drop/3-often/ironclad/infernal_blade.png` |
+| Inferno | ironclad | Kenpachi Zaraki | Kenpachi's Bankai red reiatsu engulfing everything | `drop/3-often/ironclad/inferno.png` |
+| Inflame | ironclad | Kenpachi Zaraki | Kenpachi's spiritual pressure surging upward | `drop/3-often/ironclad/inflame.png` |
+| Juggling | ironclad | Kenpachi Zaraki | Yachiru bouncing on Kenpachi's shoulders | `drop/3-often/ironclad/juggling.png` |
+| Pillage | ironclad | Squad 11 | Squad 11 members raiding a battlefield | `drop/3-often/ironclad/pillage.png` |
+| Rage | ironclad | Kenpachi Zaraki | Kenpachi furious after losing the eyepatch limiter | `drop/3-often/ironclad/rage.png` |
+| Rampage | ironclad | Kenpachi Zaraki | Kenpachi hacking through a crowd of enemies | `drop/3-often/ironclad/rampage.png` |
+| Rupture | ironclad | Kenpachi Zaraki | Kenpachi's wounds bursting open as his power rises | `drop/3-often/ironclad/rupture.png` |
+| Second Wind | ironclad | Kenpachi Zaraki | Kenpachi getting back up after being cut down | `drop/3-often/ironclad/second_wind.png` |
+| Spite | ironclad | Kenpachi Zaraki | Kenpachi vs Kaname Tosen (blinded and still swinging) | `drop/3-often/ironclad/spite.png` |
+| Stampede | ironclad | Squad 11 | Squad 11 charging together | `drop/3-often/ironclad/stampede.png` |
+| Stomp | ironclad | Kenpachi Zaraki | Kenpachi stamping a crater into the ground | `drop/3-often/ironclad/stomp.png` |
+| Stone Armor | ironclad | Kenpachi Zaraki | A blade snapping on Kenpachi's skin | `drop/3-often/ironclad/stone_armor.png` |
+| Unrelenting | ironclad | Kenpachi Zaraki | Kenpachi swinging over and over at Unohana | `drop/3-often/ironclad/unrelenting.png` |
+| Uppercut | ironclad | Kenpachi Zaraki | Kenpachi's rising slash launching an enemy | `drop/3-often/ironclad/uppercut.png` |
+| Vicious | ironclad | Kenpachi Zaraki | Kenpachi's bloodthirsty laugh | `drop/3-often/ironclad/vicious.png` |
+| Whirlwind | ironclad | Kenpachi Zaraki | Kenpachi spinning with his sword in a full circle | `drop/3-often/ironclad/whirlwind.png` |
+| Accelerant | silent | Soi Fon | Suzumebachi poison spreading through a target | `drop/3-often/silent/accelerant.png` |
+| Accuracy | silent | Soi Fon | Soi Fon aiming her stinger at the butterfly mark | `drop/3-often/silent/accuracy.png` |
+| Acrobatics | silent | Soi Fon | Soi Fon flipping between rooftops | `drop/3-often/silent/acrobatics.png` |
+| Backstab | silent | Soi Fon | Soi Fon appearing behind an enemy with Shunpo | `drop/3-often/silent/backstab.png` |
+| Blade Symphony | silent | Onmitsukido | Stealth Force squad attacking in formation | `drop/3-often/silent/blade_symphony.png` |
+| Blur | silent | Soi Fon | Soi Fon as a blur of afterimages | `drop/3-often/silent/blur.png` |
+| Bouncing Flask | silent | Marechiyo Omaeda | Omaeda's spiked flail (Gegetsuburi) bouncing | `drop/3-often/silent/bouncing_flask.png` |
+| Bubble Bubble | silent | Marechiyo Omaeda | Omaeda blowing a bubble or eating snacks | `drop/3-often/silent/bubble_bubble.png` |
+| Calculated Gamble | silent | Soi Fon | Soi Fon weighing whether to use Bankai | `drop/3-often/silent/calculated_gamble.png` |
+| Concoct | silent | Soi Fon | Soi Fon mixing a poison in the Onmitsukido | `drop/3-often/silent/concoct.png` |
+| Dash | silent | Soi Fon | Soi Fon dashing with Shunpo | `drop/3-often/silent/dash.png` |
+| Echoing Slash | silent | Soi Fon | Soi Fon's afterimages all striking at once | `drop/3-often/silent/echoing_slash.png` |
+| Escape Plan | silent | Soi Fon | Soi Fon vanishing in a puff of Shunpo | `drop/3-often/silent/escape_plan.png` |
+| Expertise | silent | Yoruichi Shihoin | Yoruichi training young Soi Fon | `drop/3-often/silent/expertise.png` |
+| Expose | silent | Soi Fon | Soi Fon tearing off her haori to reveal Shunko | `drop/3-often/silent/expose.png` |
+| Fade | silent | Soi Fon | Soi Fon fading into shadow | `drop/3-often/silent/fade.png` |
+| Finisher | silent | Soi Fon | Soi Fon's second sting on the butterfly mark (Nigeki Kessatsu) | `drop/3-often/silent/finisher.png` |
+| Flechettes | silent | Soi Fon | A spread of small blades from Soi Fon's sleeve | `drop/3-often/silent/flechettes.png` |
+| Footwork | silent | Soi Fon | Soi Fon's Shunpo footwork close-up | `drop/3-often/silent/footwork.png` |
+| Hand Trick | silent | Soi Fon | Soi Fon's Hakuda hand strike | `drop/3-often/silent/hand_trick.png` |
+| Haze | silent | Soi Fon | Soi Fon hidden in smoke | `drop/3-often/silent/haze.png` |
+| Hidden Daggers | silent | Soi Fon | Kunai hidden in Soi Fon's sleeves | `drop/3-often/silent/hidden_daggers.png` |
+| Infinite Blades | silent | Onmitsukido | Endless kunai raining down | `drop/3-often/silent/infinite_blades.png` |
+| Leg Sweep | silent | Soi Fon | Soi Fon's low sweeping kick | `drop/3-often/silent/leg_sweep.png` |
+| Memento Mori | silent | Soi Fon | The butterfly death mark (Homonka) | `drop/3-often/silent/memento_mori.png` |
+| Mirage | silent | Soi Fon | Soi Fon's Utsusemi afterimage decoy | `drop/3-often/silent/mirage.png` |
+| Noxious Fumes | silent | Soi Fon | Purple poison mist around Suzumebachi | `drop/3-often/silent/noxious_fumes.png` |
+| Phantom Blades | silent | Soi Fon | Ghostly copies of Soi Fon's stinger | `drop/3-often/silent/phantom_blades.png` |
+| Pinpoint | silent | Soi Fon | Soi Fon stabbing a precise pressure point | `drop/3-often/silent/pinpoint.png` |
+| Pounce | silent | Soi Fon | Soi Fon leaping down onto an enemy | `drop/3-often/silent/pounce.png` |
+| Precise Cut | silent | Soi Fon | Soi Fon's single clean cut | `drop/3-often/silent/precise_cut.png` |
+| Reflex | silent | Soi Fon | Soi Fon catching a blade between her fingers | `drop/3-often/silent/reflex.png` |
+| Skewer | silent | Soi Fon | Soi Fon piercing through an enemy | `drop/3-often/silent/skewer.png` |
+| Speedster | silent | Soi Fon | Soi Fon's Shunpo speed lines | `drop/3-often/silent/speedster.png` |
+| Strangle | silent | Soi Fon | Soi Fon pinning Ggio Vega | `drop/3-often/silent/strangle.png` |
+| Tactician | silent | Soi Fon | Soi Fon giving Stealth Force orders | `drop/3-often/silent/tactician.png` |
+| Up My Sleeve | silent | Soi Fon | Soi Fon hiding a blade in her sleeve | `drop/3-often/silent/up_my_sleeve.png` |
+| Boot Sequence | defect |  | _suggestion coming_ | `drop/3-often/defect/boot_sequence.png` |
+| Bulk Up | defect |  | _suggestion coming_ | `drop/3-often/defect/bulk_up.png` |
+| Capacitor | defect |  | _suggestion coming_ | `drop/3-often/defect/capacitor.png` |
+| Chaos | defect |  | _suggestion coming_ | `drop/3-often/defect/chaos.png` |
+| Chill | defect |  | _suggestion coming_ | `drop/3-often/defect/chill.png` |
+| Compact | defect |  | _suggestion coming_ | `drop/3-often/defect/compact.png` |
+| Darkness | defect |  | _suggestion coming_ | `drop/3-often/defect/darkness.png` |
+| Double Energy | defect |  | _suggestion coming_ | `drop/3-often/defect/double_energy.png` |
+| Energy Surge | defect |  | _suggestion coming_ | `drop/3-often/defect/energy_surge.png` |
+| FTL | defect |  | _suggestion coming_ | `drop/3-often/defect/ftl.png` |
+| Feral | defect |  | _suggestion coming_ | `drop/3-often/defect/feral.png` |
+| Fight Through | defect |  | _suggestion coming_ | `drop/3-often/defect/fight_through.png` |
+| Fusion | defect |  | _suggestion coming_ | `drop/3-often/defect/fusion.png` |
+| Genetic Algorithm | defect |  | _suggestion coming_ | `drop/3-often/defect/genetic_algorithm.png` |
+| Glacier | defect |  | _suggestion coming_ | `drop/3-often/defect/glacier.png` |
+| Glasswork | defect |  | _suggestion coming_ | `drop/3-often/defect/glasswork.png` |
+| Hailstorm | defect |  | _suggestion coming_ | `drop/3-often/defect/hailstorm.png` |
+| Hibernate | defect |  | _suggestion coming_ | `drop/3-often/defect/hibernate.png` |
+| Ignition | defect |  | _suggestion coming_ | `drop/3-often/defect/ignition.png` |
+| Iteration | defect |  | _suggestion coming_ | `drop/3-often/defect/iteration.png` |
+| Loop | defect |  | _suggestion coming_ | `drop/3-often/defect/loop.png` |
+| Null | defect |  | _suggestion coming_ | `drop/3-often/defect/null.png` |
+| Overclock | defect |  | _suggestion coming_ | `drop/3-often/defect/overclock.png` |
+| Refract | defect |  | _suggestion coming_ | `drop/3-often/defect/refract.png` |
+| Rocket Punch | defect |  | _suggestion coming_ | `drop/3-often/defect/rocket_punch.png` |
+| Scavenge | defect |  | _suggestion coming_ | `drop/3-often/defect/scavenge.png` |
+| Scrape | defect |  | _suggestion coming_ | `drop/3-often/defect/scrape.png` |
+| Shadow Shield | defect |  | _suggestion coming_ | `drop/3-often/defect/shadow_shield.png` |
+| Skim | defect |  | _suggestion coming_ | `drop/3-often/defect/skim.png` |
+| Smokestack | defect |  | _suggestion coming_ | `drop/3-often/defect/smokestack.png` |
+| Storm | defect |  | _suggestion coming_ | `drop/3-often/defect/storm.png` |
+| Subroutine | defect |  | _suggestion coming_ | `drop/3-often/defect/subroutine.png` |
+| Sunder | defect |  | _suggestion coming_ | `drop/3-often/defect/sunder.png` |
+| Synchronize | defect |  | _suggestion coming_ | `drop/3-often/defect/synchronize.png` |
+| Synthesis | defect |  | _suggestion coming_ | `drop/3-often/defect/synthesis.png` |
+| Tempest | defect |  | _suggestion coming_ | `drop/3-often/defect/tempest.png` |
+| Tesla Coil | defect |  | _suggestion coming_ | `drop/3-often/defect/tesla_coil.png` |
+| Thunder | defect |  | _suggestion coming_ | `drop/3-often/defect/thunder.png` |
+| White Noise | defect |  | _suggestion coming_ | `drop/3-often/defect/white_noise.png` |
+| Alignment | regent | Byakuya Kuchiki | Senbonzakura's blades lining up in neat rows | `drop/3-often/regent/alignment.png` |
+| Black Hole | regent | Byakuya Kuchiki | A dark sphere of petals collapsing inward (Gokei) | `drop/3-often/regent/black_hole.png` |
+| Bulwark | regent | Byakuya Kuchiki | A solid wall of Senbonzakura blades | `drop/3-often/regent/bulwark.png` |
+| CHARGE!! | regent | Byakuya Kuchiki | Byakuya charging forward with Shunpo | `drop/3-often/regent/charge.png` |
+| Child of the Stars | regent | Rukia Kuchiki | Rukia under the night sky | `drop/3-often/regent/child_of_the_stars.png` |
+| Conqueror | regent | Byakuya Kuchiki | Byakuya standing victorious over Ichigo | `drop/3-often/regent/conqueror.png` |
+| Constellation | regent | Byakuya Kuchiki | Petals scattered like stars in the night sky | `drop/3-often/regent/constellation.png` |
+| Convergence | regent | Byakuya Kuchiki | All of Senbonzakura's blades converging on one point | `drop/3-often/regent/convergence.png` |
+| Devastate | regent | Byakuya Kuchiki | Senbonzakura shredding an enemy | `drop/3-often/regent/devastate.png` |
+| Furnace | regent | Byakuya Kuchiki | Byakuya's reiatsu glowing white-hot | `drop/3-often/regent/furnace.png` |
+| Gamma Blast | regent | Byakuya Kuchiki | Hado 63 Raikoho lightning blast | `drop/3-often/regent/gamma_blast.png` |
+| Glimmer | regent | Byakuya Kuchiki | Petals glinting in sunlight | `drop/3-often/regent/glimmer.png` |
+| Hegemony | regent | Byakuya Kuchiki | Byakuya as head of the Kuchiki clan | `drop/3-often/regent/hegemony.png` |
+| Kingly Kick | regent | Byakuya Kuchiki | Byakuya's swift Hakuda kick | `drop/3-often/regent/kingly_kick.png` |
+| Kingly Punch | regent | Byakuya Kuchiki | Byakuya's open-palm strike | `drop/3-often/regent/kingly_punch.png` |
+| Knockout Blow | regent | Byakuya Kuchiki | Byakuya knocking Renji down in one strike | `drop/3-often/regent/knockout_blow.png` |
+| Largesse | regent | Kuchiki clan | Kuchiki clan servants presenting gifts | `drop/3-often/regent/largesse.png` |
+| Lunar Blast | regent | Byakuya Kuchiki | Senbonzakura petals under a full moon | `drop/3-often/regent/lunar_blast.png` |
+| Manifest Authority | regent | Byakuya Kuchiki | Byakuya's captain's haori and Kenseikan headpiece | `drop/3-often/regent/manifest_authority.png` |
+| Monologue | regent | Byakuya Kuchiki | Byakuya explaining his pride to Ichigo | `drop/3-often/regent/monologue.png` |
+| Orbit | regent | Byakuya Kuchiki | Petals circling around Byakuya | `drop/3-often/regent/orbit.png` |
+| Pale Blue Dot | regent | Byakuya Kuchiki | A single petal against a vast sky | `drop/3-often/regent/pale_blue_dot.png` |
+| Parry | regent | Byakuya Kuchiki | Byakuya blocking with two fingers | `drop/3-often/regent/parry.png` |
+| Particle Wall | regent | Byakuya Kuchiki | Danku kido barrier | `drop/3-often/regent/particle_wall.png` |
+| Pillar of Creation | regent | Byakuya Kuchiki | A tower of rising blades | `drop/3-often/regent/pillar_of_creation.png` |
+| Plot | regent | Byakuya Kuchiki | Byakuya quietly planning at his desk | `drop/3-often/regent/plot.png` |
+| Prophesize | regent | Byakuya Kuchiki | Byakuya foreseeing his opponent's move | `drop/3-often/regent/prophesize.png` |
+| Quasar | regent | Byakuya Kuchiki | A blinding burst of white petals | `drop/3-often/regent/quasar.png` |
+| Radiate | regent | Byakuya Kuchiki | Petals radiating out in every direction | `drop/3-often/regent/radiate.png` |
+| Reflect | regent | Byakuya Kuchiki | Byakuya's reflection in a still pond at the manor | `drop/3-often/regent/reflect.png` |
+| Reserves | regent | Byakuya Kuchiki | Senbonzakura blades waiting in formation | `drop/3-often/regent/reserves.png` |
+| Resonance | regent | Byakuya Kuchiki | Byakuya and Senbonzakura's spirit side by side | `drop/3-often/regent/resonance.png` |
+| Royal Gamble | regent | Byakuya Kuchiki | Byakuya choosing between law and Rukia | `drop/3-often/regent/royal_gamble.png` |
+| Shining Strike | regent | Byakuya Kuchiki | Byakuya's glowing sword cutting through | `drop/3-often/regent/shining_strike.png` |
+| Spectrum Shift | regent | Byakuya Kuchiki | Petals changing colour as they scatter | `drop/3-often/regent/spectrum_shift.png` |
+| Stardust | regent | Byakuya Kuchiki | Petals dissolving into glittering dust | `drop/3-often/regent/stardust.png` |
+| Summon Forth | regent | Byakuya Kuchiki | Senbonzakura Kageyoshi's thousand swords rising from the ground | `drop/3-often/regent/summon_forth.png` |
+| Supermassive | regent | Byakuya Kuchiki | A giant mass of petals crushing down | `drop/3-often/regent/supermassive.png` |
+| Terraforming | regent | Byakuya Kuchiki | Byakuya's Bankai inner world of endless swords | `drop/3-often/regent/terraforming.png` |
+| Bone Shards | necrobinder | Mayuri Kurotsuchi | Shards of a broken specimen flying apart | `drop/3-often/necrobinder/bone_shards.png` |
+| Borrowed Time | necrobinder | Mayuri Kurotsuchi | Mayuri's Superhuman Drug slowing time to a crawl (vs Szayelaporro) | `drop/3-often/necrobinder/borrowed_time.png` |
+| Bury | necrobinder | Mayuri Kurotsuchi | Mayuri burying a specimen in his lab | `drop/3-often/necrobinder/bury.png` |
+| Calcify | necrobinder | Mayuri Kurotsuchi | An enemy frozen stiff by Ashisogi Jizo's paralysis | `drop/3-often/necrobinder/calcify.png` |
+| Capture Spirit | necrobinder | Mayuri Kurotsuchi | Mayuri sealing a soul in a specimen jar | `drop/3-often/necrobinder/capture_spirit.png` |
+| Cleanse | necrobinder | Mayuri Kurotsuchi | Mayuri taking an antidote | `drop/3-often/necrobinder/cleanse.png` |
+| Countdown | necrobinder | Mayuri Kurotsuchi | Mayuri's bomb timer ticking | `drop/3-often/necrobinder/countdown.png` |
+| Danse Macabre | necrobinder | Mayuri Kurotsuchi | Mayuri's reanimated Arrancar soldiers (Cirucci and Dordoni) | `drop/3-often/necrobinder/danse_macabre.png` |
+| Death March | necrobinder | Mayuri Kurotsuchi | Zombie Arrancar marching for Mayuri | `drop/3-often/necrobinder/death_march.png` |
+| Death's Door | necrobinder | Mayuri Kurotsuchi | Mayuri at the gate of his lab | `drop/3-often/necrobinder/deaths_door.png` |
+| Deathbringer | necrobinder | Mayuri Kurotsuchi | Mayuri raising Ashisogi Jizo | `drop/3-often/necrobinder/deathbringer.png` |
+| Debilitate | necrobinder | Mayuri Kurotsuchi | An enemy's limbs paralysed by poison | `drop/3-often/necrobinder/debilitate.png` |
+| Delay | necrobinder | Mayuri Kurotsuchi | Mayuri's drug freezing an enemy's perception | `drop/3-often/necrobinder/delay.png` |
+| Dirge | necrobinder | Mayuri Kurotsuchi | Mayuri humming over a fallen enemy | `drop/3-often/necrobinder/dirge.png` |
+| Dredge | necrobinder | Mayuri Kurotsuchi | Mayuri pulling something out of a vat | `drop/3-often/necrobinder/dredge.png` |
+| Enfeebling Touch | necrobinder | Mayuri Kurotsuchi | Mayuri's fingertip touch injecting poison | `drop/3-often/necrobinder/enfeebling_touch.png` |
+| Fetch | necrobinder | Nemu Kurotsuchi | Nemu bringing Mayuri a tool | `drop/3-often/necrobinder/fetch.png` |
+| Friendship | necrobinder | Nemu Kurotsuchi | Nemu standing loyally at Mayuri's side | `drop/3-often/necrobinder/friendship.png` |
+| Haunt | necrobinder | Nemu Kurotsuchi | Nemu's ghostly pale figure in the dark lab | `drop/3-often/necrobinder/haunt.png` |
+| High Five | necrobinder | Nemu Kurotsuchi | Nemu raising a hand to strike | `drop/3-often/necrobinder/high_five.png` |
+| Legion of Bone | necrobinder | Mayuri Kurotsuchi | Mayuri's army of reanimated Arrancar | `drop/3-often/necrobinder/legion_of_bone.png` |
+| Lethality | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo's blade dripping poison | `drop/3-often/necrobinder/lethality.png` |
+| Melancholy | necrobinder | Nemu Kurotsuchi | Nemu's sad quiet expression | `drop/3-often/necrobinder/melancholy.png` |
+| No Escape | necrobinder | Mayuri Kurotsuchi | Konjiki Ashisogi Jizo blocking an enemy's escape | `drop/3-often/necrobinder/no_escape.png` |
+| Pagestorm | necrobinder | Mayuri Kurotsuchi | Mayuri's research notes flying everywhere | `drop/3-often/necrobinder/pagestorm.png` |
+| Parse | necrobinder | Mayuri Kurotsuchi | Mayuri analysing data on his monitors | `drop/3-often/necrobinder/parse.png` |
+| Pull from Below | necrobinder | Konjiki Ashisogi Jizo | Mayuri's Bankai rising out of the ground | `drop/3-often/necrobinder/pull_from_below.png` |
+| Putrefy | necrobinder | Mayuri Kurotsuchi | An enemy melting from Mayuri's poison | `drop/3-often/necrobinder/putrefy.png` |
+| Rattle | necrobinder | Mayuri Kurotsuchi | Mayuri shaking a test tube | `drop/3-often/necrobinder/rattle.png` |
+| Right Hand Hand | necrobinder | Nemu Kurotsuchi | Nemu's punch with her right hand | `drop/3-often/necrobinder/right_hand_hand.png` |
+| Scavenge | necrobinder | Mayuri Kurotsuchi | Mayuri collecting samples from a battlefield | `drop/3-often/necrobinder/scavenge.png` |
+| Severance | necrobinder | Mayuri Kurotsuchi | Mayuri cutting off his own arm to escape | `drop/3-often/necrobinder/severance.png` |
+| Shroud | necrobinder | Mayuri Kurotsuchi | Mayuri's cloak and mask in shadow | `drop/3-often/necrobinder/shroud.png` |
+| Sic 'Em | necrobinder | Nemu Kurotsuchi | Mayuri ordering Nemu to attack | `drop/3-often/necrobinder/sic_em.png` |
+| Sleight of Flesh | necrobinder | Mayuri Kurotsuchi | Mayuri stretching his body in strange ways | `drop/3-often/necrobinder/sleight_of_flesh.png` |
+| Soulbound | necrobinder | Nemu Kurotsuchi | Nemu bound to Mayuri's commands | `drop/3-often/necrobinder/soulbound.png` |
+| Spur | necrobinder | Mayuri Kurotsuchi | Mayuri injecting Nemu with a drug | `drop/3-often/necrobinder/spur.png` |
+| Underworld | necrobinder | Mayuri Kurotsuchi | Squad 12's underground lab | `drop/3-often/necrobinder/underworld.png` |
+| Veilpiercer | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo piercing through a barrier | `drop/3-often/necrobinder/veilpiercer.png` |
 | Automation | colorless |  | _suggestion coming_ | `drop/3-often/colorless/automation.png` |
 | Believe in You | colorless |  | _suggestion coming_ | `drop/3-often/colorless/believe_in_you.png` |
 | Catastrophe | colorless |  | _suggestion coming_ | `drop/3-often/colorless/catastrophe.png` |
@@ -417,141 +417,141 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 
 | Card | Pool | Bleach | Look for | File |
 |---|---|---|---|---|
-| Aggression | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/aggression.png` |
-| Barricade | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/barricade.png` |
-| Brand | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/brand.png` |
-| Cascade | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/cascade.png` |
-| Conflagration | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/conflagration.png` |
-| Crimson Mantle | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/crimson_mantle.png` |
-| Dark Embrace | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/dark_embrace.png` |
-| Demon Form | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/demon_form.png` |
-| Dominate | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/dominate.png` |
-| Feed | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/feed.png` |
-| Fiend Fire | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/fiend_fire.png` |
-| Hellraiser | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/hellraiser.png` |
-| Impervious | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/impervious.png` |
-| Juggernaut | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/juggernaut.png` |
-| Mangle | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/mangle.png` |
-| Midnight | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/midnight.png` |
-| Not Yet | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/not_yet.png` |
-| Offering | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/offering.png` |
-| One-Two Punch | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/one_two_punch.png` |
-| Pact's End | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/pacts_end.png` |
-| Primal Force | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/primal_force.png` |
-| Pyre | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/pyre.png` |
-| Stoke | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/stoke.png` |
-| Tank | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/tank.png` |
-| Tear Asunder | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/tear_asunder.png` |
-| Thrash | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/thrash.png` |
-| Unmovable | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/4-sometimes/ironclad/unmovable.png` |
-| Abrasive | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/abrasive.png` |
-| Adrenaline | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/adrenaline.png` |
-| Afterimage | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/afterimage.png` |
-| Assassinate | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/assassinate.png` |
-| Blade of Ink | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/blade_of_ink.png` |
-| Bullet Time | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/bullet_time.png` |
-| Burst | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/burst.png` |
-| Corrosive Wave | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/corrosive_wave.png` |
-| Envenom | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/envenom.png` |
-| Fan of Knives | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/fan_of_knives.png` |
-| Flanking | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/flanking.png` |
-| Grand Finale | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/grand_finale.png` |
-| Knife Trap | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/knife_trap.png` |
-| Malaise | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/malaise.png` |
-| Master Planner | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/master_planner.png` |
-| Murder | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/murder.png` |
-| Nightmare | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/nightmare.png` |
-| Outbreak | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/outbreak.png` |
-| Serpent Form | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/serpent_form.png` |
-| Shadow Step | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/shadow_step.png` |
-| Shadowmeld | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/shadowmeld.png` |
-| Sneaky | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/sneaky.png` |
-| Storm of Steel | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/storm_of_steel.png` |
-| The Gambit | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/the_gambit.png` |
-| The Hunt | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/the_hunt.png` |
-| Tools of the Trade | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/tools_of_the_trade.png` |
-| Tracking | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/tracking.png` |
-| Well-Laid Plans | silent | Soi Fon | _suggestion coming_ | `drop/4-sometimes/silent/well_laid_plans.png` |
-| Adaptive Strike | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/adaptive_strike.png` |
-| All for One | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/all_for_one.png` |
-| Buffer | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/buffer.png` |
-| Consuming Shadow | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/consuming_shadow.png` |
-| Coolant | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/coolant.png` |
-| Creative AI | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/creative_ai.png` |
-| Defragment | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/defragment.png` |
-| Echo Form | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/echo_form.png` |
-| Flak Cannon | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/flak_cannon.png` |
-| Helix Drill | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/helix_drill.png` |
-| Hyperbeam | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/hyperbeam.png` |
-| Ice Lance | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/ice_lance.png` |
-| Imitation Learning | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/imitation_learning.png` |
-| Machine Learning | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/machine_learning.png` |
-| Meteor Strike | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/meteor_strike.png` |
-| Modded | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/modded.png` |
-| Multi-Cast | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/multi_cast.png` |
-| One for All | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/one_for_all.png` |
-| Rainbow | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/rainbow.png` |
-| Reboot | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/reboot.png` |
-| Shatter | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/shatter.png` |
-| Signal Boost | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/signal_boost.png` |
-| Spinner | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/spinner.png` |
-| Supercritical | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/supercritical.png` |
-| Trash to Treasure | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/trash_to_treasure.png` |
-| Voltaic | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/4-sometimes/defect/voltaic.png` |
-| Arsenal | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/arsenal.png` |
-| Beat into Shape | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/beat_into_shape.png` |
-| Big Bang | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/big_bang.png` |
-| Bombardment | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/bombardment.png` |
-| Bundle of Joy | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/bundle_of_joy.png` |
-| Comet | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/comet.png` |
-| Crash Landing | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/crash_landing.png` |
-| Decisions, Decisions | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/decisions_decisions.png` |
-| Dying Star | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/dying_star.png` |
-| Foregone Conclusion | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/foregone_conclusion.png` |
-| GUARDS!!! | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/guards.png` |
-| Genesis | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/genesis.png` |
-| Hammer Time | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/hammer_time.png` |
-| Heavenly Drill | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/heavenly_drill.png` |
-| Heirloom Hammer | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/heirloom_hammer.png` |
-| I Am Invincible | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/i_am_invincible.png` |
-| Make It So | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/make_it_so.png` |
-| Monarch's Gaze | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/monarchs_gaze.png` |
-| Neutron Aegis | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/neutron_aegis.png` |
-| Royalties | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/royalties.png` |
-| Seeking Edge | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/seeking_edge.png` |
-| Seven Stars | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/seven_stars.png` |
-| Sword Sage | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/sword_sage.png` |
-| The Smith | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/the_smith.png` |
-| Tutor | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/tutor.png` |
-| Tyranny | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/tyranny.png` |
-| Void Form | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/4-sometimes/regent/void_form.png` |
-| Banshee's Cry | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/banshees_cry.png` |
-| Cacophony | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/cacophony.png` |
-| Call of the Void | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/call_of_the_void.png` |
-| Demesne | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/demesne.png` |
-| Devour Life | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/devour_life.png` |
-| Eidolon | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/eidolon.png` |
-| End of Days | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/end_of_days.png` |
-| Eradicate | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/eradicate.png` |
-| Glimpse Beyond | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/glimpse_beyond.png` |
-| Hang | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/hang.png` |
-| Misery | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/misery.png` |
-| Necro Mastery | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/necro_mastery.png` |
-| Neurosurge | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/neurosurge.png` |
-| Oblivion | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/oblivion.png` |
-| Reanimate | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/reanimate.png` |
-| Reaper Form | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/reaper_form.png` |
-| Sacrifice | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/sacrifice.png` |
-| Seance | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/seance.png` |
-| Sentry Mode | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/sentry_mode.png` |
-| Shared Fate | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/shared_fate.png` |
-| Soul Storm | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/soul_storm.png` |
-| Spirit of Ash | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/spirit_of_ash.png` |
-| Squeeze | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/squeeze.png` |
-| The Scythe | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/the_scythe.png` |
-| Time's Up | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/times_up.png` |
-| Transfigure | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/transfigure.png` |
-| Undeath | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/4-sometimes/necrobinder/undeath.png` |
+| Aggression | ironclad | Kenpachi Zaraki | Kenpachi lunging forward with both hands on the hilt | `drop/4-sometimes/ironclad/aggression.png` |
+| Barricade | ironclad | Kenpachi Zaraki | Kenpachi blocking Nnoitra's scythe with his bare hand | `drop/4-sometimes/ironclad/barricade.png` |
+| Brand | ironclad | Kenpachi Zaraki | The scar across Kenpachi's face from Ichigo | `drop/4-sometimes/ironclad/brand.png` |
+| Cascade | ironclad | Kenpachi Zaraki | A flurry of Kenpachi slashes | `drop/4-sometimes/ironclad/cascade.png` |
+| Conflagration | ironclad | Kenpachi Zaraki | Kenpachi's Bankai red aura exploding outward | `drop/4-sometimes/ironclad/conflagration.png` |
+| Crimson Mantle | ironclad | Kenpachi Zaraki | Kenpachi soaked red in his Bankai form | `drop/4-sometimes/ironclad/crimson_mantle.png` |
+| Dark Embrace | ironclad | Yumichika Ayasegawa | Ruri'iro Kujaku's vines draining spiritual pressure | `drop/4-sometimes/ironclad/dark_embrace.png` |
+| Demon Form | ironclad | Kenpachi Zaraki | Kenpachi's Bankai monstrous form with horns | `drop/4-sometimes/ironclad/demon_form.png` |
+| Dominate | ironclad | Kenpachi Zaraki | Kenpachi standing over a defeated Espada | `drop/4-sometimes/ironclad/dominate.png` |
+| Feed | ironclad | Yumichika Ayasegawa | Ruri'iro Kujaku's flowers blooming on a drained enemy | `drop/4-sometimes/ironclad/feed.png` |
+| Fiend Fire | ironclad | Kenpachi Zaraki | Kenpachi's Bankai slash setting the sky red | `drop/4-sometimes/ironclad/fiend_fire.png` |
+| Hellraiser | ironclad | Kenpachi Zaraki | Kenpachi and Unohana's battle in the underground prison | `drop/4-sometimes/ironclad/hellraiser.png` |
+| Impervious | ironclad | Kenpachi Zaraki | Kenpachi untouched by a barrage of attacks | `drop/4-sometimes/ironclad/impervious.png` |
+| Juggernaut | ironclad | Kenpachi Zaraki | Kenpachi walking unstoppable through enemies | `drop/4-sometimes/ironclad/juggernaut.png` |
+| Mangle | ironclad | Kenpachi Zaraki | Kenpachi's brutal cut tearing an enemy open | `drop/4-sometimes/ironclad/mangle.png` |
+| Midnight | ironclad | Kenpachi Zaraki | Kenpachi silhouetted against the night sky | `drop/4-sometimes/ironclad/midnight.png` |
+| Not Yet | ironclad | Kenpachi Zaraki | Kenpachi refusing to fall after being stabbed by Unohana | `drop/4-sometimes/ironclad/not_yet.png` |
+| Offering | ironclad | Retsu Unohana | Unohana's final moment passing her title to Kenpachi | `drop/4-sometimes/ironclad/offering.png` |
+| One-Two Punch | ironclad | Ikkaku Madarame | Ikkaku striking with Hozukimaru's spear and sheath | `drop/4-sometimes/ironclad/one_two_punch.png` |
+| Pact's End | ironclad | Retsu Unohana | Unohana and Kenpachi's last clash | `drop/4-sometimes/ironclad/pacts_end.png` |
+| Primal Force | ironclad | Kenpachi Zaraki | Kenpachi fighting like a beast with bare hands | `drop/4-sometimes/ironclad/primal_force.png` |
+| Pyre | ironclad | Kenpachi Zaraki | Kenpachi standing in burning ruins | `drop/4-sometimes/ironclad/pyre.png` |
+| Stoke | ironclad | Kenpachi Zaraki | Kenpachi cracking his neck before a fight | `drop/4-sometimes/ironclad/stoke.png` |
+| Tank | ironclad | Kenpachi Zaraki | Kenpachi absorbing a direct Cero blast | `drop/4-sometimes/ironclad/tank.png` |
+| Tear Asunder | ironclad | Kenpachi Zaraki | Kenpachi cutting Gremmy's giant meteor in two | `drop/4-sometimes/ironclad/tear_asunder.png` |
+| Thrash | ironclad | Kenpachi Zaraki | Kenpachi slamming an opponent into the ground | `drop/4-sometimes/ironclad/thrash.png` |
+| Unmovable | ironclad | Kenpachi Zaraki | Kenpachi refusing to step back from Nnoitra | `drop/4-sometimes/ironclad/unmovable.png` |
+| Abrasive | silent | Soi Fon | Soi Fon's Shunko wind cutting the ground | `drop/4-sometimes/silent/abrasive.png` |
+| Adrenaline | silent | Soi Fon | Soi Fon at full Shunko power | `drop/4-sometimes/silent/adrenaline.png` |
+| Afterimage | silent | Soi Fon | Soi Fon leaving afterimages around Barragan | `drop/4-sometimes/silent/afterimage.png` |
+| Assassinate | silent | Soi Fon | Soi Fon killing in one sting | `drop/4-sometimes/silent/assassinate.png` |
+| Blade of Ink | silent | Soi Fon | A black kunai cutting through the dark | `drop/4-sometimes/silent/blade_of_ink.png` |
+| Bullet Time | silent | Soi Fon | Soi Fon moving while everything else freezes | `drop/4-sometimes/silent/bullet_time.png` |
+| Burst | silent | Soi Fon | Soi Fon's Shunko explosion of energy | `drop/4-sometimes/silent/burst.png` |
+| Corrosive Wave | silent | Soi Fon | Barragan's decay wave hitting Soi Fon | `drop/4-sometimes/silent/corrosive_wave.png` |
+| Envenom | silent | Soi Fon | Suzumebachi's golden stinger dripping poison | `drop/4-sometimes/silent/envenom.png` |
+| Fan of Knives | silent | Onmitsukido | A fan of kunai thrown at once | `drop/4-sometimes/silent/fan_of_knives.png` |
+| Flanking | silent | Soi Fon | Soi Fon and Yoruichi attacking from both sides | `drop/4-sometimes/silent/flanking.png` |
+| Grand Finale | silent | Soi Fon | Jakuho Raikoben (Soi Fon's missile Bankai) firing | `drop/4-sometimes/silent/grand_finale.png` |
+| Knife Trap | silent | Onmitsukido | Kunai traps set around a hideout | `drop/4-sometimes/silent/knife_trap.png` |
+| Malaise | silent | Soi Fon | An enemy collapsing from Suzumebachi poison | `drop/4-sometimes/silent/malaise.png` |
+| Master Planner | silent | Soi Fon | Soi Fon studying a battle map | `drop/4-sometimes/silent/master_planner.png` |
+| Murder | silent | Soi Fon | Soi Fon finishing an enemy with Nigeki Kessatsu | `drop/4-sometimes/silent/murder.png` |
+| Nightmare | silent | Soi Fon | Soi Fon's cold stare in the dark | `drop/4-sometimes/silent/nightmare.png` |
+| Outbreak | silent | Soi Fon | Poison spreading across many butterfly marks | `drop/4-sometimes/silent/outbreak.png` |
+| Serpent Form | silent | Soi Fon | Soi Fon coiled to strike | `drop/4-sometimes/silent/serpent_form.png` |
+| Shadow Step | silent | Soi Fon | Soi Fon stepping out of a shadow | `drop/4-sometimes/silent/shadow_step.png` |
+| Shadowmeld | silent | Soi Fon | Soi Fon blending into the darkness | `drop/4-sometimes/silent/shadowmeld.png` |
+| Sneaky | silent | Soi Fon | Soi Fon sneaking past guards | `drop/4-sometimes/silent/sneaky.png` |
+| Storm of Steel | silent | Onmitsukido | A storm of thrown blades | `drop/4-sometimes/silent/storm_of_steel.png` |
+| The Gambit | silent | Soi Fon | Soi Fon using her Bankai at point-blank range | `drop/4-sometimes/silent/the_gambit.png` |
+| The Hunt | silent | Soi Fon | Soi Fon hunting a fleeing enemy | `drop/4-sometimes/silent/the_hunt.png` |
+| Tools of the Trade | silent | Onmitsukido | Stealth Force gear laid out | `drop/4-sometimes/silent/tools_of_the_trade.png` |
+| Tracking | silent | Soi Fon | Soi Fon following a trail of spiritual pressure | `drop/4-sometimes/silent/tracking.png` |
+| Well-Laid Plans | silent | Soi Fon | Soi Fon and Yoruichi planning together | `drop/4-sometimes/silent/well_laid_plans.png` |
+| Adaptive Strike | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/adaptive_strike.png` |
+| All for One | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/all_for_one.png` |
+| Buffer | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/buffer.png` |
+| Consuming Shadow | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/consuming_shadow.png` |
+| Coolant | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/coolant.png` |
+| Creative AI | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/creative_ai.png` |
+| Defragment | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/defragment.png` |
+| Echo Form | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/echo_form.png` |
+| Flak Cannon | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/flak_cannon.png` |
+| Helix Drill | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/helix_drill.png` |
+| Hyperbeam | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/hyperbeam.png` |
+| Ice Lance | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/ice_lance.png` |
+| Imitation Learning | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/imitation_learning.png` |
+| Machine Learning | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/machine_learning.png` |
+| Meteor Strike | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/meteor_strike.png` |
+| Modded | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/modded.png` |
+| Multi-Cast | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/multi_cast.png` |
+| One for All | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/one_for_all.png` |
+| Rainbow | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/rainbow.png` |
+| Reboot | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/reboot.png` |
+| Shatter | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/shatter.png` |
+| Signal Boost | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/signal_boost.png` |
+| Spinner | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/spinner.png` |
+| Supercritical | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/supercritical.png` |
+| Trash to Treasure | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/trash_to_treasure.png` |
+| Voltaic | defect |  | _suggestion coming_ | `drop/4-sometimes/defect/voltaic.png` |
+| Arsenal | regent | Byakuya Kuchiki | Senkei: rows of a thousand swords around Byakuya | `drop/4-sometimes/regent/arsenal.png` |
+| Beat into Shape | regent | Byakuya Kuchiki | Byakuya training Rukia | `drop/4-sometimes/regent/beat_into_shape.png` |
+| Big Bang | regent | Byakuya Kuchiki | Senbonzakura exploding outward in every direction | `drop/4-sometimes/regent/big_bang.png` |
+| Bombardment | regent | Byakuya Kuchiki | A barrage of blades raining down | `drop/4-sometimes/regent/bombardment.png` |
+| Bundle of Joy | regent | Rukia Kuchiki | Rukia smiling with Chappy | `drop/4-sometimes/regent/bundle_of_joy.png` |
+| Comet | regent | Byakuya Kuchiki | A streak of petals across the sky | `drop/4-sometimes/regent/comet.png` |
+| Crash Landing | regent | Byakuya Kuchiki | Byakuya landing in a cloud of petals | `drop/4-sometimes/regent/crash_landing.png` |
+| Decisions, Decisions | regent | Byakuya Kuchiki | Byakuya at Hisana's grave | `drop/4-sometimes/regent/decisions_decisions.png` |
+| Dying Star | regent | Byakuya Kuchiki | Byakuya badly hurt after the Quincy invasion | `drop/4-sometimes/regent/dying_star.png` |
+| Foregone Conclusion | regent | Byakuya Kuchiki | Byakuya turning his back as an enemy falls | `drop/4-sometimes/regent/foregone_conclusion.png` |
+| GUARDS!!! | regent | Kuchiki clan | Kuchiki clan guards at the manor gate | `drop/4-sometimes/regent/guards.png` |
+| Genesis | regent | Byakuya Kuchiki | Byakuya first releasing his Bankai | `drop/4-sometimes/regent/genesis.png` |
+| Hammer Time | regent | Byakuya Kuchiki | Byakuya's sword hilt striking down | `drop/4-sometimes/regent/hammer_time.png` |
+| Heavenly Drill | regent | Byakuya Kuchiki | A spiral of petals drilling forward | `drop/4-sometimes/regent/heavenly_drill.png` |
+| Heirloom Hammer | regent | Kuchiki clan | The Kenseikan headpiece (Kuchiki family heirloom) | `drop/4-sometimes/regent/heirloom_hammer.png` |
+| I Am Invincible | regent | Byakuya Kuchiki | Byakuya untouched in a storm of petals | `drop/4-sometimes/regent/i_am_invincible.png` |
+| Make It So | regent | Byakuya Kuchiki | Byakuya giving a quiet order | `drop/4-sometimes/regent/make_it_so.png` |
+| Monarch's Gaze | regent | Byakuya Kuchiki | Byakuya's cold downward glance | `drop/4-sometimes/regent/monarchs_gaze.png` |
+| Neutron Aegis | regent | Byakuya Kuchiki | A dense shield of compressed petals | `drop/4-sometimes/regent/neutron_aegis.png` |
+| Royalties | regent | Kuchiki clan | The Kuchiki manor's grand hall | `drop/4-sometimes/regent/royalties.png` |
+| Seeking Edge | regent | Byakuya Kuchiki | Petals hunting down a fleeing enemy | `drop/4-sometimes/regent/seeking_edge.png` |
+| Seven Stars | regent | Byakuya Kuchiki | Seven blades of light around Byakuya | `drop/4-sometimes/regent/seven_stars.png` |
+| Sword Sage | regent | Byakuya Kuchiki | Byakuya teaching swordsmanship | `drop/4-sometimes/regent/sword_sage.png` |
+| The Smith | regent | Byakuya Kuchiki | Senbonzakura's spirit (the armoured samurai) | `drop/4-sometimes/regent/the_smith.png` |
+| Tutor | regent | Byakuya Kuchiki | Byakuya training with Yoruichi as a boy | `drop/4-sometimes/regent/tutor.png` |
+| Tyranny | regent | Byakuya Kuchiki | Byakuya enforcing Soul Society's law | `drop/4-sometimes/regent/tyranny.png` |
+| Void Form | regent | Byakuya Kuchiki | Byakuya's Bankai Shukei Hakuteiken (white winged form) | `drop/4-sometimes/regent/void_form.png` |
+| Banshee's Cry | necrobinder | Konjiki Ashisogi Jizo | The Bankai's baby face screaming | `drop/4-sometimes/necrobinder/banshees_cry.png` |
+| Cacophony | necrobinder | Mayuri Kurotsuchi | Alarms blaring in the lab | `drop/4-sometimes/necrobinder/cacophony.png` |
+| Call of the Void | necrobinder | Mayuri Kurotsuchi | Mayuri staring into a Garganta | `drop/4-sometimes/necrobinder/call_of_the_void.png` |
+| Demesne | necrobinder | Mayuri Kurotsuchi | Mayuri in the middle of his lab | `drop/4-sometimes/necrobinder/demesne.png` |
+| Devour Life | necrobinder | Nemu Kurotsuchi | Nemu absorbing Pernida's nerves | `drop/4-sometimes/necrobinder/devour_life.png` |
+| Eidolon | necrobinder | Nemu Kurotsuchi | Nemu Eighth (Nemuri Hachigo) as a newborn copy | `drop/4-sometimes/necrobinder/eidolon.png` |
+| End of Days | necrobinder | Konjiki Ashisogi Jizo | Mayuri's Bankai looming over a ruined battlefield | `drop/4-sometimes/necrobinder/end_of_days.png` |
+| Eradicate | necrobinder | Mayuri Kurotsuchi | Mayuri dissolving an enemy completely | `drop/4-sometimes/necrobinder/eradicate.png` |
+| Glimpse Beyond | necrobinder | Mayuri Kurotsuchi | Mayuri peering into a microscope | `drop/4-sometimes/necrobinder/glimpse_beyond.png` |
+| Hang | necrobinder | Mayuri Kurotsuchi | A specimen hanging in Mayuri's lab | `drop/4-sometimes/necrobinder/hang.png` |
+| Misery | necrobinder | Mayuri Kurotsuchi | Mayuri torturing a captive for data | `drop/4-sometimes/necrobinder/misery.png` |
+| Necro Mastery | necrobinder | Mayuri Kurotsuchi | Mayuri as Squad 12 captain with his whole lab behind him | `drop/4-sometimes/necrobinder/necro_mastery.png` |
+| Neurosurge | necrobinder | Nemu Kurotsuchi | Nemu's nerve-signal attack on Pernida | `drop/4-sometimes/necrobinder/neurosurge.png` |
+| Oblivion | necrobinder | Mayuri Kurotsuchi | Mayuri liquefying himself to disappear | `drop/4-sometimes/necrobinder/oblivion.png` |
+| Reanimate | necrobinder | Mayuri Kurotsuchi | Mayuri bringing a dead Arrancar back to life | `drop/4-sometimes/necrobinder/reanimate.png` |
+| Reaper Form | necrobinder | Mayuri Kurotsuchi | Mayuri in full Bankai with Konjiki Ashisogi Jizo | `drop/4-sometimes/necrobinder/reaper_form.png` |
+| Sacrifice | necrobinder | Nemu Kurotsuchi | Nemu sacrificing herself for Mayuri | `drop/4-sometimes/necrobinder/sacrifice.png` |
+| Seance | necrobinder | Mayuri Kurotsuchi | Mayuri communicating with a captured soul | `drop/4-sometimes/necrobinder/seance.png` |
+| Sentry Mode | necrobinder | Nemu Kurotsuchi | Nemu standing perfectly still on guard | `drop/4-sometimes/necrobinder/sentry_mode.png` |
+| Shared Fate | necrobinder | Nemu Kurotsuchi | Nemu and Mayuri side by side | `drop/4-sometimes/necrobinder/shared_fate.png` |
+| Soul Storm | necrobinder | Konjiki Ashisogi Jizo | The Bankai's poison breath storm | `drop/4-sometimes/necrobinder/soul_storm.png` |
+| Spirit of Ash | necrobinder | Mayuri Kurotsuchi | Mayuri reforming from liquid | `drop/4-sometimes/necrobinder/spirit_of_ash.png` |
+| Squeeze | necrobinder | Konjiki Ashisogi Jizo | The Bankai's giant body crushing an enemy | `drop/4-sometimes/necrobinder/squeeze.png` |
+| The Scythe | necrobinder | Mayuri Kurotsuchi | Ashisogi Jizo's three curved blades | `drop/4-sometimes/necrobinder/the_scythe.png` |
+| Time's Up | necrobinder | Mayuri Kurotsuchi | Mayuri's bomb exploding | `drop/4-sometimes/necrobinder/times_up.png` |
+| Transfigure | necrobinder | Mayuri Kurotsuchi | Mayuri transforming his body | `drop/4-sometimes/necrobinder/transfigure.png` |
+| Undeath | necrobinder | Mayuri Kurotsuchi | Mayuri rebuilt after being killed | `drop/4-sometimes/necrobinder/undeath.png` |
 | Alchemize | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/alchemize.png` |
 | Anointed | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/anointed.png` |
 | Beacon of Hope | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/beacon_of_hope.png` |
@@ -576,7 +576,7 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 | Secret Technique | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/secret_technique.png` |
 | Secret Weapon | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/secret_weapon.png` |
 | Splash | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/splash.png` |
-| The Gambit | colorless |  | _suggestion coming_ | `drop/4-sometimes/colorless/the_gambit.png` |
+| The Gambit | colorless | Soi Fon | Soi Fon using her Bankai at point-blank range | `drop/4-sometimes/colorless/the_gambit.png` |
 | Ascender's Bane | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/ascenders_bane.png` |
 | Bad Luck | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/bad_luck.png` |
 | Clumsy | curse |  | _suggestion coming_ | `drop/4-sometimes/curse/clumsy.png` |
@@ -610,16 +610,16 @@ Also 71 character images: select screen, top-bar icons, map markers, energy icon
 
 | Card | Pool | Bleach | Look for | File |
 |---|---|---|---|---|
-| Break | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/5-rare/ironclad/break.png` |
-| Corruption | ironclad | Kenpachi Zaraki | _suggestion coming_ | `drop/5-rare/ironclad/corruption.png` |
-| Suppress | silent | Soi Fon | _suggestion coming_ | `drop/5-rare/silent/suppress.png` |
-| Wraith Form | silent | Soi Fon | _suggestion coming_ | `drop/5-rare/silent/wraith_form.png` |
-| Biased Cognition | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/5-rare/defect/biased_cognition.png` |
-| Quadcast | defect | Mayuri Kurotsuchi | _suggestion coming_ | `drop/5-rare/defect/quadcast.png` |
-| Meteor Shower | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/5-rare/regent/meteor_shower.png` |
-| The Sealed Throne | regent | Byakuya Kuchiki | _suggestion coming_ | `drop/5-rare/regent/the_sealed_throne.png` |
-| Forbidden Grimoire | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/5-rare/necrobinder/forbidden_grimoire.png` |
-| Protector | necrobinder | Sajin Komamura | _suggestion coming_ | `drop/5-rare/necrobinder/protector.png` |
+| Break | ironclad | Kenpachi Zaraki | Kenpachi's Bankai splitting the earth (ancient full-art) | `drop/5-rare/ironclad/break.png` |
+| Corruption | ironclad | Kenpachi Zaraki | Kenpachi's monstrous Bankai transformation (ancient full-art) | `drop/5-rare/ironclad/corruption.png` |
+| Suppress | silent | Soi Fon | Soi Fon pinning Barragan (ancient full-art) | `drop/5-rare/silent/suppress.png` |
+| Wraith Form | silent | Soi Fon | Soi Fon in full Shunko with lightning wings (ancient full-art) | `drop/5-rare/silent/wraith_form.png` |
+| Biased Cognition | defect |  | _suggestion coming_ | `drop/5-rare/defect/biased_cognition.png` |
+| Quadcast | defect |  | _suggestion coming_ | `drop/5-rare/defect/quadcast.png` |
+| Meteor Shower | regent | Byakuya Kuchiki | Senbonzakura raining down as a storm (ancient full-art) | `drop/5-rare/regent/meteor_shower.png` |
+| The Sealed Throne | regent | Byakuya Kuchiki | Byakuya seated as Kuchiki clan head (ancient full-art) | `drop/5-rare/regent/the_sealed_throne.png` |
+| Forbidden Grimoire | necrobinder | Mayuri Kurotsuchi | Mayuri's secret research notes (ancient full-art) | `drop/5-rare/necrobinder/forbidden_grimoire.png` |
+| Protector | necrobinder | Nemu Kurotsuchi | Nemu protecting Mayuri from Pernida (ancient full-art) | `drop/5-rare/necrobinder/protector.png` |
 | Abundance | event |  | _suggestion coming_ | `drop/5-rare/event/abundance.png` |
 | Apotheosis | event |  | _suggestion coming_ | `drop/5-rare/event/apotheosis.png` |
 | Apparition | event |  | _suggestion coming_ | `drop/5-rare/event/apparition.png` |

@@ -42,9 +42,9 @@ RARITY_FALLBACK = {"spoils_map": "Quest?", "sovereign_blade": "Token?", "the_scy
 BLEACH_CHARACTER = {
     "ironclad": "Kenpachi Zaraki",
     "silent": "Soi Fon",
-    "defect": "Mayuri Kurotsuchi",
-    "regent": "Byakuya Kuchiki",
-    "necrobinder": "Sajin Komamura",
+    "defect": "",  # open: Kisuke Urahara suggested
+    "regent": "Byakuya Kuchiki",  # Senbonzakura
+    "necrobinder": "Mayuri Kurotsuchi",
 }
 
 
@@ -72,7 +72,8 @@ def card_rows(ref: Path, index_paths: set[str], meta: dict) -> list[dict]:
             big = f"images/packed/card_portraits/{pool}/{card_id}.png"
             m = meta.get(card_id, {})
             in_game = f"{key}.title" in loc
-            match = matches.get(card_id, {})
+            # "<pool>/<card_id>" wins when two pools share an id (e.g. scavenge)
+            match = matches.get(f"{pool}/{card_id}") or matches.get(card_id, {})
             rarity = m.get("rarity") or RARITY_FALLBACK.get(card_id, "Uncommon?")
             wave = WAVES.get(rarity.rstrip("?"), "3-often") if in_game else "unused"
             rows.append({
@@ -116,7 +117,7 @@ def character_rows(index_paths: set[str]) -> list[dict]:
             rx = re.compile(pattern.format(c=c))
             for p in sorted(index_paths):
                 if rx.match(p):
-                    rows.append({"character": c, "bleach_character": BLEACH_CHARACTER[c], "kind": kind, "game_path": p.removesuffix(".import"), "status": "todo"})
+                    rows.append({"character": c, "bleach_character": BLEACH_CHARACTER[c] or "TBD", "kind": kind, "game_path": p.removesuffix(".import"), "status": "todo"})
     return rows
 
 

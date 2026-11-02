@@ -59,8 +59,12 @@ To remove it, delete `mods/bleachspire/`.
 (extracted read-only on the player's PC, never committed):
 
 ```
-python tools/asset_map.py --ref <bleachspire_ref> --index <sts2_pck_index.tsv>
+python tools/asset_map.py --ref <bleachspire_ref> --index <sts2_pck_index.tsv> --meta ref/card_meta.json
+python tools/art_guide.py      # rewrites docs/ART_GUIDE.md
 ```
+
+Bleach suggestions live in `data/bleach_matches.csv`, keyed by card id (or
+`<pool>/<card_id>` when two pools share an id).
 
 - `data/card_map.csv`: every card art (586 in game, plus 38 unused), with its
   name, sizes, game paths, where to drop the replacement, and a Bleach match.
