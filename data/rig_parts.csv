@@ -1,0 +1,875 @@
+character,rig,atlas_page,part,source_size,packed_size,rotated_in_atlas
+ironclad,character select,characterselect_ironclad.png,back arm,738x776,369x383,no
+ironclad,character select,characterselect_ironclad.png,bg,5122x2402,2561x1201,no
+ironclad,character select,characterselect_ironclad.png,bod,1402x2344,701x1172,no
+ironclad,character select,characterselect_ironclad.png,eye shine,542x344,271x172,no
+ironclad,character select,characterselect_ironclad.png,fire,5122x2402,2561x1201,no
+ironclad,character select,characterselect_ironclad.png,hair 1,16x824,7x412,yes
+ironclad,character select,characterselect_ironclad.png,hair 2,22x758,11x378,yes
+ironclad,character select,characterselect_ironclad.png,hair 3,30x724,15x360,no
+ironclad,character select,characterselect_ironclad.png,lil hair,84x164,42x82,no
+ironclad,character select,characterselect_ironclad.png,top arm,2280x2402,1140x1201,no
+ironclad,combat,ironclad_2.png,attack/bod attack,239x263,89x98,yes
+ironclad,combat,ironclad_2.png,attack/bottom hand attack,110x99,41x37,no
+ironclad,combat,ironclad_2.png,attack/bottom lower arm attack,199x134,72x47,yes
+ironclad,combat,ironclad_2.png,attack/bottom upper arm attack,202x223,75x83,yes
+ironclad,combat,ironclad_2.png,attack/front arm attack,212x202,79x75,no
+ironclad,combat,ironclad_2.png,attack/front bracer attack,191x110,48x38,yes
+ironclad,combat,ironclad_2.png,attack/front hand attack,91x86,34x32,no
+ironclad,combat,ironclad_2.png,attack/l ankle attack,110x78,39x29,no
+ironclad,combat,ironclad_2.png,attack/l foot attack,102x132,38x49,no
+ironclad,combat,ironclad_2.png,attack/l knee attack,161x140,57x52,yes
+ironclad,combat,ironclad_2.png,attack/l leg attack,140x234,50x87,yes
+ironclad,combat,ironclad_2.png,attack/l neck armor attack,91x89,33x33,no
+ironclad,combat,ironclad_2.png,attack/l shoulder bottom attack,137x108,51x40,no
+ironclad,combat,ironclad_2.png,attack/l shoulder bottom back attack,129x142,40x45,yes
+ironclad,combat,ironclad_2.png,attack/l shoulder top attack,153x83,57x31,no
+ironclad,combat,ironclad_2.png,attack/r foot attack,121x110,45x41,no
+ironclad,combat,ironclad_2.png,attack/r knee attack,156x132,56x47,no
+ironclad,combat,ironclad_2.png,attack/r lower leg attack,183x199,68x74,yes
+ironclad,combat,ironclad_2.png,attack/r neck armor attack,43x65,16x24,yes
+ironclad,combat,ironclad_2.png,attack/r shoulder bottom attack,140x151,39x46,yes
+ironclad,combat,ironclad_2.png,attack/r shoulder top attack,102x118,38x42,yes
+ironclad,combat,ironclad.png,back mask,151x132,56x49,no
+ironclad,combat,ironclad.png,belt,223x89,83x33,yes
+ironclad,combat,ironclad.png,belt 2,70x97,26x35,yes
+ironclad,combat,ironclad.png,belt 3,73x121,27x45,no
+ironclad,combat,ironclad.png,bod,258x301,95x112,no
+ironclad,combat,ironclad.png,bottom lower arm,159x105,48x38,yes
+ironclad,combat,ironclad.png,bottom upper arm,89x199,33x74,no
+ironclad,combat,ironclad.png,bottom_hand,91x86,34x30,yes
+ironclad,combat,ironclad.png,bottom_hand_fingers,91x86,34x30,yes
+ironclad,combat,ironclad.png,collar_back,121x48,45x18,yes
+ironclad,combat,ironclad_3.png,death/body death,339x277,126x103,no
+ironclad,combat,ironclad_3.png,death/bottom shoulder death,137x118,50x43,no
+ironclad,combat,ironclad_3.png,death/bracer_death,226x121,84x45,no
+ironclad,combat,ironclad_3.png,death/hair death,113x142,42x53,yes
+ironclad,combat,ironclad_3.png,death/hand death,142x86,53x32,yes
+ironclad,combat,ironclad_3.png,death/head death,185x148,68x55,no
+ironclad,combat,ironclad_3.png,death/knee_death,118x140,43x52,yes
+ironclad,combat,ironclad_3.png,death/lower arm_death,177x151,66x56,no
+ironclad,combat,ironclad_3.png,death/lower leg_death,121x266,44x99,no
+ironclad,combat,ironclad_3.png,death/open hand_death,108x113,40x42,no
+ironclad,combat,ironclad_3.png,death/top shoulder death,183x148,56x44,no
+ironclad,combat,ironclad_3.png,death/upper arm_death,153x191,56x71,yes
+ironclad,combat,ironclad.png,eye glow,75x70,28x26,yes
+ironclad,combat,ironclad.png,hair,75x121,28x45,no
+ironclad,combat,ironclad.png,head,118x145,44x54,yes
+ironclad,combat,ironclad.png,hip armor right back,48x59,18x22,yes
+ironclad,combat,ironclad.png,hip bottom armor,59x67,22x25,no
+ironclad,combat,ironclad.png,hip top bottom,27x40,10x15,yes
+ironclad,combat,ironclad.png,hips,239x151,89x56,no
+ironclad,combat,ironclad.png,l foot,151x116,56x43,no
+ironclad,combat,ironclad.png,l hip armor bottom,180x105,67x39,yes
+ironclad,combat,ironclad.png,l hip armor top,185x108,68x40,yes
+ironclad,combat,ironclad.png,l knee,145x140,53x52,no
+ironclad,combat,ironclad.png,l lower leg,148x269,51x92,yes
+ironclad,combat,ironclad.png,l neck armor,62x75,23x28,no
+ironclad,combat,ironclad.png,l shoulder armor bottom,110x91,41x34,yes
+ironclad,combat,ironclad.png,l shoulder armor top,108x86,40x32,yes
+ironclad,combat,ironclad.png,l upper leg,220x223,82x83,no
+ironclad,combat,ironclad.png,neck,110x142,41x53,no
+ironclad,combat,ironclad.png,r foot,97x105,36x39,yes
+ironclad,combat,ironclad.png,r hip armor bottom,215x97,80x36,no
+ironclad,combat,ironclad.png,r hip armor top,220x91,82x34,yes
+ironclad,combat,ironclad.png,r knee,145x124,52x46,yes
+ironclad,combat,ironclad.png,r lower leg,164x215,61x73,yes
+ironclad,combat,ironclad.png,r neck armor,94x75,35x28,no
+ironclad,combat,ironclad.png,r shoulder armor bottom,145x110,52x41,yes
+ironclad,combat,ironclad.png,r shoulder armor top,151x86,56x32,yes
+ironclad,combat,ironclad.png,r upper leg,204x261,76x97,no
+ironclad,combat,ironclad.png,shadow,726x140,263x50,yes
+ironclad,combat,ironclad.png,shine,81x51,30x17,no
+ironclad,combat,ironclad.png,slash,917x567,329x211,no
+ironclad,combat,ironclad_4.png,slash/slash_placeholder,40x121,15x45,no
+ironclad,combat,ironclad.png,slash2,2301x1062,610x120,no
+ironclad,combat,ironclad.png,sword blade,317x610,118x227,no
+ironclad,combat,ironclad.png,sword_handle,156x207,58x76,yes
+ironclad,combat,ironclad.png,tired_puff,62x43,23x16,no
+ironclad,combat,ironclad.png,top hand,105x91,39x34,yes
+ironclad,combat,ironclad.png,top lower arm,180x151,67x55,no
+ironclad,combat,ironclad.png,top mask,129x156,48x58,yes
+ironclad,combat,ironclad.png,top upper arm,212x202,79x75,yes
+ironclad,combat,ironclad.png,zaps1,425x349,157x129,yes
+ironclad,combat,ironclad.png,zaps_2,392x390,143x141,yes
+ironclad,merchant,ironclad_shop_2.png,attack/bod attack,240x264,155x172,yes
+ironclad,merchant,ironclad_shop_2.png,attack/bottom hand attack,109x98,69x63,no
+ironclad,merchant,ironclad_shop_2.png,attack/bottom lower arm attack,198x134,124x82,no
+ironclad,merchant,ironclad_shop_2.png,attack/bottom upper arm attack,201x224,131x146,yes
+ironclad,merchant,ironclad_shop_2.png,attack/front arm attack,212x201,138x131,no
+ironclad,merchant,ironclad_shop_2.png,attack/front bracer attack,190x109,84x65,yes
+ironclad,merchant,ironclad_shop_2.png,attack/front hand attack,91x88,59x57,no
+ironclad,merchant,ironclad_shop_2.png,attack/l ankle attack,109x77,69x49,yes
+ironclad,merchant,ironclad_shop_2.png,attack/l foot attack,103x132,66x86,no
+ironclad,merchant,ironclad_shop_2.png,attack/l knee attack,160x140,98x91,no
+ironclad,merchant,ironclad_shop_2.png,attack/l leg attack,141x233,87x152,no
+ironclad,merchant,ironclad_shop_2.png,attack/l neck armor attack,91x89,57x58,yes
+ironclad,merchant,ironclad_shop_2.png,attack/l shoulder bottom attack,138x108,90x70,yes
+ironclad,merchant,ironclad_shop_2.png,attack/l shoulder bottom back attack,129x141,69x78,yes
+ironclad,merchant,ironclad_shop_2.png,attack/l shoulder top attack,154x83,100x54,yes
+ironclad,merchant,ironclad_shop_2.png,attack/r foot attack,120x111,78x72,no
+ironclad,merchant,ironclad_shop_2.png,attack/r knee attack,155x134,97x83,yes
+ironclad,merchant,ironclad_shop_2.png,attack/r lower leg attack,181x200,118x130,yes
+ironclad,merchant,ironclad_shop_2.png,attack/r neck armor attack,43x65,28x42,no
+ironclad,merchant,ironclad_shop_2.png,attack/r shoulder bottom attack,138x151,84x81,no
+ironclad,merchant,ironclad_shop_2.png,attack/r shoulder top attack,101x118,65x75,yes
+ironclad,merchant,ironclad_shop.png,back mask,151x132,98x85,no
+ironclad,merchant,ironclad_shop.png,belt,224x89,146x58,no
+ironclad,merchant,ironclad_shop.png,belt 2,71x98,46x60,yes
+ironclad,merchant,ironclad_shop.png,belt 3,72x121,46x78,no
+ironclad,merchant,ironclad_shop.png,bod,257x300,167x194,yes
+ironclad,merchant,ironclad_shop.png,bottom lower arm,160x104,97x65,no
+ironclad,merchant,ironclad_shop.png,bottom upper arm,89x198,58x129,yes
+ironclad,merchant,ironclad_shop.png,bottom_hand,91x88,59x54,no
+ironclad,merchant,ironclad_shop.png,bottom_hand_fingers,91x88,59x54,no
+ironclad,merchant,ironclad_shop.png,collar_back,121x48,79x31,no
+ironclad,merchant,ironclad_shop_3.png,death/body death,339x276,221x180,no
+ironclad,merchant,ironclad_shop_3.png,death/bottom shoulder death,138x118,89x75,yes
+ironclad,merchant,ironclad_shop_3.png,death/bracer_death,226x120,146x77,no
+ironclad,merchant,ironclad_shop_3.png,death/hair death,114x143,74x93,yes
+ironclad,merchant,ironclad_shop_3.png,death/hand death,143x86,92x56,yes
+ironclad,merchant,ironclad_shop_3.png,death/head death,184x149,119x97,no
+ironclad,merchant,ironclad_shop_3.png,death/knee_death,118x138,76x90,yes
+ironclad,merchant,ironclad_shop_3.png,death/lower arm_death,177x151,115x98,no
+ironclad,merchant,ironclad_shop_3.png,death/lower leg_death,121x266,76x173,yes
+ironclad,merchant,ironclad_shop_3.png,death/open hand_death,108x112,70x72,no
+ironclad,merchant,ironclad_shop_3.png,death/top shoulder death,184x147,98x77,yes
+ironclad,merchant,ironclad_shop_3.png,death/upper arm_death,154x190,98x123,yes
+ironclad,merchant,ironclad_shop.png,eye glow,75x71,49x46,no
+ironclad,merchant,ironclad_shop.png,hair,75x121,48x79,yes
+ironclad,merchant,ironclad_shop.png,head,118x146,77x95,no
+ironclad,merchant,ironclad_shop.png,hip armor right back,49x60,30x37,yes
+ironclad,merchant,ironclad_shop.png,hip bottom armor,58x68,37x44,no
+ironclad,merchant,ironclad_shop.png,hip top bottom,28x41,18x27,no
+ironclad,merchant,ironclad_shop.png,hips,238x151,154x98,no
+ironclad,merchant,ironclad_shop.png,l foot,151x117,98x75,no
+ironclad,merchant,ironclad_shop.png,l hip armor bottom,181x104,117x68,no
+ironclad,merchant,ironclad_shop.png,l hip armor top,184x108,119x69,no
+ironclad,merchant,ironclad_shop.png,l knee,146x141,92x92,no
+ironclad,merchant,ironclad_shop.png,l lower leg,147x269,88x161,no
+ironclad,merchant,ironclad_shop.png,l neck armor,61x75,40x49,no
+ironclad,merchant,ironclad_shop.png,l shoulder armor bottom,111x92,72x58,yes
+ironclad,merchant,ironclad_shop.png,l shoulder armor top,108x84,69x54,no
+ironclad,merchant,ironclad_shop.png,l upper leg,220x223,143x145,yes
+ironclad,merchant,ironclad_shop.png,neck,111x143,72x93,yes
+ironclad,merchant,ironclad_shop.png,r foot,95x106,62x69,no
+ironclad,merchant,ironclad_shop.png,r hip armor bottom,217x98,141x64,no
+ironclad,merchant,ironclad_shop.png,r hip armor top,221x92,142x60,no
+ironclad,merchant,ironclad_shop.png,r knee,146x124,91x79,no
+ironclad,merchant,ironclad_shop.png,r lower leg,164x214,107x128,no
+ironclad,merchant,ironclad_shop.png,r neck armor,95x75,62x49,no
+ironclad,merchant,ironclad_shop.png,r shoulder armor bottom,144x109,90x70,no
+ironclad,merchant,ironclad_shop.png,r shoulder armor top,151x86,98x54,yes
+ironclad,merchant,ironclad_shop.png,r upper leg,203x261,131x170,yes
+ironclad,merchant,ironclad_shop.png,shadow,727x138,460x87,no
+ironclad,merchant,ironclad_shop.png,shine,81x51,51x31,no
+ironclad,merchant,ironclad_shop.png,slash,916x568,574x370,no
+ironclad,merchant,ironclad_shop_4.png,slash/slash_placeholder,40x120,26x78,no
+ironclad,merchant,ironclad_shop.png,slash2,2300x1061,1066x210,no
+ironclad,merchant,ironclad_shop.png,sword blade,318x611,207x398,yes
+ironclad,merchant,ironclad_shop.png,sword_handle,157x206,100x133,yes
+ironclad,merchant,ironclad_shop.png,tired_puff,61x45,38x28,no
+ironclad,merchant,ironclad_shop.png,top hand,106x91,68x59,yes
+ironclad,merchant,ironclad_shop.png,top lower arm,180x151,117x96,yes
+ironclad,merchant,ironclad_shop.png,top mask,129x157,84x101,yes
+ironclad,merchant,ironclad_shop.png,top upper arm,212x203,138x132,no
+ironclad,merchant,ironclad_shop.png,zaps1,424x350,274x227,no
+ironclad,merchant,ironclad_shop.png,zaps_2,392x389,248x246,no
+ironclad,rest site,restsite_ironclad.png,arm top,256x324,127x160,no
+ironclad,rest site,restsite_ironclad.png,belt armor,44x100,21x50,no
+ironclad,rest site,restsite_ironclad.png,bottom arm,114x340,56x170,no
+ironclad,rest site,restsite_ironclad.png,cast chadow,378x612,189x306,no
+ironclad,rest site,restsite_ironclad.png,chest,220x202,110x101,no
+ironclad,rest site,restsite_ironclad.png,hair,8x76,4x38,no
+ironclad,rest site,restsite_ironclad.png,head,128x150,64x73,yes
+ironclad,rest site,restsite_ironclad.png,highlight,354x580,157x285,no
+ironclad,rest site,restsite_ironclad.png,hips,348x196,173x94,yes
+ironclad,rest site,restsite_ironclad.png,l leg,124x308,58x149,yes
+ironclad,rest site,restsite_ironclad.png,neck,74x102,36x50,no
+ironclad,rest site,restsite_ironclad.png,r leg,136x278,64x133,yes
+ironclad,rest site,restsite_ironclad.png,shadow 1,272x252,135x125,no
+ironclad,rest site,restsite_ironclad.png,shadow 2,392x392,193x194,no
+silent,character select,characterselect_silent.png,character,4638x2400,2319x1200,no
+silent,character select,characterselect_silent.png,hair,790x706,393x353,yes
+silent,combat,silent.png,back arm,103x162,33x52,no
+silent,combat,silent.png,back arm 1,97x81,31x26,no
+silent,combat,silent.png,back arm 2,59x128,18x41,no
+silent,combat,silent.png,back arm cloak,184x456,59x146,no
+silent,combat,silent.png,back arm cloak back,56x359,18x107,yes
+silent,combat,silent.png,back dagger,231x125,74x38,no
+silent,combat,silent.png,back hand,84x81,27x24,yes
+silent,combat,silent.png,back hand 2,78x134,25x43,no
+silent,combat,silent.png,badge,138x169,44x53,yes
+silent,combat,silent.png,blade_shine,44x53,12x15,no
+silent,combat,silent.png,blade_twirls,106x59,32x17,no
+silent,combat,silent.png,bottom foot,134x81,43x26,no
+silent,combat,silent.png,bottom hood,112x153,36x49,no
+silent,combat,silent.png,bottom horn,156x109,50x35,no
+silent,combat,silent.png,bottom leg bottom,75x275,24x88,yes
+silent,combat,silent.png,bottom leg top,200x175,64x56,no
+silent,combat,silent.png,cape_back_attack,212x278,68x89,no
+silent,combat,silent.png,cape_front_attack,625x534,200x171,no
+silent,combat,silent.png,cape_front_blocking,212x412,68x132,no
+silent,combat,silent.png,cloak back,372x509,119x163,no
+silent,combat,silent.png,death_half_scale/death_antlers,119x188,38x60,yes
+silent,combat,silent.png,death_half_scale/death_bottom leg,416x112,133x36,yes
+silent,combat,silent.png,death_half_scale/death_hair,338x194,108x62,yes
+silent,combat,silent.png,death_half_scale/death_hood,150x181,48x58,yes
+silent,combat,silent.png,death_half_scale/death_neck,91x188,28x60,yes
+silent,combat,silent.png,death_half_scale/death_shadow,1212x159,388x51,no
+silent,combat,silent.png,death_half_scale/death_skirt back,125x47,40x15,yes
+silent,combat,silent.png,death_half_scale/death_skirt fabric,578x266,185x85,no
+silent,combat,silent.png,death_half_scale/death_skull,88x47,28x15,no
+silent,combat,silent.png,death_half_scale/death_spine sash,169x241,54x77,yes
+silent,combat,silent.png,death_half_scale/death_top leg,359x81,115x26,no
+silent,combat,silent.png,death_half_scale/death_torso,275x256,88x82,yes
+silent,combat,silent.png,dress,166x488,53x156,yes
+silent,combat,silent.png,eye,34x28,11x9,yes
+silent,combat,silent.png,hair,438x53,140x17,yes
+silent,combat,silent.png,hair top,16x191,5x61,no
+silent,combat,silent.png,head,97x131,31x42,no
+silent,combat,silent.png,hood top,159x172,51x55,no
+silent,combat,silent.png,left cape,84x128,27x41,yes
+silent,combat,silent.png,neck bottom,153x72,49x23,yes
+silent,combat,silent.png,neck top,178x100,57x32,no
+silent,combat,silent.png,right cape,253x494,81x158,yes
+silent,combat,silent.png,shadow,691x197,220x62,no
+silent,combat,silent.png,shiv_blur,750x200,238x64,yes
+silent,combat,silent.png,shiv_hand,106x69,34x22,yes
+silent,combat,silent.png,skull,181x144,52x45,no
+silent,combat,silent.png,slash,359x669,114x213,no
+silent,combat,silent.png,top arm,153x53,49x17,no
+silent,combat,silent.png,top arm cloak,244x656,65x210,no
+silent,combat,silent.png,top dagger,212x184,68x59,no
+silent,combat,silent.png,top foot,75x103,24x33,yes
+silent,combat,silent.png,top hand,88x75,28x24,no
+silent,combat,silent.png,top hand 2,72x88,23x28,no
+silent,combat,silent.png,top horn,203x88,65x28,yes
+silent,combat,silent.png,top leg,381x459,58x147,yes
+silent,combat,silent.png,torso copy,206x200,66x64,yes
+silent,merchant,silent_shop.png,back arm,102x162,69x108,no
+silent,merchant,silent_shop.png,back arm 1,98x82,66x54,no
+silent,merchant,silent_shop.png,back arm 2,59x129,37x87,no
+silent,merchant,silent_shop.png,back arm cloak,185x455,125x307,yes
+silent,merchant,silent_shop.png,back arm cloak back,56x359,38x225,no
+silent,merchant,silent_shop.png,back dagger,230x126,153x81,no
+silent,merchant,silent_shop.png,back hand,83x80,55x49,yes
+silent,merchant,silent_shop.png,back hand 2,79x134,51x89,no
+silent,merchant,silent_shop.png,badge,136x169,92x111,yes
+silent,merchant,silent_shop.png,blade_shine,43x53,27x34,no
+silent,merchant,silent_shop.png,blade_twirls,107x59,69x36,yes
+silent,merchant,silent_shop.png,bottom foot,134x80,90x54,yes
+silent,merchant,silent_shop.png,bottom hood,111x154,75x103,yes
+silent,merchant,silent_shop.png,bottom horn,154x110,104x73,no
+silent,merchant,silent_shop.png,bottom leg bottom,76x276,50x186,yes
+silent,merchant,silent_shop.png,bottom leg top,200x174,135x116,no
+silent,merchant,silent_shop.png,cape_back_attack,211x279,142x188,yes
+silent,merchant,silent_shop.png,cape_front_attack,625x533,421x359,no
+silent,merchant,silent_shop.png,cape_front_blocking,214x414,144x279,no
+silent,merchant,silent_shop.png,cloak back,372x510,251x344,no
+silent,merchant,silent_shop.png,death_half_scale/death_antlers,119x187,79x125,yes
+silent,merchant,silent_shop.png,death_half_scale/death_bottom leg,415x111,280x75,yes
+silent,merchant,silent_shop.png,death_half_scale/death_hair,338x194,228x131,yes
+silent,merchant,silent_shop.png,death_half_scale/death_hood,151x181,102x122,yes
+silent,merchant,silent_shop.png,death_half_scale/death_neck,91x188,59x127,no
+silent,merchant,silent_shop.png,death_half_scale/death_shadow,1212x160,817x107,no
+silent,merchant,silent_shop.png,death_half_scale/death_skirt back,126x47,85x30,yes
+silent,merchant,silent_shop.png,death_half_scale/death_skirt fabric,579x266,390x178,yes
+silent,merchant,silent_shop.png,death_half_scale/death_skull,89x47,60x32,no
+silent,merchant,silent_shop.png,death_half_scale/death_spine sash,171x240,115x162,yes
+silent,merchant,silent_shop.png,death_half_scale/death_top leg,361x82,243x55,yes
+silent,merchant,silent_shop.png,death_half_scale/death_torso,274x257,185x173,no
+silent,merchant,silent_shop.png,dress,168x490,113x330,no
+silent,merchant,silent_shop.png,eye,36x27,24x18,no
+silent,merchant,silent_shop.png,hair,438x53,295x36,yes
+silent,merchant,silent_shop.png,hair top,16x190,11x128,no
+silent,merchant,silent_shop.png,head,96x132,65x88,no
+silent,merchant,silent_shop.png,hood top,159x174,107x117,yes
+silent,merchant,silent_shop.png,left cape,85x128,57x85,no
+silent,merchant,silent_shop.png,neck bottom,153x73,103x48,yes
+silent,merchant,silent_shop.png,neck top,180x99,121x66,no
+silent,merchant,silent_shop.png,right cape,252x493,170x332,yes
+silent,merchant,silent_shop.png,shadow,691x197,463x131,yes
+silent,merchant,silent_shop.png,shiv_blur,751x200,501x135,no
+silent,merchant,silent_shop.png,shiv_hand,107x70,70x45,no
+silent,merchant,silent_shop.png,skull,180x144,108x93,no
+silent,merchant,silent_shop.png,slash,361x671,240x450,no
+silent,merchant,silent_shop.png,top arm,151x53,100x35,yes
+silent,merchant,silent_shop.png,top arm cloak,245x654,136x441,no
+silent,merchant,silent_shop.png,top dagger,212x184,142x122,yes
+silent,merchant,silent_shop.png,top foot,76x104,51x70,no
+silent,merchant,silent_shop.png,top hand,88x74,59x50,no
+silent,merchant,silent_shop.png,top hand 2,73x89,48x60,yes
+silent,merchant,silent_shop.png,top horn,202x86,136x58,no
+silent,merchant,silent_shop.png,top leg,380x460,121x310,no
+silent,merchant,silent_shop.png,torso copy,208x200,139x135,no
+silent,rest site,restsite_silent.png,bod,418x528,136x138,yes
+silent,rest site,restsite_silent.png,bottom drapery,147x218,88x131,yes
+silent,rest site,restsite_silent.png,cast shadow,323x612,189x367,no
+silent,rest site,restsite_silent.png,hair,107x208,64x125,no
+silent,rest site,restsite_silent.png,head,197x203,117x121,no
+silent,rest site,restsite_silent.png,highlights,265x578,159x347,no
+silent,rest site,restsite_silent.png,hood top,160x203,96x121,no
+silent,rest site,restsite_silent.png,l arm 1,78x270,45x161,no
+silent,rest site,restsite_silent.png,l arm 2,57x148,34x87,no
+silent,rest site,restsite_silent.png,l leg,172x278,103x164,no
+silent,rest site,restsite_silent.png,leg draps,108x172,64x101,no
+silent,rest site,restsite_silent.png,r arm,160x325,94x193,no
+silent,rest site,restsite_silent.png,r leg,317x232,189x139,yes
+silent,rest site,restsite_silent.png,shadow,418x368,246x216,no
+silent,rest site,restsite_silent.png,skull,118x108,68x65,no
+defect,character select,characterselect_defect.png,back arm,842x942,421x471,yes
+defect,character select,characterselect_defect.png,backgroundbottom,5122x2402,2561x1201,yes
+defect,character select,characterselect_defect.png,backgroundtop,5122x2402,2561x1201,yes
+defect,character select,characterselect_defect.png,bottom leg,1092x494,546x247,no
+defect,character select,characterselect_defect.png,cape back,1882x1448,941x724,no
+defect,character select,characterselect_defect.png,fabric,1606x874,803x437,no
+defect,character select,characterselect_defect.png,hand,2022x1758,1011x879,yes
+defect,character select,characterselect_defect.png,head,718x656,359x328,no
+defect,character select,characterselect_defect.png,hips,656x368,328x184,no
+defect,character select,characterselect_defect.png,leg tops,1528x496,764x248,no
+defect,character select,characterselect_defect.png,lower arm,382x276,191x138,yes
+defect,character select,characterselect_defect.png,neck tubes,390x472,195x236,no
+defect,character select,characterselect_defect.png,orb,1140x1202,570x601,no
+defect,character select,characterselect_defect.png,shine,1310x1270,602x581,yes
+defect,character select,characterselect_defect.png,sparkle,72x78,35x37,no
+defect,combat,defect.png,binder_bolt,133x337,22x56,yes
+defect,combat,defect.png,blender/blender_blur,524x482,87x80,no
+defect,combat,defect.png,blender/blender_core,554x1211,92x201,yes
+defect,combat,defect.png,blender/blender_edge_1,247x410,41x67,no
+defect,combat,defect.png,blender/blender_edge_2,211x729,35x118,yes
+defect,combat,defect.png,blender/blender_hline,331x157,55x26,yes
+defect,combat,defect.png,blender/blender_thick_1,380x1157,42x186,yes
+defect,combat,defect.png,blender/blender_thick_2,386x1157,64x135,yes
+defect,combat,defect.png,blender/blender_whisp_1,434x1108,72x184,yes
+defect,combat,defect.png,blender/blender_whisp_2,380x988,63x164,yes
+defect,combat,defect.png,blip_circle,72x72,12x12,no
+defect,combat,defect.png,blip_star,78x78,13x13,no
+defect,combat,defect.png,bod,711x386,118x64,no
+defect,combat,defect.png,castfist_l,325x301,54x50,no
+defect,combat,defect.png,castfist_r,380x331,63x55,no
+defect,combat,defect.png,cowl 1,1072x500,178x83,no
+defect,combat,defect.png,cowl 2,512x392,83x65,no
+defect,combat,defect.png,cowl back,1283x1120,203x186,no
+defect,combat,defect.png,deathspark/deathspark00,301x301,37x41,no
+defect,combat,defect.png,deathspark/deathspark01,301x301,48x50,no
+defect,combat,defect.png,deathspark/deathspark02,301x301,46x50,no
+defect,combat,defect.png,deathspark/deathspark03,301x301,45x50,no
+defect,combat,defect.png,defect_flare,199x102,32x17,no
+defect,combat,defect.png,eye,217x319,36x53,yes
+defect,combat,defect.png,eye shine,66x217,11x36,yes
+defect,combat,defect.png,eye_progress1,217x229,33x36,no
+defect,combat,defect.png,eye_progress2,217x229,33x36,no
+defect,combat,defect.png,eye_progress3,217x229,33x36,yes
+defect,combat,defect.png,eye_progress4,217x229,33x36,no
+defect,combat,defect.png,eye_progress5,217x229,33x36,yes
+defect,combat,defect.png,eye_progress6,217x229,33x36,yes
+defect,combat,defect.png,eye_progress7,217x229,33x36,no
+defect,combat,defect.png,eye_progress8,217x229,33x36,no
+defect,combat,defect.png,eye_progress9,217x229,33x36,yes
+defect,combat,defect.png,glow1,193x199,30x31,yes
+defect,combat,defect.png,glow2,181x217,28x33,yes
+defect,combat,defect.png,glow3,175x163,27x25,no
+defect,combat,defect.png,glow4,181x241,28x36,yes
+defect,combat,defect.png,head,500x476,83x79,no
+defect,combat,defect.png,hip,325x301,53x50,no
+defect,combat,defect.png,hip joint bottom,151x151,25x25,no
+defect,combat,defect.png,hip joint top,175x175,29x29,no
+defect,combat,defect.png,l foot,283x217,47x36,yes
+defect,combat,defect.png,l hand,367x337,61x56,no
+defect,combat,defect.png,l leg bottom,482x452,80x75,no
+defect,combat,defect.png,l leg middle,301x416,50x69,yes
+defect,combat,defect.png,l leg top,361x331,60x55,no
+defect,combat,defect.png,l lower arm,319x530,53x80,yes
+defect,combat,defect.png,l toe left,265x151,44x25,no
+defect,combat,defect.png,l toe middle,277x193,46x32,yes
+defect,combat,defect.png,l toe right,265x151,44x25,yes
+defect,combat,defect.png,l upper arm,410x554,67x91,yes
+defect,combat,defect.png,neck,301x241,50x40,no
+defect,combat,defect.png,orb,693x693,113x113,no
+defect,combat,defect.png,orb patch,151x114,25x18,yes
+defect,combat,defect.png,orb shine,560x452,93x75,no
+defect,combat,defect.png,orb sparkles,440x265,73x44,yes
+defect,combat,defect.png,pipe 1,247x361,41x60,no
+defect,combat,defect.png,pipe 2,169x223,28x37,no
+defect,combat,defect.png,r foot,265x181,44x30,no
+defect,combat,defect.png,r hand,337x313,56x52,no
+defect,combat,defect.png,r leg bottom,380x422,63x70,no
+defect,combat,defect.png,r leg middle,301x416,50x69,yes
+defect,combat,defect.png,r leg top,325x343,54x57,yes
+defect,combat,defect.png,r lower arm,349x500,58x78,no
+defect,combat,defect.png,r toe left,259x175,43x29,no
+defect,combat,defect.png,r toe right,301x169,50x28,yes
+defect,combat,defect.png,r upper arm,361x554,60x92,yes
+defect,combat,defect.png,roundspark,36x36,6x6,no
+defect,combat,defect.png,shadow,2078x494,344x81,no
+defect,merchant,defect_shop.png,binder_bolt,131x334,38x96,yes
+defect,merchant,defect_shop.png,blender/blender_blur,528x483,152x140,no
+defect,merchant,defect_shop.png,blender/blender_core,555x1210,161x351,yes
+defect,merchant,defect_shop.png,blender/blender_edge_1,245x410,70x117,no
+defect,merchant,defect_shop.png,blender/blender_edge_2,210x728,61x205,yes
+defect,merchant,defect_shop.png,blender/blender_hline,334x155,97x45,no
+defect,merchant,defect_shop.png,blender/blender_thick_1,379x1159,77x330,yes
+defect,merchant,defect_shop.png,blender/blender_thick_2,383x1159,110x236,yes
+defect,merchant,defect_shop.png,blender/blender_whisp_1,434x1107,126x321,no
+defect,merchant,defect_shop.png,blender/blender_whisp_2,379x986,110x286,no
+defect,merchant,defect_shop.png,blip_circle,76x76,22x22,no
+defect,merchant,defect_shop.png,blip_star,79x79,23x23,no
+defect,merchant,defect_shop.png,bod,714x383,207x111,yes
+defect,merchant,defect_shop.png,castfist_l,324x303,94x88,no
+defect,merchant,defect_shop.png,castfist_r,379x328,110x95,yes
+defect,merchant,defect_shop.png,cowl 1,1072x500,311x145,no
+defect,merchant,defect_shop.png,cowl 2,514x390,145x113,yes
+defect,merchant,defect_shop.png,cowl back,1283x1121,353x325,no
+defect,merchant,defect_shop.png,deathspark/deathspark00,300x300,63x70,yes
+defect,merchant,defect_shop.png,deathspark/deathspark01,300x300,83x86,no
+defect,merchant,defect_shop.png,deathspark/deathspark02,300x300,81x87,yes
+defect,merchant,defect_shop.png,deathspark/deathspark03,300x300,78x86,no
+defect,merchant,defect_shop.png,defect_flare,200x100,57x28,yes
+defect,merchant,defect_shop.png,eye,217x321,63x93,yes
+defect,merchant,defect_shop.png,eye shine,69x214,20x62,yes
+defect,merchant,defect_shop.png,eye_progress1,217x228,57x61,no
+defect,merchant,defect_shop.png,eye_progress2,217x228,57x61,yes
+defect,merchant,defect_shop.png,eye_progress3,217x228,57x61,no
+defect,merchant,defect_shop.png,eye_progress4,217x228,57x61,no
+defect,merchant,defect_shop.png,eye_progress5,217x228,57x61,no
+defect,merchant,defect_shop.png,eye_progress6,217x228,57x61,yes
+defect,merchant,defect_shop.png,eye_progress7,217x228,57x61,no
+defect,merchant,defect_shop.png,eye_progress8,217x228,57x61,yes
+defect,merchant,defect_shop.png,eye_progress9,217x228,57x61,no
+defect,merchant,defect_shop.png,glow1,190x197,50x51,yes
+defect,merchant,defect_shop.png,glow2,179x214,47x56,no
+defect,merchant,defect_shop.png,glow3,176x166,45x42,no
+defect,merchant,defect_shop.png,glow4,179x241,47x64,no
+defect,merchant,defect_shop.png,head,500x472,145x137,no
+defect,merchant,defect_shop.png,hip,328x300,93x87,yes
+defect,merchant,defect_shop.png,hip joint bottom,152x152,44x44,no
+defect,merchant,defect_shop.png,hip joint top,176x176,51x51,no
+defect,merchant,defect_shop.png,l foot,283x221,82x64,no
+defect,merchant,defect_shop.png,l hand,369x341,107x99,no
+defect,merchant,defect_shop.png,l leg bottom,479x452,139x131,no
+defect,merchant,defect_shop.png,l leg middle,300x417,87x121,no
+defect,merchant,defect_shop.png,l leg top,359x334,104x97,yes
+defect,merchant,defect_shop.png,l lower arm,317x534,92x140,no
+defect,merchant,defect_shop.png,l toe left,262x152,76x44,no
+defect,merchant,defect_shop.png,l toe middle,279x190,81x55,yes
+defect,merchant,defect_shop.png,l toe right,262x152,76x44,no
+defect,merchant,defect_shop.png,l upper arm,407x559,116x160,yes
+defect,merchant,defect_shop.png,neck,300x241,87x70,no
+defect,merchant,defect_shop.png,orb,697x693,198x196,no
+defect,merchant,defect_shop.png,orb patch,152x114,44x31,yes
+defect,merchant,defect_shop.png,orb shine,559x452,162x131,no
+defect,merchant,defect_shop.png,orb sparkles,441x269,128x78,yes
+defect,merchant,defect_shop.png,pipe 1,248x362,72x105,no
+defect,merchant,defect_shop.png,pipe 2,166x224,48x65,yes
+defect,merchant,defect_shop.png,r foot,266x183,76x52,no
+defect,merchant,defect_shop.png,r hand,338x314,98x91,no
+defect,merchant,defect_shop.png,r leg bottom,379x424,110x123,yes
+defect,merchant,defect_shop.png,r leg middle,300x417,87x121,no
+defect,merchant,defect_shop.png,r leg top,324x345,93x100,no
+defect,merchant,defect_shop.png,r lower arm,348x500,101x136,no
+defect,merchant,defect_shop.png,r toe left,259x176,75x51,yes
+defect,merchant,defect_shop.png,r toe right,300x172,87x50,no
+defect,merchant,defect_shop.png,r upper arm,362x552,105x160,no
+defect,merchant,defect_shop.png,roundspark,38x38,11x11,no
+defect,merchant,defect_shop.png,shadow,2079x497,602x141,no
+defect,rest site,restsite_defect.png,bottom foot,170x168,81x83,no
+defect,rest site,restsite_defect.png,bottom leg,248x230,123x114,yes
+defect,rest site,restsite_defect.png,cape,468x262,234x131,no
+defect,rest site,restsite_defect.png,cape back,390x262,195x131,no
+defect,rest site,restsite_defect.png,cast shadow,614x708,307x354,yes
+defect,rest site,restsite_defect.png,eye shine,30x106,13x51,no
+defect,rest site,restsite_defect.png,glow1,68x68,30x30,no
+defect,rest site,restsite_defect.png,glow2,62x76,27x34,yes
+defect,rest site,restsite_defect.png,glow3,62x58,27x25,yes
+defect,rest site,restsite_defect.png,glow4,64x84,28x38,yes
+defect,rest site,restsite_defect.png,head,196x190,97x95,yes
+defect,rest site,restsite_defect.png,highlight,678x716,339x358,yes
+defect,rest site,restsite_defect.png,hips,178x122,89x61,no
+defect,rest site,restsite_defect.png,l arm 1,124x192,62x96,no
+defect,rest site,restsite_defect.png,l arm 2,192x148,94x72,yes
+defect,rest site,restsite_defect.png,l hand,114x122,57x61,yes
+defect,rest site,restsite_defect.png,neck,300x182,150x91,yes
+defect,rest site,restsite_defect.png,orb,260x242,128x118,no
+defect,rest site,restsite_defect.png,r arm 1,146x132,72x64,no
+defect,rest site,restsite_defect.png,r arm 2,134x184,66x90,yes
+defect,rest site,restsite_defect.png,r hand,134x100,65x49,yes
+defect,rest site,restsite_defect.png,shadow,624x348,312x173,no
+defect,rest site,restsite_defect.png,top foot,250x110,124x54,no
+defect,rest site,restsite_defect.png,top leg,208x312,102x156,yes
+regent,character select,characterselect_regent.png,Layer 5,5462x2402,2731x1201,no
+regent,character select,characterselect_regent.png,amogus,108x112,52x54,no
+regent,character select,characterselect_regent.png,amogus_outline,290x298,137x134,no
+regent,character select,characterselect_regent.png,bod,774x744,387x372,no
+regent,character select,characterselect_regent.png,bottom arm,828x374,414x187,yes
+regent,character select,characterselect_regent.png,bottom hand,504x308,252x154,yes
+regent,character select,characterselect_regent.png,bottom leg,1386x842,693x421,no
+regent,character select,characterselect_regent.png,chain,338x96,169x48,yes
+regent,character select,characterselect_regent.png,chains shadow,512x124,256x62,yes
+regent,character select,characterselect_regent.png,cultist,536x452,266x224,no
+regent,character select,characterselect_regent.png,cultist_outline,590x524,289x257,no
+regent,character select,characterselect_regent.png,deca,732x568,364x282,yes
+regent,character select,characterselect_regent.png,deca_outline,748x670,357x311,no
+regent,character select,characterselect_regent.png,eye,132x78,64x39,no
+regent,character select,characterselect_regent.png,guardian_outline,712x758,352x373,yes
+regent,character select,characterselect_regent.png,head,604x890,302x445,no
+regent,character select,characterselect_regent.png,sentry,446x830,222x413,no
+regent,character select,characterselect_regent.png,sentry_outline,438x824,215x405,yes
+regent,character select,characterselect_regent.png,shapes,436x460,216x228,no
+regent,character select,characterselect_regent.png,shapes_outline,590x846,280x410,yes
+regent,character select,characterselect_regent.png,shoulders,826x340,413x168,no
+regent,character select,characterselect_regent.png,sleeve hole,62x112,31x56,yes
+regent,character select,characterselect_regent.png,snecko,722x636,359x316,no
+regent,character select,characterselect_regent.png,snecko_outline,866x840,429x415,no
+regent,character select,characterselect_regent.png,spheric guardian,652x692,324x344,no
+regent,character select,characterselect_regent.png,stars_a,1020x2316,505x444,yes
+regent,character select,characterselect_regent.png,stars_b,2744x1554,1368x712,no
+regent,character select,characterselect_regent.png,stars_c,1304x848,640x420,no
+regent,character select,characterselect_regent.png,stars_d,1322x1992,479x805,no
+regent,character select,characterselect_regent.png,stars_e,1854x1024,927x512,no
+regent,character select,characterselect_regent.png,stars_f,3828x2408,357x419,no
+regent,character select,characterselect_regent.png,stars_g,3936x1310,416x206,yes
+regent,character select,characterselect_regent.png,stars_h,3660x1030,337x508,yes
+regent,character select,characterselect_regent.png,swirls,5122x2402,2561x1201,no
+regent,character select,characterselect_regent.png,throne,2528x2548,1240x1256,yes
+regent,character select,characterselect_regent.png,throne arm,794x866,396x433,no
+regent,character select,characterselect_regent.png,top arm,478x598,239x299,no
+regent,character select,characterselect_regent.png,top hand,358x402,179x201,yes
+regent,character select,characterselect_regent.png,top hand glow,452x492,221x237,no
+regent,character select,characterselect_regent.png,top leg,418x394,209x197,no
+regent,character select,characterselect_regent.png,top leg copy,896x724,446x362,no
+regent,combat,regent.png,anger,70x78,27x30,yes
+regent,combat,regent.png,belt,99x29,38x11,no
+regent,combat,regent.png,bod,140x148,54x57,no
+regent,combat,regent.png,bottm fist,62x75,24x29,yes
+regent,combat,regent.png,bottom arm 1,86x161,33x60,yes
+regent,combat,regent.png,bottom arm 1 flipped,86x161,33x60,no
+regent,combat,regent.png,bottom arm 2,140x117,48x43,yes
+regent,combat,regent.png,bottom fingers,60x68,22x26,yes
+regent,combat,regent.png,bottom hand,78x65,24x25,no
+regent,combat,regent.png,bottom hand freaked,78x106,29x41,no
+regent,combat,regent.png,bubble,81x81,31x31,no
+regent,combat,regent.png,chain,86x39,33x15,yes
+regent,combat,regent.png,death flash,545x652,207x248,no
+regent,combat,regent.png,fist swish,60x143,23x55,yes
+regent,combat,regent.png,half eye,57x42,20x14,yes
+regent,combat,regent.png,hand,117x62,45x23,no
+regent,combat,regent.png,hand copy,73x75,27x28,no
+regent,combat,regent.png,head,179x275,69x106,yes
+regent,combat,regent.png,inner_light,236x208,83x77,yes
+regent,combat,regent.png,l shoulder,83x62,31x24,yes
+regent,combat,regent.png,left guy,213x273,82x105,yes
+regent,combat,regent.png,left guy highlights,213x268,81x103,no
+regent,combat,regent.png,left guy top arm,135x140,52x53,yes
+regent,combat,regent.png,left guy top arm highlights,122x132,47x51,yes
+regent,combat,regent.png,leg bottom,213x278,81x29,no
+regent,combat,regent.png,leg bottom bottom,195x177,75x68,no
+regent,combat,regent.png,leg top,226x260,80x39,no
+regent,combat,regent.png,leg top bottom,226x273,34x83,yes
+regent,combat,regent.png,mad eye,57x52,20x18,yes
+regent,combat,regent.png,minion sweat,23x13,9x5,no
+regent,combat,regent.png,neck,88x88,34x34,no
+regent,combat,regent.png,normal eye,60x44,20x15,yes
+regent,combat,regent.png,r shoulder,55x42,21x15,no
+regent,combat,regent.png,regent death pop,340x223,129x80,no
+regent,combat,regent.png,right guy,229x252,88x97,yes
+regent,combat,regent.png,right guy bottom arm,49x132,19x51,no
+regent,combat,regent.png,right guy bottom arm highlights,242x151,18x39,no
+regent,combat,regent.png,right guy highlights,203x247,77x94,no
+regent,combat,regent.png,right guy top arm,96x132,36x51,yes
+regent,combat,regent.png,right guy top arm highlights,83x125,31x46,yes
+regent,combat,regent.png,shadow,686x166,262x62,no
+regent,combat,regent.png,sparkle 3,39x57,14x21,yes
+regent,combat,regent.png,star eye,60x78,19x26,yes
+regent,combat,regent.png,throne bottom highlights,527x1073,202x413,no
+regent,combat,regent.png,throne shadows,535x179,206x69,no
+regent,combat,regent.png,throne top,397x839,153x323,no
+regent,combat,regent.png,throne top highlights,465x839,149x323,no
+regent,combat,regent.png,throne_bottom,535x1078,206x415,no
+regent,combat,regent.png,top arm 1,104x179,40x68,no
+regent,combat,regent.png,top arm 1 flipped,104x179,40x68,yes
+regent,combat,regent.png,top arm 2,112x200,43x69,no
+regent,combat,regent.png,top arm 2 flipped,112x200,43x69,no
+regent,combat,regent.png,top fist,86x73,33x28,no
+regent,combat,regent.png,top hand 1,86x81,32x28,no
+regent,combat (weapon),regent_weapon.png,medium weapon,115x425,42x161,yes
+regent,combat (weapon),regent_weapon.png,small big weapon,242x490,86x187,yes
+regent,combat (weapon),regent_weapon.png,small weapon,105x270,38x98,no
+regent,merchant,regent_shop.png,anger,70x77,46x50,no
+regent,merchant,regent_shop.png,belt,98x30,65x20,no
+regent,merchant,regent_shop.png,bod,139x147,94x99,yes
+regent,merchant,regent_shop.png,bottm fist,62x76,41x51,no
+regent,merchant,regent_shop.png,bottom arm 1,86x160,58x104,yes
+regent,merchant,regent_shop.png,bottom arm 1 flipped,86x160,58x104,yes
+regent,merchant,regent_shop.png,bottom arm 2,139x119,84x77,no
+regent,merchant,regent_shop.png,bottom fingers,59x68,39x45,yes
+regent,merchant,regent_shop.png,bottom hand,79x65,41x44,yes
+regent,merchant,regent_shop.png,bottom hand freaked,79x105,51x69,no
+regent,merchant,regent_shop.png,bubble,80x80,54x54,no
+regent,merchant,regent_shop.png,chain,86x39,58x26,no
+regent,merchant,regent_shop.png,death flash,545x653,361x434,yes
+regent,merchant,regent_shop.png,fist swish,59x142,40x95,yes
+regent,merchant,regent_shop.png,half eye,58x42,34x24,no
+regent,merchant,regent_shop.png,hand,117x62,79x39,yes
+regent,merchant,regent_shop.png,hand copy,73x76,46x49,yes
+regent,merchant,regent_shop.png,head,180x276,121x186,no
+regent,merchant,regent_shop.png,inner_light,236x208,144x135,yes
+regent,merchant,regent_shop.png,l shoulder,85x62,56x41,yes
+regent,merchant,regent_shop.png,left guy,212x273,143x184,yes
+regent,merchant,regent_shop.png,left guy highlights,212x267,141x178,yes
+regent,merchant,regent_shop.png,left guy top arm,135x139,91x93,no
+regent,merchant,regent_shop.png,left guy top arm highlights,123x132,83x87,no
+regent,merchant,regent_shop.png,leg bottom,212x279,142x51,yes
+regent,merchant,regent_shop.png,leg bottom bottom,194x177,131x118,yes
+regent,merchant,regent_shop.png,leg top,226x260,140x67,no
+regent,merchant,regent_shop.png,leg top bottom,227x273,61x145,yes
+regent,merchant,regent_shop.png,mad eye,56x50,34x30,no
+regent,merchant,regent_shop.png,minion sweat,24x12,15x7,no
+regent,merchant,regent_shop.png,neck,88x88,59x59,no
+regent,merchant,regent_shop.png,normal eye,59x45,35x26,yes
+regent,merchant,regent_shop.png,r shoulder,53x42,35x26,yes
+regent,merchant,regent_shop.png,regent death pop,341x224,226x139,no
+regent,merchant,regent_shop.png,right guy,228x254,154x171,no
+regent,merchant,regent_shop.png,right guy bottom arm,50x134,33x90,yes
+regent,merchant,regent_shop.png,right guy bottom arm highlights,240x151,30x67,yes
+regent,merchant,regent_shop.png,right guy highlights,202x246,135x165,no
+regent,merchant,regent_shop.png,right guy top arm,95x134,63x90,yes
+regent,merchant,regent_shop.png,right guy top arm highlights,82x125,54x81,yes
+regent,merchant,regent_shop.png,shadow,687x165,461x108,yes
+regent,merchant,regent_shop.png,sparkle 3,39x58,24x37,yes
+regent,merchant,regent_shop.png,star eye,61x79,35x47,no
+regent,merchant,regent_shop.png,throne bottom highlights,527x1074,354x723,no
+regent,merchant,regent_shop.png,throne shadows,534x180,360x121,no
+regent,merchant,regent_shop.png,throne top,398x838,267x565,no
+regent,merchant,regent_shop.png,throne top highlights,466x840,260x566,yes
+regent,merchant,regent_shop.png,throne_bottom,536x1077,361x726,no
+regent,merchant,regent_shop.png,top arm 1,104x180,69x119,no
+regent,merchant,regent_shop.png,top arm 1 flipped,104x180,69x119,no
+regent,merchant,regent_shop.png,top arm 2,111x200,75x120,no
+regent,merchant,regent_shop.png,top arm 2 flipped,111x200,75x120,no
+regent,merchant,regent_shop.png,top fist,85x73,55x48,no
+regent,merchant,regent_shop.png,top hand 1,88x82,56x48,no
+regent,rest site,restsite_regent.png,body,100x101,100x101,yes
+regent,rest site,restsite_regent.png,bottom leg,115x187,113x180,no
+regent,rest site,restsite_regent.png,chain,59x20,60x20,no
+regent,rest site,restsite_regent.png,eye,25x13,21x11,yes
+regent,rest site,restsite_regent.png,ground shadow,375x284,377x285,yes
+regent,rest site,restsite_regent.png,guys,210x225,209x225,no
+regent,rest site,restsite_regent.png,hands,176x114,171x111,yes
+regent,rest site,restsite_regent.png,head,100x170,100x171,no
+regent,rest site,restsite_regent.png,light,338x712,309x718,yes
+regent,rest site,restsite_regent.png,lower arm,96x93,97x88,no
+regent,rest site,restsite_regent.png,neck,56x59,54x59,no
+regent,rest site,restsite_regent.png,shadow,423x612,427x618,no
+regent,rest site,restsite_regent.png,shoulders,143x56,143x56,no
+regent,rest site,restsite_regent.png,throne,345x686,340x686,no
+regent,rest site,restsite_regent.png,throne shadow,337x683,338x686,no
+regent,rest site,restsite_regent.png,top arm,219x128,94x129,no
+regent,rest site,restsite_regent.png,top leg,104x206,102x205,no
+necrobinder,character select,characterselect_necrobinder.png,belt,563x298,338x179,no
+necrobinder,character select,characterselect_necrobinder.png,chest bottom,663x622,398x372,yes
+necrobinder,character select,characterselect_necrobinder.png,chest top,678x592,407x354,yes
+necrobinder,character select,characterselect_necrobinder.png,head,493x402,294x241,yes
+necrobinder,character select,characterselect_necrobinder.png,index,1168x668,701x401,no
+necrobinder,character select,characterselect_necrobinder.png,left arm,835x1215,500x729,yes
+necrobinder,character select,characterselect_necrobinder.png,left shoulder bottom,348x667,207x396,no
+necrobinder,character select,characterselect_necrobinder.png,left shoulder top,380x667,225x396,no
+necrobinder,character select,characterselect_necrobinder.png,left sleeve arm,442x1490,265x893,no
+necrobinder,character select,characterselect_necrobinder.png,left sleeve top,1212x2230,570x1331,no
+necrobinder,character select,characterselect_necrobinder.png,middle,1288x835,773x501,no
+necrobinder,character select,characterselect_necrobinder.png,neck_fire,348x367,209x214,yes
+necrobinder,character select,characterselect_necrobinder.png,neck_streak,10x108,6x65,yes
+necrobinder,character select,characterselect_necrobinder.png,osty_finger_outline,1322x1592,793x955,no
+necrobinder,character select,characterselect_necrobinder.png,osty_outline,1973x1502,1180x901,yes
+necrobinder,character select,characterselect_necrobinder.png,palm,1012x762,607x457,no
+necrobinder,character select,characterselect_necrobinder.png,pinky,782x985,469x591,no
+necrobinder,character select,characterselect_necrobinder.png,right arm,408x253,242x152,no
+necrobinder,character select,characterselect_necrobinder.png,right shoulder,337x633,202x380,no
+necrobinder,character select,characterselect_necrobinder.png,right sleeve,475x915,285x549,no
+necrobinder,character select,characterselect_necrobinder.png,ring,1047x1063,628x638,no
+necrobinder,character select,characterselect_necrobinder.png,scythe,1522x2147,912x1287,no
+necrobinder,character select,characterselect_necrobinder.png,skirt,1357x477,814x286,yes
+necrobinder,character select,characterselect_necrobinder.png,skirt top,267x392,160x235,yes
+necrobinder,character select,characterselect_necrobinder.png,sparks 1 copy,1733x965,1027x571,yes
+necrobinder,character select,characterselect_necrobinder.png,sparks 1 copy 2,1350x1293,810x776,no
+necrobinder,character select,characterselect_necrobinder.png,spine,203x463,121x276,yes
+necrobinder,character select,characterselect_necrobinder.png,thumb,638x322,383x193,yes
+necrobinder,combat,necrobinder_2.png,attack_slash/slash_placeholder,39x201,14x72,no
+necrobinder,combat,necrobinder.png,back flame neck,123x150,44x54,no
+necrobinder,combat,necrobinder.png,back_flame_temp,167x265,60x95,yes
+necrobinder,combat,necrobinder.png,belt top,128x56,46x20,no
+necrobinder,combat,necrobinder.png,belts,128x56,46x20,yes
+necrobinder,combat,necrobinder.png,bottom shoulder,81x187,29x67,no
+necrobinder,combat,necrobinder.png,bottom sleeve,114x460,41x165,no
+necrobinder,combat,necrobinder.png,chest,123x134,44x48,yes
+necrobinder,combat,necrobinder_3.png,death/l shoulder,203x81,73x29,no
+necrobinder,combat,necrobinder_3.png,death/pink sleeve,201x81,71x28,no
+necrobinder,combat,necrobinder_3.png,death/r shoulder,187x70,67x25,no
+necrobinder,combat,necrobinder_3.png,death/ribcage,156x125,55x44,no
+necrobinder,combat,necrobinder_3.png,death/ribcage shadow,248x70,88x25,no
+necrobinder,combat,necrobinder_3.png,death/skirt,565x206,203x74,no
+necrobinder,combat,necrobinder_3.png,death/skull,136x128,49x46,yes
+necrobinder,combat,necrobinder_3.png,death/skull shadow,167x117,60x42,no
+necrobinder,combat,necrobinder.png,eye_flame_l,25x120,9x43,no
+necrobinder,combat,necrobinder.png,eye_flame_r,17x109,6x39,no
+necrobinder,combat,necrobinder.png,eye_glow_l,72x153,26x55,yes
+necrobinder,combat,necrobinder.png,eye_glow_r,64x142,23x51,yes
+necrobinder,combat,necrobinder.png,eye_glow_r copy 4,64x142,21x49,yes
+necrobinder,combat,necrobinder.png,flame_extra,92x131,31x45,no
+necrobinder,combat,necrobinder.png,flames_placeholder,401x401,67x120,no
+necrobinder,combat,necrobinder.png,glow,301x384,92x116,no
+necrobinder,combat,necrobinder.png,glow_head,192x214,61x65,yes
+necrobinder,combat,necrobinder.png,head,131x139,47x50,no
+necrobinder,combat,necrobinder.png,l foot,42x109,15x39,yes
+necrobinder,combat,necrobinder.png,l hand,64x86,23x30,yes
+necrobinder,combat,necrobinder.png,l hand_back,39x50,13x18,no
+necrobinder,combat,necrobinder.png,l index,61x31,22x11,yes
+necrobinder,combat,necrobinder.png,l index_back,61x31,22x11,yes
+necrobinder,combat,necrobinder.png,l lower arm,50x134,18x48,yes
+necrobinder,combat,necrobinder.png,l lower leg,61x217,22x78,no
+necrobinder,combat,necrobinder.png,l middle finger,67x22,24x8,no
+necrobinder,combat,necrobinder.png,l middle finger_back,67x22,24x8,no
+necrobinder,combat,necrobinder.png,l pinky,56x17,19x6,no
+necrobinder,combat,necrobinder.png,l pinky_back,56x17,20x6,yes
+necrobinder,combat,necrobinder.png,l ring finger,72x22,25x8,no
+necrobinder,combat,necrobinder.png,l ring finger_back,72x22,25x8,no
+necrobinder,combat,necrobinder.png,l shoulder,120x170,43x61,no
+necrobinder,combat,necrobinder.png,l shoulder bottom,95x178,33x64,no
+necrobinder,combat,necrobinder.png,l sleeve bottom,45x409,16x147,yes
+necrobinder,combat,necrobinder.png,l sleeve top,64x496,23x178,no
+necrobinder,combat,necrobinder.png,l upper arm,67x145,23x52,yes
+necrobinder,combat,necrobinder.png,l upper leg,89x284,31x102,no
+necrobinder,combat,necrobinder.png,l_chill_hand,56x86,20x31,yes
+necrobinder,combat,necrobinder.png,open_hand,81x109,29x39,no
+necrobinder,combat,necrobinder.png,r foot,75x123,27x44,no
+necrobinder,combat,necrobinder.png,r hand,36x56,13x20,no
+necrobinder,combat,necrobinder.png,r index,14x67,5x24,no
+necrobinder,combat,necrobinder.png,r lower arm,131x75,47x27,yes
+necrobinder,combat,necrobinder.png,r lower leg,61x206,22x74,no
+necrobinder,combat,necrobinder.png,r middle finger,31x67,11x24,no
+necrobinder,combat,necrobinder.png,r pinky,25x53,9x19,yes
+necrobinder,combat,necrobinder.png,r ring finger,31x70,11x25,no
+necrobinder,combat,necrobinder.png,r upper arm,131x81,47x29,yes
+necrobinder,combat,necrobinder.png,r upper leg,89x253,30x91,no
+necrobinder,combat,necrobinder.png,r_chill_hand,39x67,14x24,no
+necrobinder,combat,necrobinder.png,scythe,599x1209,215x434,yes
+necrobinder,combat,necrobinder.png,scythe_glow,334x638,120x229,yes
+necrobinder,combat,necrobinder.png,shadow,808x175,290x63,yes
+necrobinder,combat,necrobinder.png,skirt back,273x412,98x148,yes
+necrobinder,combat,necrobinder.png,skirt flap,70x354,25x127,no
+necrobinder,combat,necrobinder.png,skirt top,290x471,104x169,no
+necrobinder,combat,necrobinder.png,sleeve_l_extended,187x432,67x155,yes
+necrobinder,combat,necrobinder.png,spine,36x75,13x27,no
+necrobinder,combat,necrobinder.png,sythe_dissolve,599x1203,213x432,no
+necrobinder,combat,necrobinder.png,thumb1,145x136,52x49,yes
+necrobinder,combat,necrobinder.png,thumb2,128x184,45x66,no
+necrobinder,combat,necrobinder.png,thumb3,78x156,28x56,yes
+necrobinder,combat,necrobinder.png,webbing,139x95,50x34,yes
+necrobinder,combat,necrobinder.png,wrist,234x173,84x62,yes
+necrobinder,merchant,necrobinder_shop_2.png,attack_slash/slash_placeholder,40x201,25x126,no
+necrobinder,merchant,necrobinder_shop.png,back flame neck,123x151,77x94,yes
+necrobinder,merchant,necrobinder_shop.png,back_flame_temp,166x266,104x167,no
+necrobinder,merchant,necrobinder_shop.png,belt top,129x57,81x36,no
+necrobinder,merchant,necrobinder_shop.png,belts,129x57,81x36,no
+necrobinder,merchant,necrobinder_shop.png,bottom shoulder,80x186,50x117,no
+necrobinder,merchant,necrobinder_shop.png,bottom sleeve,115x460,72x289,yes
+necrobinder,merchant,necrobinder_shop.png,chest,123x134,77x84,yes
+necrobinder,merchant,necrobinder_shop_3.png,death/l shoulder,202x81,125x50,yes
+necrobinder,merchant,necrobinder_shop_3.png,death/pink sleeve,201x81,124x50,yes
+necrobinder,merchant,necrobinder_shop_3.png,death/r shoulder,188x70,117x44,yes
+necrobinder,merchant,necrobinder_shop_3.png,death/ribcage,156x124,97x76,no
+necrobinder,merchant,necrobinder_shop_3.png,death/ribcage shadow,247x70,153x44,no
+necrobinder,merchant,necrobinder_shop_3.png,death/skirt,565x205,355x128,no
+necrobinder,merchant,necrobinder_shop_3.png,death/skull,135x127,83x80,yes
+necrobinder,merchant,necrobinder_shop_3.png,death/skull shadow,167x116,104x72,yes
+necrobinder,merchant,necrobinder_shop.png,eye_flame_l,25x119,16x75,no
+necrobinder,merchant,necrobinder_shop.png,eye_flame_r,18x108,11x68,yes
+necrobinder,merchant,necrobinder_shop.png,eye_glow_l,72x151,45x95,yes
+necrobinder,merchant,necrobinder_shop.png,eye_glow_r,64x142,40x89,yes
+necrobinder,merchant,necrobinder_shop.png,eye_glow_r copy 4,64x142,38x87,yes
+necrobinder,merchant,necrobinder_shop.png,flame_extra,92x131,56x78,no
+necrobinder,merchant,necrobinder_shop.png,flames_placeholder,400x400,118x209,no
+necrobinder,merchant,necrobinder_shop.png,glow,303x385,161x203,no
+necrobinder,merchant,necrobinder_shop.png,glow_head,193x215,108x113,yes
+necrobinder,merchant,necrobinder_shop.png,head,131x139,82x87,no
+necrobinder,merchant,necrobinder_shop.png,l foot,41x108,25x67,no
+necrobinder,merchant,necrobinder_shop.png,l hand,64x86,40x52,yes
+necrobinder,merchant,necrobinder_shop.png,l hand_back,40x49,23x31,yes
+necrobinder,merchant,necrobinder_shop.png,l index,61x32,38x20,no
+necrobinder,merchant,necrobinder_shop.png,l index_back,61x32,38x20,no
+necrobinder,merchant,necrobinder_shop.png,l lower arm,51x135,32x85,yes
+necrobinder,merchant,necrobinder_shop.png,l lower leg,62x217,39x136,yes
+necrobinder,merchant,necrobinder_shop.png,l middle finger,68x21,42x13,no
+necrobinder,merchant,necrobinder_shop.png,l middle finger_back,68x21,42x13,no
+necrobinder,merchant,necrobinder_shop.png,l pinky,57x18,34x11,no
+necrobinder,merchant,necrobinder_shop.png,l pinky_back,57x18,35x11,no
+necrobinder,merchant,necrobinder_shop.png,l ring finger,73x22,45x13,yes
+necrobinder,merchant,necrobinder_shop.png,l ring finger_back,73x22,45x13,yes
+necrobinder,merchant,necrobinder_shop.png,l shoulder,119x170,75x106,yes
+necrobinder,merchant,necrobinder_shop.png,l shoulder bottom,96x177,59x111,yes
+necrobinder,merchant,necrobinder_shop.png,l sleeve bottom,45x409,28x257,no
+necrobinder,merchant,necrobinder_shop.png,l sleeve top,64x497,40x312,no
+necrobinder,merchant,necrobinder_shop.png,l upper arm,65x143,39x90,no
+necrobinder,merchant,necrobinder_shop.png,l upper leg,91x283,54x178,no
+necrobinder,merchant,necrobinder_shop.png,l_chill_hand,56x84,34x52,yes
+necrobinder,merchant,necrobinder_shop.png,open_hand,81x110,51x69,no
+necrobinder,merchant,necrobinder_shop.png,r foot,76x123,47x76,no
+necrobinder,merchant,necrobinder_shop.png,r hand,37x56,23x35,yes
+necrobinder,merchant,necrobinder_shop.png,r index,14x67,9x42,no
+necrobinder,merchant,necrobinder_shop.png,r lower arm,131x73,82x44,yes
+necrobinder,merchant,necrobinder_shop.png,r lower leg,61x207,38x130,yes
+necrobinder,merchant,necrobinder_shop.png,r middle finger,30x65,19x41,yes
+necrobinder,merchant,necrobinder_shop.png,r pinky,25x53,16x33,yes
+necrobinder,merchant,necrobinder_shop.png,r ring finger,30x70,18x44,yes
+necrobinder,merchant,necrobinder_shop.png,r upper arm,131x81,82x51,yes
+necrobinder,merchant,necrobinder_shop.png,r upper leg,91x253,53x159,yes
+necrobinder,merchant,necrobinder_shop.png,r_chill_hand,40x68,24x42,no
+necrobinder,merchant,necrobinder_shop.png,scythe,599x1210,376x760,no
+necrobinder,merchant,necrobinder_shop.png,scythe_glow,333x639,209x401,no
+necrobinder,merchant,necrobinder_shop.png,shadow,807x177,507x109,yes
+necrobinder,merchant,necrobinder_shop.png,skirt back,272x412,171x259,no
+necrobinder,merchant,necrobinder_shop.png,skirt flap,70x355,44x223,no
+necrobinder,merchant,necrobinder_shop.png,skirt top,291x470,183x295,yes
+necrobinder,merchant,necrobinder_shop.png,sleeve_l_extended,188x432,118x271,no
+necrobinder,merchant,necrobinder_shop.png,spine,37x76,23x48,yes
+necrobinder,merchant,necrobinder_shop.png,sythe_dissolve,599x1204,372x756,no
+necrobinder,merchant,necrobinder_shop.png,thumb1,145x137,91x86,yes
+necrobinder,merchant,necrobinder_shop.png,thumb2,127x183,79x115,yes
+necrobinder,merchant,necrobinder_shop.png,thumb3,80x158,50x99,no
+necrobinder,merchant,necrobinder_shop.png,webbing,139x96,87x60,yes
+necrobinder,merchant,necrobinder_shop.png,wrist,232x174,146x108,no
+necrobinder,rest site,restsite_necrobinder.png,back shoulder,50x122,55x137,no
+necrobinder,rest site,restsite_necrobinder.png,belt,79x36,88x39,yes
+necrobinder,rest site,restsite_necrobinder.png,bottom arm,125x205,139x230,no
+necrobinder,rest site,restsite_necrobinder.png,fire_placehlder,106x103,117x116,no
+necrobinder,rest site,restsite_necrobinder.png,glow,202x209,193x198,yes
+necrobinder,rest site,restsite_necrobinder.png,legs,57x188,61x212,yes
+necrobinder,rest site,restsite_necrobinder.png,legs copy,99x159,109x177,yes
+necrobinder,rest site,restsite_necrobinder.png,light arm back,87x98,96x108,yes
+necrobinder,rest site,restsite_necrobinder.png,light arm front,44x171,47x192,yes
+necrobinder,rest site,restsite_necrobinder.png,light body,199x471,225x534,no
+necrobinder,rest site,restsite_necrobinder.png,ribcage,84x95,92x105,yes
+necrobinder,rest site,restsite_necrobinder.png,shade arm back,119x207,132x231,yes
+necrobinder,rest site,restsite_necrobinder.png,shade arm front,104x300,115x328,yes
+necrobinder,rest site,restsite_necrobinder.png,shade body,214x510,243x579,yes
+necrobinder,rest site,restsite_necrobinder.png,shade shoulder back,48x121,50x137,yes
+necrobinder,rest site,restsite_necrobinder.png,shade shoulder front,207x483,91x135,yes
+necrobinder,rest site,restsite_necrobinder.png,shadow,323x215,365x242,no
+necrobinder,rest site,restsite_necrobinder.png,skirt,189x254,213x289,no
+necrobinder,rest site,restsite_necrobinder.png,skirt flap,104x151,115x169,yes
+necrobinder,rest site,restsite_necrobinder.png,skull,111x79,123x90,yes
+necrobinder,rest site,restsite_necrobinder.png,spine,25x53,25x58,no
+necrobinder,rest site,restsite_necrobinder.png,top arm copy,110x244,115x275,yes
+necrobinder,rest site,restsite_necrobinder.png,top shoulder,87x103,96x115,yes
+necrobinder,rest site,restsite_necrobinder.png,top shoulder back,76x112,83x123,no
+necrobinder,rest site (Osty),restsite_osty.png,cast shadow,448x323,366x254,yes
+necrobinder,rest site (Osty),restsite_osty.png,flame,474x334,387x271,yes
+necrobinder,rest site (Osty),restsite_osty.png,hand base,291x173,236x141,yes
+necrobinder,rest site (Osty),restsite_osty.png,highlight,412x272,337x222,no
+necrobinder,rest site (Osty),restsite_osty.png,index finger,193x253,156x206,no
+necrobinder,rest site (Osty),restsite_osty.png,index_shadz,73x151,60x122,no
+necrobinder,rest site (Osty),restsite_osty.png,middle finger,181x264,147x215,no
+necrobinder,rest site (Osty),restsite_osty.png,osty shadow,681x337,550x272,yes
+necrobinder,rest site (Osty),restsite_osty.png,pinky,187x159,151x130,no
+necrobinder,rest site (Osty),restsite_osty.png,ring finger,186x229,151x187,no
+necrobinder,rest site (Osty),restsite_osty.png,thumb,180x215,147x175,no

@@ -52,3 +52,19 @@ pytest -q
    **Bleach Spire** in the Mods menu. Restart the game.
 
 To remove it, delete `mods/bleachspire/`.
+
+## Asset map
+
+`data/` lists everything to reskin, generated from the game's own files
+(extracted read-only on the player's PC, never committed):
+
+```
+python tools/asset_map.py --ref <bleachspire_ref> --index <sts2_pck_index.tsv>
+```
+
+- `data/card_map.csv`: every card art (586 in game, plus 38 unused), with its
+  name, sizes, game paths, where to drop the replacement, and a Bleach match.
+- `data/character_map.csv`: static character images (select screen, icons,
+  map markers, energy icons and orbs).
+- `data/rig_parts.csv`: every part of each character's animated Spine rigs
+  (combat, character select, merchant, rest site) with its source size.
