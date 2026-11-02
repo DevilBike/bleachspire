@@ -1,0 +1,54 @@
+# Bleach Spire
+
+A graphics-only Bleach reskin for Slay the Spire 2 (beta branch). It swaps
+images and nothing else: no code, no scripts, no game data. The manifest says
+`affects_gameplay: false`, so the game treats it as cosmetic.
+
+## How it works
+
+StS2 runs on Godot 4.5.1. At startup its mod loader reads every `*.json`
+manifest in `mods/<folder>/` and, when `has_pck` is true, mounts
+`<id>.pck` on top of the game's own pack. Files in our pack win over base-game
+files at the same `res://` path.
+
+The game draws each card's art from two places:
+
+| Where | Base-game path |
+| --- | --- |
+| Hand, deck, rewards | `res://images/atlases/card_atlas.sprites/<pool>/<card_id>.tres` |
+| Card inspect view | `res://images/packed/card_portraits/<pool>/<card_id>.png` |
+
+For each card we ship a `.remap` file at both paths. Godot checks for
+`<path>.remap` before loading anything, so the game loads our texture
+(`res://bleachspire/cards/...ctex`) instead of the original.
+
+The build writes the `.pck` and `.ctex` formats directly in Python, so it
+needs no Godot editor.
+
+## Layout
+
+```
+art/cards/<pool>/<card_id>.png   replacement art (any size; cropped to 500x380 / 1000x760)
+tools/build_mod.py               builds dist/bleachspire/{bleachspire.json, bleachspire.pck}
+tools/make_placeholder.py        draws an obvious TEST image for a card
+tools/list_pck.py                lists files in a .pck (ours or the game's)
+tools/godot_pack.py              PCK / ctex / remap writers and readers
+tests/test_build.py              round-trip test of the build
+```
+
+## Build
+
+```
+pip install -r requirements.txt
+python tools/build_mod.py
+pytest -q
+```
+
+## Install
+
+1. Copy `dist/bleachspire/` into `Slay the Spire 2/mods/` so you have
+   `mods/bleachspire/bleachspire.json` and `mods/bleachspire/bleachspire.pck`.
+2. Launch the game, accept the mods prompt if asked, and enable
+   **Bleach Spire** in the Mods menu. Restart the game.
+
+To remove it, delete `mods/bleachspire/`.
