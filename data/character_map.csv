@@ -1,72 +1,72 @@
-character,kind,game_path,bleach_match,status
-ironclad,character select,images/packed/character_select/char_select_ironclad.png,,todo
-ironclad,character select,images/packed/character_select/char_select_ironclad_locked.png,,todo
-ironclad,top bar icon,images/ui/top_panel/character_icon_ironclad.png,,todo
-ironclad,top bar icon,images/ui/top_panel/character_icon_ironclad_outline.png,,todo
-ironclad,map marker,images/packed/map/icons/map_marker_ironclad.png,,todo
-ironclad,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_ironclad.tres,,todo
-ironclad,energy icon (text),images/packed/sprite_fonts/ironclad_energy_icon.png,,todo
-ironclad,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_ironclad.tres,,todo
-ironclad,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_1.png,,todo
-ironclad,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_2.png,,todo
-ironclad,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_3.png,,todo
-ironclad,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_4.png,,todo
-ironclad,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_5.png,,todo
-ironclad,achievement,images/packed/achievements/unlocked/character_skill_ironclad1.png,,todo
-ironclad,achievement,images/packed/achievements/unlocked/character_skill_ironclad2.png,,todo
-silent,character select,images/packed/character_select/char_select_silent.png,,todo
-silent,character select,images/packed/character_select/char_select_silent_locked.png,,todo
-silent,top bar icon,images/ui/top_panel/character_icon_silent.png,,todo
-silent,top bar icon,images/ui/top_panel/character_icon_silent_outline.png,,todo
-silent,map marker,images/packed/map/icons/map_marker_silent.png,,todo
-silent,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_silent.tres,,todo
-silent,energy icon (text),images/packed/sprite_fonts/silent_energy_icon.png,,todo
-silent,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_silent.tres,,todo
-silent,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_1.png,,todo
-silent,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_2.png,,todo
-silent,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_3.png,,todo
-silent,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_4.png,,todo
-silent,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_5.png,,todo
-silent,achievement,images/packed/achievements/unlocked/character_skill_silent1.png,,todo
-silent,achievement,images/packed/achievements/unlocked/character_skill_silent2.png,,todo
-silent,character select background,animations/character_select/silent/character_select_silent_bg.png,,todo
-defect,character select,images/packed/character_select/char_select_defect.png,,todo
-defect,character select,images/packed/character_select/char_select_defect_locked.png,,todo
-defect,top bar icon,images/ui/top_panel/character_icon_defect.png,,todo
-defect,top bar icon,images/ui/top_panel/character_icon_defect_outline.png,,todo
-defect,map marker,images/packed/map/icons/map_marker_defect.png,,todo
-defect,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_defect.tres,,todo
-defect,energy icon (text),images/packed/sprite_fonts/defect_energy_icon.png,,todo
-defect,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_defect.tres,,todo
-defect,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_1.png,,todo
-defect,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_2.png,,todo
-defect,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_3.png,,todo
-defect,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_4.png,,todo
-defect,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_5.png,,todo
-regent,character select,images/packed/character_select/char_select_regent.png,,todo
-regent,character select,images/packed/character_select/char_select_regent_locked.png,,todo
-regent,top bar icon,images/ui/top_panel/character_icon_regent.png,,todo
-regent,top bar icon,images/ui/top_panel/character_icon_regent_outline.png,,todo
-regent,map marker,images/packed/map/icons/map_marker_regent.png,,todo
-regent,energy icon (text),images/packed/sprite_fonts/regent_energy_icon.png,,todo
-regent,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_regent.tres,,todo
-regent,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_1.png,,todo
-regent,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_2.png,,todo
-regent,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_3.png,,todo
-regent,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_5.png,,todo
-regent,achievement,images/packed/achievements/unlocked/character_skill_regent1.png,,todo
-regent,achievement,images/packed/achievements/unlocked/character_skill_regent2.png,,todo
-necrobinder,character select,images/packed/character_select/char_select_necrobinder.png,,todo
-necrobinder,character select,images/packed/character_select/char_select_necrobinder_locked.png,,todo
-necrobinder,top bar icon,images/ui/top_panel/character_icon_necrobinder.png,,todo
-necrobinder,top bar icon,images/ui/top_panel/character_icon_necrobinder_outline.png,,todo
-necrobinder,map marker,images/packed/map/icons/map_marker_necrobinder.png,,todo
-necrobinder,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_necrobinder.tres,,todo
-necrobinder,energy icon (text),images/packed/sprite_fonts/necrobinder_energy_icon.png,,todo
-necrobinder,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_necrobinder.tres,,todo
-necrobinder,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_1.png,,todo
-necrobinder,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_2.png,,todo
-necrobinder,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_3.png,,todo
-necrobinder,achievement,images/packed/achievements/unlocked/character_skill_necrobinder1.png,,todo
-necrobinder,achievement,images/packed/achievements/unlocked/character_skill_necrobinder2.png,,todo
-necrobinder,character select background,animations/character_select/necrobinder/character_select_necrobinder_bg.png,,todo
+character,bleach_character,kind,game_path,status
+ironclad,Kenpachi Zaraki,character select,images/packed/character_select/char_select_ironclad.png,todo
+ironclad,Kenpachi Zaraki,character select,images/packed/character_select/char_select_ironclad_locked.png,todo
+ironclad,Kenpachi Zaraki,top bar icon,images/ui/top_panel/character_icon_ironclad.png,todo
+ironclad,Kenpachi Zaraki,top bar icon,images/ui/top_panel/character_icon_ironclad_outline.png,todo
+ironclad,Kenpachi Zaraki,map marker,images/packed/map/icons/map_marker_ironclad.png,todo
+ironclad,Kenpachi Zaraki,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_ironclad.tres,todo
+ironclad,Kenpachi Zaraki,energy icon (text),images/packed/sprite_fonts/ironclad_energy_icon.png,todo
+ironclad,Kenpachi Zaraki,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_ironclad.tres,todo
+ironclad,Kenpachi Zaraki,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_1.png,todo
+ironclad,Kenpachi Zaraki,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_2.png,todo
+ironclad,Kenpachi Zaraki,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_3.png,todo
+ironclad,Kenpachi Zaraki,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_4.png,todo
+ironclad,Kenpachi Zaraki,energy orb layer,images/ui/combat/energy_counters/ironclad/ironclad_orb_layer_5.png,todo
+ironclad,Kenpachi Zaraki,achievement,images/packed/achievements/unlocked/character_skill_ironclad1.png,todo
+ironclad,Kenpachi Zaraki,achievement,images/packed/achievements/unlocked/character_skill_ironclad2.png,todo
+silent,Soi Fon,character select,images/packed/character_select/char_select_silent.png,todo
+silent,Soi Fon,character select,images/packed/character_select/char_select_silent_locked.png,todo
+silent,Soi Fon,top bar icon,images/ui/top_panel/character_icon_silent.png,todo
+silent,Soi Fon,top bar icon,images/ui/top_panel/character_icon_silent_outline.png,todo
+silent,Soi Fon,map marker,images/packed/map/icons/map_marker_silent.png,todo
+silent,Soi Fon,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_silent.tres,todo
+silent,Soi Fon,energy icon (text),images/packed/sprite_fonts/silent_energy_icon.png,todo
+silent,Soi Fon,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_silent.tres,todo
+silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_1.png,todo
+silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_2.png,todo
+silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_3.png,todo
+silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_4.png,todo
+silent,Soi Fon,energy orb layer,images/ui/combat/energy_counters/silent/silent_orb_layer_5.png,todo
+silent,Soi Fon,achievement,images/packed/achievements/unlocked/character_skill_silent1.png,todo
+silent,Soi Fon,achievement,images/packed/achievements/unlocked/character_skill_silent2.png,todo
+silent,Soi Fon,character select background,animations/character_select/silent/character_select_silent_bg.png,todo
+defect,Mayuri Kurotsuchi,character select,images/packed/character_select/char_select_defect.png,todo
+defect,Mayuri Kurotsuchi,character select,images/packed/character_select/char_select_defect_locked.png,todo
+defect,Mayuri Kurotsuchi,top bar icon,images/ui/top_panel/character_icon_defect.png,todo
+defect,Mayuri Kurotsuchi,top bar icon,images/ui/top_panel/character_icon_defect_outline.png,todo
+defect,Mayuri Kurotsuchi,map marker,images/packed/map/icons/map_marker_defect.png,todo
+defect,Mayuri Kurotsuchi,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_defect.tres,todo
+defect,Mayuri Kurotsuchi,energy icon (text),images/packed/sprite_fonts/defect_energy_icon.png,todo
+defect,Mayuri Kurotsuchi,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_defect.tres,todo
+defect,Mayuri Kurotsuchi,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_1.png,todo
+defect,Mayuri Kurotsuchi,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_2.png,todo
+defect,Mayuri Kurotsuchi,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_3.png,todo
+defect,Mayuri Kurotsuchi,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_4.png,todo
+defect,Mayuri Kurotsuchi,energy orb layer,images/ui/combat/energy_counters/defect/defect_orb_layer_5.png,todo
+regent,Byakuya Kuchiki,character select,images/packed/character_select/char_select_regent.png,todo
+regent,Byakuya Kuchiki,character select,images/packed/character_select/char_select_regent_locked.png,todo
+regent,Byakuya Kuchiki,top bar icon,images/ui/top_panel/character_icon_regent.png,todo
+regent,Byakuya Kuchiki,top bar icon,images/ui/top_panel/character_icon_regent_outline.png,todo
+regent,Byakuya Kuchiki,map marker,images/packed/map/icons/map_marker_regent.png,todo
+regent,Byakuya Kuchiki,energy icon (text),images/packed/sprite_fonts/regent_energy_icon.png,todo
+regent,Byakuya Kuchiki,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_regent.tres,todo
+regent,Byakuya Kuchiki,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_1.png,todo
+regent,Byakuya Kuchiki,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_2.png,todo
+regent,Byakuya Kuchiki,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_3.png,todo
+regent,Byakuya Kuchiki,energy orb layer,images/ui/combat/energy_counters/regent/regent_orb_layer_5.png,todo
+regent,Byakuya Kuchiki,achievement,images/packed/achievements/unlocked/character_skill_regent1.png,todo
+regent,Byakuya Kuchiki,achievement,images/packed/achievements/unlocked/character_skill_regent2.png,todo
+necrobinder,Sajin Komamura,character select,images/packed/character_select/char_select_necrobinder.png,todo
+necrobinder,Sajin Komamura,character select,images/packed/character_select/char_select_necrobinder_locked.png,todo
+necrobinder,Sajin Komamura,top bar icon,images/ui/top_panel/character_icon_necrobinder.png,todo
+necrobinder,Sajin Komamura,top bar icon,images/ui/top_panel/character_icon_necrobinder_outline.png,todo
+necrobinder,Sajin Komamura,map marker,images/packed/map/icons/map_marker_necrobinder.png,todo
+necrobinder,Sajin Komamura,map marker,images/atlases/ui_atlas.sprites/map/icons/map_marker_necrobinder.tres,todo
+necrobinder,Sajin Komamura,energy icon (text),images/packed/sprite_fonts/necrobinder_energy_icon.png,todo
+necrobinder,Sajin Komamura,energy icon (card),images/atlases/ui_atlas.sprites/card/energy_necrobinder.tres,todo
+necrobinder,Sajin Komamura,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_1.png,todo
+necrobinder,Sajin Komamura,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_2.png,todo
+necrobinder,Sajin Komamura,energy orb layer,images/ui/combat/energy_counters/necrobinder/necrobinder_orb_layer_3.png,todo
+necrobinder,Sajin Komamura,achievement,images/packed/achievements/unlocked/character_skill_necrobinder1.png,todo
+necrobinder,Sajin Komamura,achievement,images/packed/achievements/unlocked/character_skill_necrobinder2.png,todo
+necrobinder,Sajin Komamura,character select background,animations/character_select/necrobinder/character_select_necrobinder_bg.png,todo

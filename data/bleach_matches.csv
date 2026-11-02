@@ -1,0 +1,135 @@
+card_id,bleach_character,look_for
+strike_ironclad,Kenpachi Zaraki,Kenpachi mid-swing with his chipped sword one-handed
+defend_ironclad,Kenpachi Zaraki,Kenpachi taking a blade on his bare chest without flinching
+bash,Kenpachi Zaraki,Kenpachi's two-handed Kendo overhead slash (vs Nnoitra)
+strike_silent,Soi Fon,Soi Fon lunging with Suzumebachi's stinger
+defend_silent,Soi Fon,Soi Fon in Onmitsukido stealth stance with arms crossed
+neutralize,Soi Fon,Soi Fon's Suzumebachi butterfly mark (Homonka) appearing on a target
+survivor,Soi Fon,Soi Fon crouched and recovering after a hit
+strike_defect,Mayuri Kurotsuchi,Mayuri stabbing with Ashisogi Jizo
+defend_defect,Mayuri Kurotsuchi,Nemu stepping in front of Mayuri as a shield
+zap,Mayuri Kurotsuchi,Mayuri firing a hidden gadget from his arm or hat
+dualcast,Mayuri Kurotsuchi,Mayuri holding two syringes or test tubes
+strike_regent,Byakuya Kuchiki,Byakuya drawing Senbonzakura in a single clean slash
+defend_regent,Byakuya Kuchiki,Byakuya's Senbonzakura petals swirling into a shield
+falling_star,Byakuya Kuchiki,Senbonzakura petals raining down from above
+venerate,Byakuya Kuchiki,Byakuya standing calmly with his captain's haori and Kenseikan
+strike_necrobinder,Sajin Komamura,Komamura swinging Tenken
+defend_necrobinder,Sajin Komamura,Komamura blocking with Tenken's giant armored arm
+bodyguard,Sajin Komamura,Kokujo Tengen Myo'o (the giant) standing guard behind Komamura
+unleash,Sajin Komamura,Komamura calling Bankai as the giant rises
+burn,Hollow,A Cero blast scorching the ground
+dazed,Shinigami,A Soul Reaper staggered by overwhelming spiritual pressure
+wound,Shinigami,A bloodied Soul Reaper clutching a sword cut
+slimed,Mayuri Kurotsuchi,Mayuri melted into liquid form
+void,Hollow,A Garganta tear opening into black space
+infection,Hollow,Hollowfication mask spreading across a face
+soot,Hollow,Smoke and ash after an explosion in Karakura Town
+toxic,Mayuri Kurotsuchi,Mayuri's poison gas or a dripping syringe
+debris,Karakura Town,Rubble of a collapsed building after a fight
+beckon,Hollow,A Menos Grande reaching out of a Garganta
+frantic_escape,Shinigami,A Soul Reaper fleeing with Shunpo (flash step blur)
+disintegration,Quincy,Quincy Blut or Sklaverei breaking down a body into reishi
+mind_rot,Aizen,Kyoka Suigetsu's hypnosis (Aizen's illusion)
+sloth,Starrk,Coyote Starrk asleep or lounging
+waste_away,Barragan,Barragan's Respira decaying something to dust
+anger,Kenpachi Zaraki,Kenpachi's yellow skull-shaped spiritual pressure flaring
+armaments,Kenpachi Zaraki,Kenpachi gripping his notched blade with both hands
+blood_wall,Kenpachi Zaraki,Kenpachi drenched in his own blood still standing
+body_slam,Kenpachi Zaraki,Kenpachi crashing shoulder-first into an opponent
+breakthrough,Kenpachi Zaraki,Kenpachi breaking through a wall or barrier
+cinder,Kenpachi Zaraki,Kenpachi's reiatsu burning around him
+havoc,Squad 11,Ikkaku and Yumichika brawling with Squad 11
+headbutt,Kenpachi Zaraki,Kenpachi headbutting / close-range grin
+iron_wave,Kenpachi Zaraki,Kenpachi's wide horizontal slash
+molten_fist,Kenpachi Zaraki,Kenpachi punching barehanded
+perfected_strike,Kenpachi Zaraki,Kenpachi's slash that splits the ground (vs Ichigo or Unohana)
+pommel_strike,Kenpachi Zaraki,Kenpachi striking with the hilt
+setup_strike,Kenpachi Zaraki,Kenpachi removing his eyepatch before attacking
+shrug_it_off,Kenpachi Zaraki,Kenpachi laughing off a deep wound
+sword_boomerang,Kenpachi Zaraki,Kenpachi's sword spinning through the air
+taunt,Kenpachi Zaraki,Kenpachi beckoning an enemy with a wild grin
+thunderclap,Kenpachi Zaraki,Kenpachi's spiritual pressure shockwave cracking the ground
+tremble,Kenpachi Zaraki,An enemy trembling under Kenpachi's reiatsu
+true_grit,Kenpachi Zaraki,Kenpachi with bandages and torn haori grinning
+twin_strike,Kenpachi Zaraki,Kenpachi with Yachiru on his shoulder
+anticipate,Soi Fon,Soi Fon watching from the shadows
+backflip,Soi Fon,Soi Fon flipping away mid-air
+blade_dance,Soi Fon,Onmitsukido squad members throwing kunai
+cloak_and_dagger,Soi Fon,Soi Fon in her Onmitsukido hood holding a blade
+dagger_spray,Soi Fon,A spray of thrown kunai
+dagger_throw,Soi Fon,Soi Fon throwing a single kunai
+deadly_poison,Soi Fon,Suzumebachi's sting glowing
+deflect,Soi Fon,Soi Fon parrying with her forearm
+dodge_and_roll,Soi Fon,Soi Fon dodging with Shunpo
+flick_flack,Soi Fon,Soi Fon spinning kick
+leading_strike,Soi Fon,Soi Fon's first strike with Suzumebachi
+piercing_wail,Soi Fon,Soi Fon shouting her Shikai release
+poisoned_stab,Soi Fon,Suzumebachi stabbing a target (Nigeki Kessatsu)
+predator,Soi Fon,Soi Fon stalking a target from above
+prepared,Soi Fon,Soi Fon tying back her hair before a fight
+ricochet,Soi Fon,Kunai bouncing off a wall
+slice,Soi Fon,Soi Fon's quick horizontal cut
+snakebite,Soi Fon,Close-up of the stinger tip
+sucker_punch,Soi Fon,Soi Fon's surprise hand-to-hand blow (Hakuda)
+untouchable,Soi Fon,Soi Fon with Shunko lightning around her shoulders
+ball_lightning,Mayuri Kurotsuchi,Mayuri releasing a glowing experimental device
+barrage,Mayuri Kurotsuchi,Mayuri's gadgets firing multiple shots
+beam_cell,Mayuri Kurotsuchi,A beam from Mayuri's lab equipment
+boost_away,Mayuri Kurotsuchi,Mayuri escaping on a contraption
+charge_battery,Mayuri Kurotsuchi,Mayuri's lab with sparking machines
+claw,Mayuri Kurotsuchi,Mayuri's extending arm or blade fingers
+cold_snap,Mayuri Kurotsuchi,Mayuri freezing a specimen
+compile_driver,Mayuri Kurotsuchi,Mayuri typing at his giant computer console
+coolheaded,Mayuri Kurotsuchi,Mayuri calm and smug with arms folded
+focused_strike,Mayuri Kurotsuchi,Mayuri's precise Ashisogi Jizo thrust
+go_for_the_eyes,Mayuri Kurotsuchi,Close-up of Mayuri's yellow eyes
+gunk_up,Mayuri Kurotsuchi,Mayuri's sticky paralysis fluid
+hologram,Mayuri Kurotsuchi,A decoy or clone made by Mayuri
+hotfix,Mayuri Kurotsuchi,Mayuri repairing himself with a pill or injection
+leap,Mayuri Kurotsuchi,Mayuri springing out of hiding
+lightning_rod,Mayuri Kurotsuchi,Mayuri's hat antenna or headpiece crackling
+momentum_strike,Mayuri Kurotsuchi,Mayuri charging in with blade raised
+sweeping_beam,Mayuri Kurotsuchi,Konjiki Ashisogi Jizo spraying poison breath
+turbo,Mayuri Kurotsuchi,Mayuri injecting a super-drug
+uproar,Mayuri Kurotsuchi,Mayuri laughing maniacally
+astral_pulse,Byakuya Kuchiki,Senbonzakura petals pulsing outward
+begone,Byakuya Kuchiki,Byakuya dismissing an enemy with his back turned
+celestial_might,Byakuya Kuchiki,Senbonzakura Kageyoshi's thousand blades rising
+cloak_of_stars,Byakuya Kuchiki,Byakuya's scarf (Ginpaku Kazahana no Uzuginu) fluttering
+collision_course,Byakuya Kuchiki,Byakuya clashing swords with Ichigo
+cosmic_indifference,Byakuya Kuchiki,Byakuya's cold expressionless stare
+crescent_spear,Byakuya Kuchiki,Byakuya's single-blade thrust (Senka)
+crush_under,Byakuya Kuchiki,Senkei's walls of blades closing in
+gather_light,Byakuya Kuchiki,Petals gathering into Byakuya's hand
+glitterstream,Byakuya Kuchiki,A stream of shimmering pink petals
+glow,Byakuya Kuchiki,Byakuya's Shukei Hakuteiken white glow
+guiding_star,Byakuya Kuchiki,Byakuya pointing his sword at an enemy
+hidden_cache,Byakuya Kuchiki,The Kuchiki manor and its gardens
+know_thy_place,Byakuya Kuchiki,Byakuya looking down at a kneeling enemy
+patter,Byakuya Kuchiki,Petals falling gently like rain
+photon_cut,Byakuya Kuchiki,Byakurai lightning kido from his fingertip
+refine_blade,Byakuya Kuchiki,Byakuya holding Senbonzakura upright before release
+solar_strike,Byakuya Kuchiki,Byakuya's bright overhead slash
+spoils_of_battle,Byakuya Kuchiki,Byakuya after victory sheathing his sword
+wrought_in_war,Byakuya Kuchiki,Byakuya's Bankai blades forged into a single sword
+afterlife,Sajin Komamura,Komamura's wolf face revealed without the helmet
+blight_strike,Sajin Komamura,Komamura striking with Tenken
+defile,Sajin Komamura,Komamura in Humanity Technique (beast) form
+defy,Sajin Komamura,Komamura standing against Tosen
+drain_power,Sajin Komamura,The giant's armor cracking as Komamura weakens
+fear,Sajin Komamura,The giant looming over a small enemy
+flatten,Sajin Komamura,Kokujo Tengen Myo'o crushing the ground with its sword
+grave_warden,Sajin Komamura,The giant standing like a temple guardian
+graveblast,Sajin Komamura,Tenken's giant sword slamming down
+invoke,Sajin Komamura,Komamura chanting his Shikai command
+negative_pulse,Sajin Komamura,A dark reiatsu shockwave around Komamura
+poke,Sajin Komamura,Gonryomaru (Komamura's dog) nudging him
+pull_aggro,Sajin Komamura,Komamura roaring to draw an enemy's attention
+reap,Sajin Komamura,The giant's huge horizontal sword sweep
+reave,Sajin Komamura,Tenken's giant claw tearing through
+scourge,Sajin Komamura,Komamura's angry wolf snarl
+sculpting_strike,Sajin Komamura,The giant's armor being formed
+snap,Sajin Komamura,The giant's fist snapping shut
+sow,Sajin Komamura,Komamura kneeling at a grave (Tosen's memory)
+wisp,Sajin Komamura,A spirit wisp (soul) drifting in Soul Society

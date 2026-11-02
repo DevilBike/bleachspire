@@ -1,7 +1,7 @@
 """Build the asset map: every card, character image and rig part to reskin.
 
 Usage:
-  python tools/asset_map.py --ref <bleachspire_ref folder> --index <sts2_pck_index.tsv>
+  python tools/asset_map.py --ref <bleachspire_ref folder> --index <sts2_pck_index.tsv> --meta ref/card_meta.json
 
 Inputs are extracted read-only from the game's pack on the player's PC and are
 NOT committed (they are the game's files). Outputs go to data/ and are safe to
@@ -27,7 +27,37 @@ CHARACTERS = ["ironclad", "silent", "defect", "regent", "necrobinder"]
 POOL_ORDER = CHARACTERS + ["colorless", "event", "curse", "status", "token", "quest"]
 
 
-def card_rows(ref: Path, index_paths: set[str]) -> list[dict]:
+# How often you see a card decides when to reskin it.
+WAVES = {
+    "Basic": "1-every-run", "Status": "1-every-run",
+    "Common": "2-most-runs",
+    "Uncommon": "3-often",
+    "Rare": "4-sometimes", "Curse": "4-sometimes", "Token": "4-sometimes",
+    "Ancient": "5-rare", "Event": "5-rare", "Quest": "5-rare",
+}
+
+# A few constructors are too complex for tools/card_meta.py to read.
+RARITY_FALLBACK = {"spoils_map": "Quest?", "sovereign_blade": "Token?", "the_scythe": "Rare?"}
+
+BLEACH_CHARACTER = {
+    "ironclad": "Kenpachi Zaraki",
+    "silent": "Soi Fon",
+    "defect": "Mayuri Kurotsuchi",
+    "regent": "Byakuya Kuchiki",
+    "necrobinder": "Sajin Komamura",
+}
+
+
+def load_matches() -> dict[str, dict]:
+    path = DATA / "bleach_matches.csv"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return {r["card_id"]: r for r in csv.DictReader(f)}
+
+
+def card_rows(ref: Path, index_paths: set[str], meta: dict) -> list[dict]:
+    matches = load_matches()
     loc = json.loads((ref / "localization/eng/cards.json").read_text(encoding="utf-8"))
     sheet = json.loads((ref / "images/atlases/card_atlas.tpsheet").read_text(encoding="utf-8"))
     rows = []
@@ -40,20 +70,29 @@ def card_rows(ref: Path, index_paths: set[str]) -> list[dict]:
             w, h = sprite["region"]["w"], sprite["region"]["h"]
             key = card_id.upper()
             big = f"images/packed/card_portraits/{pool}/{card_id}.png"
+            m = meta.get(card_id, {})
+            in_game = f"{key}.title" in loc
+            match = matches.get(card_id, {})
+            rarity = m.get("rarity") or RARITY_FALLBACK.get(card_id, "Uncommon?")
+            wave = WAVES.get(rarity.rstrip("?"), "3-often") if in_game else "unused"
             rows.append({
+                "wave": wave,
                 "pool": pool,
                 "card_id": card_id,
                 "name": loc.get(f"{key}.title", ""),
-                "in_game": "yes" if f"{key}.title" in loc else "no (unused art)",
+                "in_game": "yes" if in_game else "no (unused art)",
+                "rarity": rarity,
+                "type": m.get("type", ""),
                 "shape": "tall (ancient)" if h > 300 else "standard",
                 "small_size": f"{w}x{h}",
                 "small_path": f"images/atlases/card_atlas.sprites/{name}.tres",
                 "big_path": big if big + ".import" in index_paths else "",
-                "art_file": f"art/cards/{pool}/{card_id}.png",
-                "bleach_match": "",
-                "status": "done" if (ROOT / "art/cards" / pool / f"{card_id}.png").exists() else "todo",
+                "drop_file": f"drop/{wave}/{pool}/{card_id}.png" if in_game else "",
+                "bleach_character": match.get("bleach_character") or BLEACH_CHARACTER.get(pool, ""),
+                "look_for": match.get("look_for", ""),
+                "status": "todo",
             })
-    rows.sort(key=lambda r: (POOL_ORDER.index(r["pool"]) if r["pool"] in POOL_ORDER else 99, r["in_game"] != "yes", r["name"] or r["card_id"]))
+    rows.sort(key=lambda r: (r["wave"], POOL_ORDER.index(r["pool"]) if r["pool"] in POOL_ORDER else 99, r["name"] or r["card_id"]))
     return rows
 
 
@@ -77,7 +116,7 @@ def character_rows(index_paths: set[str]) -> list[dict]:
             rx = re.compile(pattern.format(c=c))
             for p in sorted(index_paths):
                 if rx.match(p):
-                    rows.append({"character": c, "kind": kind, "game_path": p.removesuffix(".import"), "bleach_match": "", "status": "todo"})
+                    rows.append({"character": c, "bleach_character": BLEACH_CHARACTER[c], "kind": kind, "game_path": p.removesuffix(".import"), "status": "todo"})
     return rows
 
 
@@ -168,10 +207,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--ref", type=Path, required=True)
     ap.add_argument("--index", type=Path, required=True)
+    ap.add_argument("--meta", type=Path, required=True, help="output of tools/card_meta.py")
     args = ap.parse_args()
     index_paths = {line.split("\t", 1)[1].strip() for line in args.index.read_text(encoding="utf-8").splitlines() if "\t" in line}
 
-    cards = card_rows(args.ref, index_paths)
+    meta = json.loads(args.meta.read_text(encoding="utf-8"))
+    cards = card_rows(args.ref, index_paths, meta)
     chars = character_rows(index_paths)
     rigs = rig_rows(args.ref)
     write_csv(DATA / "card_map.csv", cards)

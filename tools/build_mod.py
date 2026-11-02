@@ -23,9 +23,11 @@ from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from godot_pack import make_ctex, make_remap, make_texture_tres, write_pck  # noqa: E402
+from make_drop import is_placeholder  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ART_CARDS = ROOT / "art" / "cards"
+DROP = ROOT / "drop"
 DIST = ROOT / "dist"
 
 MOD_ID = "bleachspire"
@@ -62,20 +64,32 @@ def card_files(art: Image.Image, pool: str, card_id: str) -> dict[str, bytes]:
     }
 
 
-def collect(art_dir: Path = ART_CARDS) -> dict[str, bytes]:
-    files: dict[str, bytes] = {}
+def art_sources(art_dir: Path = ART_CARDS, drop_dir: Path = DROP) -> dict[tuple[str, str], Path]:
+    """Map (pool, card_id) -> image. drop/<wave>/<pool>/<id>.png wins over
+    art/cards/<pool>/<id>.png; placeholders from tools/make_drop.py are skipped."""
+    found: dict[tuple[str, str], Path] = {}
     for png in sorted(art_dir.glob("*/*.png")):
-        pool, card_id = png.parent.name, png.stem
+        found[(png.parent.name, png.stem)] = png
+    for png in sorted(drop_dir.glob("*/*/*.png")):
+        if png.parent.name == "characters" or is_placeholder(png):
+            continue
+        found[(png.parent.name, png.stem)] = png
+    return found
+
+
+def collect(art_dir: Path = ART_CARDS, drop_dir: Path = DROP) -> dict[str, bytes]:
+    files: dict[str, bytes] = {}
+    for (pool, card_id), png in sorted(art_sources(art_dir, drop_dir).items()):
         with Image.open(png) as art:
             art.load()
             files.update(card_files(art, pool, card_id))
     return files
 
 
-def build(out_dir: Path = DIST / MOD_ID, art_dir: Path = ART_CARDS) -> list[str]:
-    files = collect(art_dir)
+def build(out_dir: Path = DIST / MOD_ID, art_dir: Path = ART_CARDS, drop_dir: Path = DROP) -> list[str]:
+    files = collect(art_dir, drop_dir)
     if not files:
-        raise SystemExit(f"no art found under {art_dir}")
+        raise SystemExit(f"no art found under {drop_dir} or {art_dir} (placeholders are skipped)")
     out_dir.mkdir(parents=True, exist_ok=True)
     write_pck(out_dir / f"{MOD_ID}.pck", files)
     (out_dir / f"{MOD_ID}.json").write_text(json.dumps(MANIFEST, indent=2) + "\n", encoding="utf-8")

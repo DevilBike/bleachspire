@@ -68,3 +68,10 @@ python tools/asset_map.py --ref <bleachspire_ref> --index <sts2_pck_index.tsv>
   map markers, energy icons and orbs).
 - `data/rig_parts.csv`: every part of each character's animated Spine rigs
   (combat, character select, merchant, rest site) with its source size.
+
+## Adding art
+
+See [docs/ART_GUIDE.md](docs/ART_GUIDE.md). In short: save each image over its
+placeholder in `drop/<wave>/<pool>/` (same file name), then run the build.
+`python tools/make_drop.py` recreates any missing placeholders and never
+overwrites real art.

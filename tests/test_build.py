@@ -19,7 +19,11 @@ def test_build_round_trip(tmp_path):
     Image.new("RGB", (1000, 760), (10, 200, 30)).save(art / "ironclad" / "strike_ironclad.png")
 
     out = tmp_path / "out"
-    build_mod.build(out_dir=out, art_dir=art)
+    drop = tmp_path / "drop"
+    (drop / "1-every-run" / "ironclad").mkdir(parents=True)
+    from make_drop import placeholder
+    placeholder(drop / "1-every-run" / "ironclad" / "bash.png", (250, 190), ["Bash"])
+    build_mod.build(out_dir=out, art_dir=art, drop_dir=drop)
 
     manifest = json.loads((out / "bleachspire.json").read_text())
     assert manifest["affects_gameplay"] is False
@@ -38,6 +42,7 @@ def test_build_round_trip(tmp_path):
         "res://images/atlases/card_atlas.sprites/ironclad/strike_ironclad.tres.remap",
         "res://images/packed/card_portraits/ironclad/strike_ironclad.png.remap",
     }
+    # bash.png is still a placeholder, so it must not be in the pack.
     # Only images and remaps: no scripts, scenes or data that could change gameplay.
     assert all(p.endswith((".ctex", ".tres", ".remap")) for p in by_path)
 
